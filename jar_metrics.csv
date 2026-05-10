@@ -1,0 +1,396 @@
+run_id,algorithm,measure,cluster_count,a2a_to_acdc,cvg_to_acdc,output_rsf
+1,WCA,UEMNM,100,82.25315355,0.02,mapreduceclientcore-1_UEMNM_100_clusters.rsf
+2,WCA,UEMNM,110,81.07405803,0.027272727,mapreduceclientcore-1_UEMNM_110_clusters.rsf
+3,WCA,UEMNM,120,80.29322984,0.025,mapreduceclientcore-1_UEMNM_120_clusters.rsf
+4,WCA,UEMNM,150,78.37377607,0.02,mapreduceclientcore-1_UEMNM_150_clusters.rsf
+5,WCA,UEMNM,25,80.08093525,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf
+6,WCA,UEMNM,50,78.61271676,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf
+7,WCA,UEMNM,80,84.59850812,0.0125,mapreduceclientcore-1_UEMNM_80_clusters.rsf
+8,WCA,UEMNM,90,83.70467453,0.033333333,mapreduceclientcore-1_UEMNM_90_clusters.rsf
+9,WCA,UEM,100,81.64419313,0.02,mapreduceclientcore-1_UEM_100_clusters.rsf
+10,WCA,UEM,150,77.35206471,0.013333333,mapreduceclientcore-1_UEM_150_clusters.rsf
+11,WCA,UEM,20,79.90085624,0,mapreduceclientcore-1_UEM_20_clusters.rsf
+12,WCA,UEM,25,80.08093525,0,mapreduceclientcore-1_UEM_25_clusters.rsf
+13,WCA,UEM,30,79.99102737,0,mapreduceclientcore-1_UEM_30_clusters.rsf
+14,WCA,UEM,40,79.18713711,0,mapreduceclientcore-1_UEM_40_clusters.rsf
+15,WCA,UEM,50,78.61271676,0,mapreduceclientcore-1_UEM_50_clusters.rsf
+16,WCA,UEM,60,78.30898628,0,mapreduceclientcore-1_UEM_60_clusters.rsf
+17,WCA,UEM,75,84.30079156,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf
+18,LIMBO,IL,100,78.338408,0.01,mapreduceclientcore-1_IL_100_clusters.rsf
+19,LIMBO,IL,144,76.22705933,0.006944444,mapreduceclientcore-1_IL_144_clusters.rsf
+20,LIMBO,IL,150,76.03235419,0.006666667,mapreduceclientcore-1_IL_150_clusters.rsf
+21,LIMBO,IL,194,73.92394484,0.005154639,mapreduceclientcore-1_IL_194_clusters.rsf
+22,LIMBO,IL,20,85.3988283,0.1,mapreduceclientcore-1_IL_20_clusters.rsf
+23,LIMBO,IL,244,71.87883749,0.004098361,mapreduceclientcore-1_IL_244_clusters.rsf
+24,LIMBO,IL,25,85.52158273,0.08,mapreduceclientcore-1_IL_25_clusters.rsf
+25,LIMBO,IL,294,70.19655034,0.003401361,mapreduceclientcore-1_IL_294_clusters.rsf
+26,LIMBO,IL,30,85.73351279,0.066666667,mapreduceclientcore-1_IL_30_clusters.rsf
+27,LIMBO,IL,344,68.61974046,0.002906977,mapreduceclientcore-1_IL_344_clusters.rsf
+28,LIMBO,IL,394,67.14230621,0.002538071,mapreduceclientcore-1_IL_394_clusters.rsf
+29,LIMBO,IL,40,85.17195176,0.05,mapreduceclientcore-1_IL_40_clusters.rsf
+30,LIMBO,IL,444,65.64510026,0,mapreduceclientcore-1_IL_444_clusters.rsf
+31,LIMBO,IL,494,63.42369105,0,mapreduceclientcore-1_IL_494_clusters.rsf
+32,LIMBO,IL,50,84.17074255,0.02,mapreduceclientcore-1_IL_50_clusters.rsf
+33,LIMBO,IL,55,83.45164153,0.018181818,mapreduceclientcore-1_IL_55_clusters.rsf
+34,LIMBO,IL,60,83.17839752,0.016666667,mapreduceclientcore-1_IL_60_clusters.rsf
+35,LIMBO,IL,75,81.75021988,0.013333333,mapreduceclientcore-1_IL_75_clusters.rsf
+36,LIMBO,IL,94,79.28477976,0.010638298,mapreduceclientcore-1_IL_94_clusters.rsf
+37,LIMBO,UEMNM,50,78.61271676,0,mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+38,LIMBO,UEM,50,78.61271676,0,mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+39,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_100,85.81649832,0.07,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+40,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_144,84.29752066,0.097222222,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+41,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_150,84.13025556,0.14,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+42,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_194,81.09311741,0.108247423,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+43,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_20,79.92160279,0.2,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+44,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_244,78.33333333,0.086065574,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+45,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_25,80.61712299,0.16,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+46,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_294,76.57587549,0.071428571,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+47,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_30,82.39375542,0.133333333,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+48,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_344,74.46564885,0.061046512,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+49,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_394,72.77153558,0.053299492,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+50,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_40,84.02417962,0.15,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+51,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_444,70.91911765,0.047297297,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+52,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_494,68.23104693,0.04048583,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+53,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_50,84.30782459,0.08,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+54,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_55,84.72758473,0.072727273,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+55,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_60,85.01712329,0.066666667,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+56,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_75,85.62313909,0.066666667,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+57,WCA_vs_LIMBO,UEMNM_vs_IL,100_vs_94,86.16033755,0.085106383,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+58,WCA_vs_LIMBO,UEMNM_vs_UEMNM,100_vs_50,77.85898538,0.98,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+59,WCA_vs_LIMBO,UEMNM_vs_UEM,100_vs_50,77.85898538,0.98,mapreduceclientcore-1_UEMNM_100_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+60,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_100,86.63034367,0.13,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+61,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_144,86.17283951,0.145833333,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+62,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_150,86.00164204,0.186666667,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+63,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_194,82.90322581,0.144329897,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+64,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_20,79.0980052,0.2,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+65,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_244,79.96047431,0.102459016,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+66,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_25,80.05192557,0.24,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+67,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_294,78.10077519,0.085034014,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+68,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_30,81.95164076,0.2,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+69,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_344,75.81749049,0.069767442,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+70,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_394,73.99253731,0.058375635,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+71,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_40,83.27601032,0.2,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+72,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_444,71.9047619,0.051801802,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+73,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_494,69.10071942,0.04048583,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+74,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_50,83.94691781,0.14,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+75,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_55,84.49380607,0.127272727,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+76,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_60,84.82523444,0.116666667,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+77,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_75,85.59932232,0.12,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+78,WCA_vs_LIMBO,UEMNM_vs_IL,110_vs_94,86.51260504,0.138297872,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+79,WCA_vs_LIMBO,UEMNM_vs_UEMNM,110_vs_50,77.26883562,0.98,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+80,WCA_vs_LIMBO,UEMNM_vs_UEM,110_vs_50,77.26883562,0.98,mapreduceclientcore-1_UEMNM_110_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+81,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_100,87.1869783,0.21,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+82,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_144,87.58196721,0.208333333,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+83,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_150,87.40801308,0.246666667,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+84,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_194,84.37751004,0.190721649,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+85,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_20,78.58376511,0.3,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+86,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_244,81.45669291,0.139344262,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+87,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_25,79.5777682,0.36,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+88,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_294,79.4980695,0.115646259,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+89,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_30,81.34135856,0.3,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+90,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_344,77.04545455,0.093023256,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+91,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_394,75.05576208,0.073604061,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+92,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_40,83.09075342,0.3,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+93,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_444,72.88321168,0.065315315,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+94,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_494,69.96415771,0.042510121,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+95,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_50,83.84484228,0.26,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+96,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_55,84.38962144,0.236363636,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+97,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_60,84.71986418,0.216666667,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+98,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_75,85.95529313,0.213333333,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+99,WCA_vs_LIMBO,UEMNM_vs_IL,120_vs_94,87.0292887,0.223404255,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+100,WCA_vs_LIMBO,UEMNM_vs_UEMNM,120_vs_50,76.93947144,0.98,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+101,WCA_vs_LIMBO,UEMNM_vs_UEM,120_vs_50,76.93947144,0.98,mapreduceclientcore-1_UEMNM_120_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+102,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_100,87.26298434,0.37,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+103,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_144,90.08097166,0.409722222,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+104,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_150,90.54927302,0.466666667,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+105,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_194,87.53968254,0.360824742,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+106,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_20,77.45098039,0.35,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+107,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_244,84.6692607,0.258196721,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+108,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_25,78.39217354,0.48,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+109,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_294,82.55725191,0.214285714,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+110,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_30,80.05093379,0.4,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+111,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_344,80,0.180232558,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+112,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_394,77.90441176,0.149746193,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+113,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_40,82.03719358,0.375,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+114,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_444,75.45126354,0.121621622,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+115,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_494,72.41134752,0.078947368,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+116,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_50,83.29124579,0.46,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+117,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_55,83.83032339,0.418181818,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+118,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_60,84.28331936,0.383333333,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+119,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_75,85.88088297,0.373333333,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+120,WCA_vs_LIMBO,UEMNM_vs_IL,150_vs_94,87.02479339,0.372340426,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+121,WCA_vs_LIMBO,UEMNM_vs_UEMNM,150_vs_50,75.7996633,0.98,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+122,WCA_vs_LIMBO,UEMNM_vs_UEM,150_vs_50,75.7996633,0.98,mapreduceclientcore-1_UEMNM_150_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+123,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_100,75.14124294,0.01,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+124,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_144,73.17697228,0.041666667,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+125,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_150,72.99021693,0.04,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+126,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_194,71.64926931,0.030927835,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+127,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_20,84.73660513,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+128,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_244,70.18404908,0.024590164,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+129,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_25,84.99550764,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+130,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_294,68.77755511,0.020408163,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+131,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_30,81.12953832,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+132,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_344,67.42632613,0.01744186,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+133,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_394,66.12716763,0.015228426,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+134,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_40,80.7675145,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+135,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_444,64.87712665,0.013513514,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+136,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_494,63.67346939,0.012145749,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+137,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_50,77.92092403,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+138,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_55,77.74822695,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+139,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_60,77.57629368,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+140,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_75,77.06502636,0,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+141,WCA_vs_LIMBO,UEMNM_vs_IL,25_vs_94,75.33769063,0.010638298,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+142,WCA_vs_LIMBO,UEMNM_vs_UEMNM,25_vs_50,97.77876499,0.5,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+143,WCA_vs_LIMBO,UEMNM_vs_UEM,25_vs_50,97.77876499,0.5,mapreduceclientcore-1_UEMNM_25_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+144,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_100,75.70937231,0.01,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+145,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_144,74.59915612,0.076388889,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+146,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_150,74.45286195,0.12,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+147,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_194,73.09917355,0.103092784,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+148,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_20,82.68032057,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+149,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_244,71.6194332,0.081967213,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+150,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_25,82.94091515,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+151,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_294,70.1984127,0.068027211,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+152,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_30,79.56560284,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+153,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_344,68.83268482,0.058139535,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+154,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_394,67.51908397,0.050761421,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+155,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_40,80.09708738,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+156,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_444,66.25468165,0.045045045,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+157,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_494,65.03676471,0.04048583,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+158,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_50,78.64674868,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+159,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_55,77.99210872,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+160,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_60,77.82152231,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+161,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_75,77.31421121,0,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+162,WCA_vs_LIMBO,UEMNM_vs_IL,50_vs_94,75.90517241,0.010638298,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+163,WCA_vs_LIMBO,UEMNM_vs_UEMNM,50_vs_50,100,1,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+164,WCA_vs_LIMBO,UEMNM_vs_UEM,50_vs_50,100,1,mapreduceclientcore-1_UEMNM_50_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+165,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_100,80.94227504,0.01,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+166,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_144,79.70833333,0.076388889,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+167,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_150,79.55112219,0.12,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+168,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_194,77.2244898,0.103092784,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+169,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_20,81.67838313,0.05,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+170,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_244,75,0.081967213,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+171,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_25,81.80622534,0.04,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+172,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_294,73.41176471,0.068027211,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+173,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_30,82.80839895,0.033333333,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+174,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_344,71.57692308,0.058139535,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+175,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_394,70.1509434,0.050761421,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+176,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_40,82.22996516,0.075,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+177,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_444,68.74074074,0.045045045,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+178,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_494,66.50909091,0.04048583,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+179,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_50,82.43712056,0.02,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+180,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_55,82.25876244,0.018181818,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+181,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_60,82.46977547,0.016666667,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+182,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_75,82.23938224,0,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+183,WCA_vs_LIMBO,UEMNM_vs_IL,80_vs_94,81.4893617,0.010638298,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+184,WCA_vs_LIMBO,UEMNM_vs_UEMNM,80_vs_50,80.96270598,0.98,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+185,WCA_vs_LIMBO,UEMNM_vs_UEM,80_vs_50,80.96270598,0.98,mapreduceclientcore-1_UEMNM_80_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+186,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_100,83.30515638,0.02,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+187,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_144,81.95020747,0.076388889,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+188,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_150,81.78807947,0.12,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+189,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_194,79.26829268,0.103092784,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+190,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_20,80.48993876,0.1,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+191,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_244,76.77290837,0.081967213,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+192,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_25,81.01265823,0.08,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+193,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_294,75.1171875,0.068027211,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+194,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_30,82.4912892,0.066666667,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+195,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_344,73.14176245,0.058139535,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+196,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_394,71.61654135,0.050761421,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+197,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_40,83.78143972,0.075,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+198,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_444,69.88929889,0.045045045,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+199,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_494,67.39130435,0.04048583,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+200,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_50,84.02417962,0.02,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+201,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_55,83.84317105,0.018181818,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+202,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_60,84.04987102,0.016666667,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+203,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_75,84.32293891,0.013333333,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+204,WCA_vs_LIMBO,UEMNM_vs_IL,90_vs_94,84.15254237,0.021276596,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+205,WCA_vs_LIMBO,UEMNM_vs_UEMNM,90_vs_50,78.79965458,0.98,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+206,WCA_vs_LIMBO,UEMNM_vs_UEM,90_vs_50,78.79965458,0.98,mapreduceclientcore-1_UEMNM_90_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+207,WCA_vs_LIMBO,UEM_vs_IL,100_vs_100,85.73232323,0.04,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+208,WCA_vs_LIMBO,UEM_vs_IL,100_vs_144,84.46280992,0.090277778,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+209,WCA_vs_LIMBO,UEM_vs_IL,100_vs_150,84.29513603,0.133333333,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+210,WCA_vs_LIMBO,UEM_vs_IL,100_vs_194,81.33603239,0.108247423,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+211,WCA_vs_LIMBO,UEM_vs_IL,100_vs_20,79.48606272,0.1,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+212,WCA_vs_LIMBO,UEM_vs_IL,100_vs_244,78.53174603,0.086065574,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+213,WCA_vs_LIMBO,UEM_vs_IL,100_vs_25,80.31290743,0.08,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+214,WCA_vs_LIMBO,UEM_vs_IL,100_vs_294,76.57587549,0.071428571,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+215,WCA_vs_LIMBO,UEM_vs_IL,100_vs_30,82.30702515,0.066666667,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+216,WCA_vs_LIMBO,UEM_vs_IL,100_vs_344,74.46564885,0.061046512,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+217,WCA_vs_LIMBO,UEM_vs_IL,100_vs_394,72.80898876,0.053299492,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+218,WCA_vs_LIMBO,UEM_vs_IL,100_vs_40,84.32642487,0.175,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+219,WCA_vs_LIMBO,UEM_vs_IL,100_vs_444,70.88235294,0.047297297,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+220,WCA_vs_LIMBO,UEM_vs_IL,100_vs_494,68.23104693,0.04048583,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+221,WCA_vs_LIMBO,UEM_vs_IL,100_vs_50,84.99570077,0.12,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+222,WCA_vs_LIMBO,UEM_vs_IL,100_vs_55,85.24238524,0.109090909,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+223,WCA_vs_LIMBO,UEM_vs_IL,100_vs_60,85.44520548,0.1,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+224,WCA_vs_LIMBO,UEM_vs_IL,100_vs_75,85.79327946,0.093333333,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+225,WCA_vs_LIMBO,UEM_vs_IL,100_vs_94,86.03375527,0.063829787,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+226,WCA_vs_LIMBO,UEM_vs_UEMNM,100_vs_50,77.64402408,0.98,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+227,WCA_vs_LIMBO,UEM_vs_UEM,100_vs_50,77.64402408,0.98,mapreduceclientcore-1_UEM_100_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+228,WCA_vs_LIMBO,UEM_vs_IL,150_vs_100,88.87056884,0.41,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+229,WCA_vs_LIMBO,UEM_vs_IL,150_vs_144,91.70040486,0.409722222,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+230,WCA_vs_LIMBO,UEM_vs_IL,150_vs_150,92.00323102,0.44,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+231,WCA_vs_LIMBO,UEM_vs_IL,150_vs_194,88.53174603,0.31443299,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+232,WCA_vs_LIMBO,UEM_vs_IL,150_vs_20,77.23785166,0.4,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+233,WCA_vs_LIMBO,UEM_vs_IL,150_vs_244,84.94163424,0.213114754,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+234,WCA_vs_LIMBO,UEM_vs_IL,150_vs_25,78.30710336,0.52,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+235,WCA_vs_LIMBO,UEM_vs_IL,150_vs_294,82.55725191,0.173469388,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+236,WCA_vs_LIMBO,UEM_vs_IL,150_vs_30,80.05093379,0.466666667,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+237,WCA_vs_LIMBO,UEM_vs_IL,150_vs_344,80.11235955,0.139534884,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+238,WCA_vs_LIMBO,UEM_vs_IL,150_vs_394,77.79411765,0.114213198,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+239,WCA_vs_LIMBO,UEM_vs_IL,150_vs_40,82.24852071,0.425,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+240,WCA_vs_LIMBO,UEM_vs_IL,150_vs_444,75.37906137,0.092342342,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+241,WCA_vs_LIMBO,UEM_vs_IL,150_vs_494,72.34042553,0.062753036,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+242,WCA_vs_LIMBO,UEM_vs_IL,150_vs_50,83.83838384,0.48,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+243,WCA_vs_LIMBO,UEM_vs_IL,150_vs_55,84.62830743,0.436363636,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+244,WCA_vs_LIMBO,UEM_vs_IL,150_vs_60,85.33109807,0.433333333,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+245,WCA_vs_LIMBO,UEM_vs_IL,150_vs_75,87.33860891,0.493333333,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+246,WCA_vs_LIMBO,UEM_vs_IL,150_vs_94,88.92561983,0.446808511,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+247,WCA_vs_LIMBO,UEM_vs_UEMNM,150_vs_50,75.54713805,0.98,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+248,WCA_vs_LIMBO,UEM_vs_UEM,150_vs_50,75.54713805,0.98,mapreduceclientcore-1_UEM_150_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+249,WCA_vs_LIMBO,UEM_vs_IL,20_vs_100,75,0.01,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+250,WCA_vs_LIMBO,UEM_vs_IL,20_vs_144,73.03418803,0.034722222,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+251,WCA_vs_LIMBO,UEM_vs_IL,20_vs_150,72.84739983,0.033333333,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+252,WCA_vs_LIMBO,UEM_vs_IL,20_vs_194,71.50627615,0.025773196,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+253,WCA_vs_LIMBO,UEM_vs_IL,20_vs_20,85.1534296,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+254,WCA_vs_LIMBO,UEM_vs_IL,20_vs_244,70.04098361,0.020491803,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+255,WCA_vs_LIMBO,UEM_vs_IL,20_vs_25,84.96172895,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+256,WCA_vs_LIMBO,UEM_vs_IL,20_vs_294,68.63453815,0.017006803,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+257,WCA_vs_LIMBO,UEM_vs_IL,20_vs_30,81.08715184,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+258,WCA_vs_LIMBO,UEM_vs_IL,20_vs_344,67.28346457,0.014534884,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+259,WCA_vs_LIMBO,UEM_vs_IL,20_vs_394,65.98455598,0.012690355,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+260,WCA_vs_LIMBO,UEM_vs_IL,20_vs_40,80.72450805,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+261,WCA_vs_LIMBO,UEM_vs_IL,20_vs_444,64.73484848,0.011261261,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+262,WCA_vs_LIMBO,UEM_vs_IL,20_vs_494,63.53159851,0.010121457,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+263,WCA_vs_LIMBO,UEM_vs_IL,20_vs_50,77.87177204,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+264,WCA_vs_LIMBO,UEM_vs_IL,20_vs_55,77.69880053,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+265,WCA_vs_LIMBO,UEM_vs_IL,20_vs_60,77.52659574,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+266,WCA_vs_LIMBO,UEM_vs_IL,20_vs_75,77.01453104,0,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+267,WCA_vs_LIMBO,UEM_vs_IL,20_vs_94,75.19650655,0.010638298,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+268,WCA_vs_LIMBO,UEM_vs_UEMNM,20_vs_50,97.32858415,0.4,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+269,WCA_vs_LIMBO,UEM_vs_UEM,20_vs_50,97.32858415,0.4,mapreduceclientcore-1_UEM_20_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+270,WCA_vs_LIMBO,UEM_vs_IL,25_vs_100,75.14124294,0.01,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+271,WCA_vs_LIMBO,UEM_vs_IL,25_vs_144,73.17697228,0.041666667,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+272,WCA_vs_LIMBO,UEM_vs_IL,25_vs_150,72.99021693,0.04,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+273,WCA_vs_LIMBO,UEM_vs_IL,25_vs_194,71.64926931,0.030927835,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+274,WCA_vs_LIMBO,UEM_vs_IL,25_vs_20,84.73660513,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+275,WCA_vs_LIMBO,UEM_vs_IL,25_vs_244,70.18404908,0.024590164,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+276,WCA_vs_LIMBO,UEM_vs_IL,25_vs_25,84.99550764,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+277,WCA_vs_LIMBO,UEM_vs_IL,25_vs_294,68.77755511,0.020408163,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+278,WCA_vs_LIMBO,UEM_vs_IL,25_vs_30,81.12953832,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+279,WCA_vs_LIMBO,UEM_vs_IL,25_vs_344,67.42632613,0.01744186,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+280,WCA_vs_LIMBO,UEM_vs_IL,25_vs_394,66.12716763,0.015228426,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+281,WCA_vs_LIMBO,UEM_vs_IL,25_vs_40,80.7675145,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+282,WCA_vs_LIMBO,UEM_vs_IL,25_vs_444,64.87712665,0.013513514,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+283,WCA_vs_LIMBO,UEM_vs_IL,25_vs_494,63.67346939,0.012145749,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+284,WCA_vs_LIMBO,UEM_vs_IL,25_vs_50,77.92092403,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+285,WCA_vs_LIMBO,UEM_vs_IL,25_vs_55,77.74822695,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+286,WCA_vs_LIMBO,UEM_vs_IL,25_vs_60,77.57629368,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+287,WCA_vs_LIMBO,UEM_vs_IL,25_vs_75,77.06502636,0,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+288,WCA_vs_LIMBO,UEM_vs_IL,25_vs_94,75.33769063,0.010638298,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+289,WCA_vs_LIMBO,UEM_vs_UEMNM,25_vs_50,97.77876499,0.5,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+290,WCA_vs_LIMBO,UEM_vs_UEM,25_vs_50,97.77876499,0.5,mapreduceclientcore-1_UEM_25_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+291,WCA_vs_LIMBO,UEM_vs_IL,30_vs_100,75.1951431,0.01,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+292,WCA_vs_LIMBO,UEM_vs_IL,30_vs_144,73.23404255,0.041666667,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+293,WCA_vs_LIMBO,UEM_vs_IL,30_vs_150,73.0475382,0.04,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+294,WCA_vs_LIMBO,UEM_vs_IL,30_vs_194,71.70833333,0.030927835,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+295,WCA_vs_LIMBO,UEM_vs_IL,30_vs_20,84.32165319,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+296,WCA_vs_LIMBO,UEM_vs_IL,30_vs_244,70.24489796,0.024590164,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+297,WCA_vs_LIMBO,UEM_vs_IL,30_vs_25,84.58090542,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+298,WCA_vs_LIMBO,UEM_vs_IL,30_vs_294,68.84,0.020408163,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+299,WCA_vs_LIMBO,UEM_vs_IL,30_vs_30,81.17173524,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+300,WCA_vs_LIMBO,UEM_vs_IL,30_vs_344,67.49019608,0.01744186,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+301,WCA_vs_LIMBO,UEM_vs_IL,30_vs_394,66.19230769,0.015228426,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+302,WCA_vs_LIMBO,UEM_vs_IL,30_vs_40,80.81032947,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+303,WCA_vs_LIMBO,UEM_vs_IL,30_vs_444,64.94339623,0.013513514,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+304,WCA_vs_LIMBO,UEM_vs_IL,30_vs_494,63.74074074,0.012145749,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+305,WCA_vs_LIMBO,UEM_vs_IL,30_vs_50,77.96985816,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+306,WCA_vs_LIMBO,UEM_vs_IL,30_vs_55,77.79743476,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+307,WCA_vs_LIMBO,UEM_vs_IL,30_vs_60,77.62577229,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+308,WCA_vs_LIMBO,UEM_vs_IL,30_vs_75,77.11530031,0,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+309,WCA_vs_LIMBO,UEM_vs_IL,30_vs_94,75.39130435,0.010638298,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+310,WCA_vs_LIMBO,UEM_vs_UEMNM,30_vs_50,98.22695035,0.6,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+311,WCA_vs_LIMBO,UEM_vs_UEM,30_vs_50,98.22695035,0.6,mapreduceclientcore-1_UEM_30_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+312,WCA_vs_LIMBO,UEM_vs_IL,40_vs_100,75.6044905,0.01,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+313,WCA_vs_LIMBO,UEM_vs_IL,40_vs_144,74.19491525,0.076388889,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+314,WCA_vs_LIMBO,UEM_vs_IL,40_vs_150,74.00676247,0.106666667,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+315,WCA_vs_LIMBO,UEM_vs_IL,40_vs_194,72.65560166,0.082474227,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+316,WCA_vs_LIMBO,UEM_vs_IL,40_vs_20,83.49731664,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+317,WCA_vs_LIMBO,UEM_vs_IL,40_vs_244,71.17886179,0.06557377,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+318,WCA_vs_LIMBO,UEM_vs_IL,40_vs_25,83.75725123,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+319,WCA_vs_LIMBO,UEM_vs_IL,40_vs_294,69.76095618,0.054421769,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+320,WCA_vs_LIMBO,UEM_vs_IL,40_vs_30,80.3650935,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+321,WCA_vs_LIMBO,UEM_vs_IL,40_vs_344,68.3984375,0.046511628,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+322,WCA_vs_LIMBO,UEM_vs_IL,40_vs_394,67.08812261,0.040609137,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+323,WCA_vs_LIMBO,UEM_vs_IL,40_vs_40,80.89539007,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+324,WCA_vs_LIMBO,UEM_vs_IL,40_vs_444,65.82706767,0.036036036,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+325,WCA_vs_LIMBO,UEM_vs_IL,40_vs_494,64.61254613,0.032388664,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+326,WCA_vs_LIMBO,UEM_vs_IL,40_vs_50,78.11120918,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+327,WCA_vs_LIMBO,UEM_vs_IL,40_vs_55,77.89520035,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+328,WCA_vs_LIMBO,UEM_vs_IL,40_vs_60,77.72407733,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+329,WCA_vs_LIMBO,UEM_vs_IL,40_vs_75,77.21518987,0,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+330,WCA_vs_LIMBO,UEM_vs_IL,40_vs_94,75.8008658,0.010638298,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+331,WCA_vs_LIMBO,UEM_vs_UEMNM,40_vs_50,99.11738747,0.8,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+332,WCA_vs_LIMBO,UEM_vs_UEM,40_vs_50,99.11738747,0.8,mapreduceclientcore-1_UEM_40_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+333,WCA_vs_LIMBO,UEM_vs_IL,50_vs_100,75.70937231,0.01,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+334,WCA_vs_LIMBO,UEM_vs_IL,50_vs_144,74.59915612,0.076388889,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+335,WCA_vs_LIMBO,UEM_vs_IL,50_vs_150,74.45286195,0.12,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+336,WCA_vs_LIMBO,UEM_vs_IL,50_vs_194,73.09917355,0.103092784,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+337,WCA_vs_LIMBO,UEM_vs_IL,50_vs_20,82.68032057,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+338,WCA_vs_LIMBO,UEM_vs_IL,50_vs_244,71.6194332,0.081967213,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+339,WCA_vs_LIMBO,UEM_vs_IL,50_vs_25,82.94091515,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+340,WCA_vs_LIMBO,UEM_vs_IL,50_vs_294,70.1984127,0.068027211,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+341,WCA_vs_LIMBO,UEM_vs_IL,50_vs_30,79.56560284,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+342,WCA_vs_LIMBO,UEM_vs_IL,50_vs_344,68.83268482,0.058139535,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+343,WCA_vs_LIMBO,UEM_vs_IL,50_vs_394,67.51908397,0.050761421,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+344,WCA_vs_LIMBO,UEM_vs_IL,50_vs_40,80.09708738,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+345,WCA_vs_LIMBO,UEM_vs_IL,50_vs_444,66.25468165,0.045045045,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+346,WCA_vs_LIMBO,UEM_vs_IL,50_vs_494,65.03676471,0.04048583,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+347,WCA_vs_LIMBO,UEM_vs_IL,50_vs_50,78.64674868,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+348,WCA_vs_LIMBO,UEM_vs_IL,50_vs_55,77.99210872,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+349,WCA_vs_LIMBO,UEM_vs_IL,50_vs_60,77.82152231,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+350,WCA_vs_LIMBO,UEM_vs_IL,50_vs_75,77.31421121,0,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+351,WCA_vs_LIMBO,UEM_vs_IL,50_vs_94,75.90517241,0.010638298,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+352,WCA_vs_LIMBO,UEM_vs_UEMNM,50_vs_50,100,1,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+353,WCA_vs_LIMBO,UEM_vs_UEM,50_vs_50,100,1,mapreduceclientcore-1_UEM_50_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+354,WCA_vs_LIMBO,UEM_vs_IL,60_vs_100,75.85616438,0.01,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+355,WCA_vs_LIMBO,UEM_vs_IL,60_vs_144,75,0.076388889,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+356,WCA_vs_LIMBO,UEM_vs_IL,60_vs_150,74.85331098,0.12,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+357,WCA_vs_LIMBO,UEM_vs_IL,60_vs_194,73.33333333,0.103092784,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+358,WCA_vs_LIMBO,UEM_vs_IL,60_vs_20,81.87056738,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+359,WCA_vs_LIMBO,UEM_vs_IL,60_vs_244,71.81451613,0.081967213,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+360,WCA_vs_LIMBO,UEM_vs_IL,60_vs_25,82.13180009,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+361,WCA_vs_LIMBO,UEM_vs_IL,60_vs_294,70.39525692,0.068027211,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+362,WCA_vs_LIMBO,UEM_vs_IL,60_vs_30,78.77316858,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+363,WCA_vs_LIMBO,UEM_vs_IL,60_vs_344,69.03100775,0.058139535,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+364,WCA_vs_LIMBO,UEM_vs_IL,60_vs_394,67.71863118,0.050761421,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+365,WCA_vs_LIMBO,UEM_vs_IL,60_vs_40,79.30579965,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+366,WCA_vs_LIMBO,UEM_vs_IL,60_vs_444,66.45522388,0.045045045,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+367,WCA_vs_LIMBO,UEM_vs_IL,60_vs_494,65.16483516,0.04048583,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+368,WCA_vs_LIMBO,UEM_vs_IL,60_vs_50,78.30271216,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+369,WCA_vs_LIMBO,UEM_vs_IL,60_vs_55,77.65168049,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+370,WCA_vs_LIMBO,UEM_vs_IL,60_vs_60,77.91811847,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+371,WCA_vs_LIMBO,UEM_vs_IL,60_vs_75,77.41237559,0,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+372,WCA_vs_LIMBO,UEM_vs_IL,60_vs_94,76.22317597,0.010638298,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+373,WCA_vs_LIMBO,UEM_vs_UEMNM,60_vs_50,99.12510936,1,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+374,WCA_vs_LIMBO,UEM_vs_UEM,60_vs_50,99.12510936,1,mapreduceclientcore-1_UEM_60_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf
+375,WCA_vs_LIMBO,UEM_vs_IL,75_vs_100,79.24287537,0.01,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_100_clusters.rsf
+376,WCA_vs_LIMBO,UEM_vs_IL,75_vs_144,78.28810021,0.076388889,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_144_clusters.rsf
+377,WCA_vs_LIMBO,UEM_vs_IL,75_vs_150,78.13411079,0.12,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_150_clusters.rsf
+378,WCA_vs_LIMBO,UEM_vs_IL,75_vs_194,75.99182004,0.103092784,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_194_clusters.rsf
+379,WCA_vs_LIMBO,UEM_vs_IL,75_vs_20,82.25451343,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_20_clusters.rsf
+380,WCA_vs_LIMBO,UEM_vs_IL,75_vs_244,74.06813627,0.081967213,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_244_clusters.rsf
+381,WCA_vs_LIMBO,UEM_vs_IL,75_vs_25,82.51318102,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_25_clusters.rsf
+382,WCA_vs_LIMBO,UEM_vs_IL,75_vs_294,72.49508841,0.068027211,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_294_clusters.rsf
+383,WCA_vs_LIMBO,UEM_vs_IL,75_vs_30,83.42832091,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_30_clusters.rsf
+384,WCA_vs_LIMBO,UEM_vs_IL,75_vs_344,70.98265896,0.058139535,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_344_clusters.rsf
+385,WCA_vs_LIMBO,UEM_vs_IL,75_vs_394,69.60302457,0.050761421,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_394_clusters.rsf
+386,WCA_vs_LIMBO,UEM_vs_IL,75_vs_40,82.14753383,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_40_clusters.rsf
+387,WCA_vs_LIMBO,UEM_vs_IL,75_vs_444,68.20037106,0.045045045,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_444_clusters.rsf
+388,WCA_vs_LIMBO,UEM_vs_IL,75_vs_494,66.12021858,0.04048583,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_494_clusters.rsf
+389,WCA_vs_LIMBO,UEM_vs_IL,75_vs_50,81.87744459,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_50_clusters.rsf
+390,WCA_vs_LIMBO,UEM_vs_IL,75_vs_55,81.613183,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_55_clusters.rsf
+391,WCA_vs_LIMBO,UEM_vs_IL,75_vs_60,81.86932064,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_60_clusters.rsf
+392,WCA_vs_LIMBO,UEM_vs_IL,75_vs_75,81.47033534,0,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_75_clusters.rsf
+393,WCA_vs_LIMBO,UEM_vs_IL,75_vs_94,80.08528785,0.010638298,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_IL_94_clusters.rsf
+394,WCA_vs_LIMBO,UEM_vs_UEMNM,75_vs_50,80.48674489,0.98,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_LIMBO_UEMNM_50_clusters.rsf
+395,WCA_vs_LIMBO,UEM_vs_UEM,75_vs_50,80.48674489,0.98,mapreduceclientcore-1_WCA_UEM_75_clusters.rsf | mapreduceclientcore-1_LIMBO_UEM_50_clusters.rsf

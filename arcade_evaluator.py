@@ -1,3 +1,4 @@
+import os
 import sys
 from itertools import combinations
 
@@ -83,8 +84,11 @@ if __name__ == "__main__":
     print("=== ARCADE Architecture Evaluator ===")
     
     # Define file paths (Change these to match your exact file names!)
-    acdc_file = r"output\ACDC\mapreduce_ACDC.rsf"
-    test_file = r"output\WCA\mapreduceclientcore-1_UEMNMNM__clusters.rsf"
+    acdc_file = os.path.join("output", "ACDC", "mapreduce_ACDC.rsf")
+    if len(sys.argv) > 1:
+        test_file = sys.argv[1]
+    else:
+        test_file = os.path.join("output", "WCA", "mapreduceclientcore-1_UEMNM_25_clusters.rsf")
     
     # 1. Parse the files
     truth_class_map, truth_cluster_map = parse_rsf(acdc_file)
