@@ -1,0 +1,7 @@
+cpu-bind=MASK - n2gpu1228, task  0  0 [664887]: mask 0x|B-------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------| set
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) pc2fs   2) slurm/25.11.2-1   3) DefaultModules
+Starting Model Inference...
+[2026-05-09T17:01:06.603] error: *** JOB 32612117 ON n2gpu1228 CANCELLED AT 2026-05-09T17:01:06 DUE to SIGNAL Terminated ***

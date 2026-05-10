@@ -1,0 +1,85 @@
+cpu-bind=MASK - n2gpu1228, task  0  0 [661273]: mask 0x|B-------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------| set
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) pc2fs   2) slurm/25.11.2-1   3) DefaultModules
+Starting Model Inference...
+Loading Tokenizer for ibm-granite/granite-34b-code-instruct-8k...
+Traceback (most recent call last):
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 997, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1169, in _hf_hub_download_to_cache_dir
+    os.makedirs(os.path.dirname(blob_path), exist_ok=True)
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 1 more time]
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/scratch/ds4se'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 692, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 374, in from_pretrained
+    config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/configuration_utils.py", line 682, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/configuration_utils.py", line 737, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 467, in cached_files
+    raise OSError(
+OSError: PermissionError at /scratch/ds4se when downloading ibm-granite/granite-34b-code-instruct-8k. Check cache directory permissions. Common causes: 1) another user is downloading the same model (please wait); 2) a previous download was canceled and the lock file needs manual removal.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 997, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1169, in _hf_hub_download_to_cache_dir
+    os.makedirs(os.path.dirname(blob_path), exist_ok=True)
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 1 more time]
+  File "/opt/software/pc2/EB-SW/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/scratch/ds4se'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/pc2/users/v/viradiya/ds4se/sample.py", line 26, in <module>
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 696, in from_pretrained
+    config = PreTrainedConfig.from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/configuration_utils.py", line 641, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/configuration_utils.py", line 682, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/configuration_utils.py", line 737, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/pc2/users/v/viradiya/ds4se/llm_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 467, in cached_files
+    raise OSError(
+OSError: PermissionError at /scratch/ds4se when downloading ibm-granite/granite-34b-code-instruct-8k. Check cache directory permissions. Common causes: 1) another user is downloading the same model (please wait); 2) a previous download was canceled and the lock file needs manual removal.
+Job Execution Complete.

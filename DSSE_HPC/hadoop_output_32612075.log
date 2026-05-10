@@ -1,0 +1,10 @@
+cpu-bind=MASK - n2gpu1227, task  0  0 [608553]: mask 0x|-B------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------| set
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) pc2fs   2) slurm/25.11.2-1   3) DefaultModules
+Starting Model Inference...
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading Tokenizer for ibm-granite/granite-34b-code-instruct-8k...
+Loading Model across 2x A100 GPUs...
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files:   7%|▋         | 1/14 [09:17<2:00:43, 557.20s/it]

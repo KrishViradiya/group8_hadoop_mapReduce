@@ -84,7 +84,7 @@ if __name__ == "__main__":
     
     # Define file paths (Change these to match your exact file names!)
     acdc_file = r"output\ACDC\mapreduce_ACDC.rsf"
-    test_file = r"output\WCA\mapreduceclientcore-1_UEMNM__clusters.rsf"
+    test_file = r"output\WCA\mapreduceclientcore-1_UEMNMNM__clusters.rsf"
     
     # 1. Parse the files
     truth_class_map, truth_cluster_map = parse_rsf(acdc_file)
