@@ -1,7 +1,7 @@
 import os
 import csv
 import re
-from compare import run_jar
+from compare_algorithm.compare import run_jar
 
 def extract_score(output):
     """Extracts the last floating-point number from the JAR string output."""
@@ -123,7 +123,7 @@ def main():
     all_data = wca_data + limbo_data + wca_limbo_data
 
     if all_data:
-        with open("jar_metrics.csv", "w", newline="") as f:
+        with open("C:\\Users\\KEVAL\\OneDrive\\Desktop\\group8_hadoop_mapReduce\\csv\\jar_metrics.csv", "w", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(all_data)

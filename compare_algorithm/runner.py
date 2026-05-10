@@ -1,6 +1,6 @@
 import os
 import csv
-from arcade_evaluator import parse_rsf, calculate_similarity
+from compare_algorithm.arcade_evaluator import parse_rsf, calculate_similarity
 
 def get_largest_cluster_info(cluster_to_classes):
     largest_name = None
@@ -78,7 +78,7 @@ def main():
 
     # Write CSV for LIMBO
     if limbo_data:
-        with open("acdc_limbo.csv", "w", newline="") as f:
+        with open("C:\\Users\\KEVAL\\OneDrive\\Desktop\\group8_hadoop_mapReduce\\csv\\acdc_limbo.csv", "w", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(limbo_data)
@@ -86,7 +86,7 @@ def main():
 
     # Write CSV for WCA
     if wca_data:
-        with open("acdc_wca.csv", "w", newline="") as f:
+        with open("C:\\Users\\KEVAL\\OneDrive\\Desktop\\group8_hadoop_mapReduce\\csv\\acdc_wca.csv", "w", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(wca_data)
