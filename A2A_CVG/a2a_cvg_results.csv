@@ -1,0 +1,4 @@
+File 1,File 2,A2A Score,Cvg (File1 -> File2),Cvg (File2 -> File1)
+mapreduce_ACDC.rsf,mapreduceclientcore_algo-limbo_measure-il_serial-50_stop-25.rsf,84.17074255,0.043478261,0.02
+mapreduce_ACDC.rsf,mapreduceclientcore_algo-wca_measure-uem_serial-90_stop-75.rsf,83.39886413,0.130434783,0.033333333
+mapreduceclientcore_algo-limbo_measure-il_serial-50_stop-25.rsf,mapreduceclientcore_algo-wca_measure-uem_serial-90_stop-75.rsf,84.49913644,0.02,0.011111111
