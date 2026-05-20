@@ -16,7 +16,7 @@ def find_rsf_files(base_dir):
     return rsf_files
 
 def main():
-    baseline_file = r"D:\Upb\dsse\group8_hadoop_mapReduce\output\LIMBO\mapreduceclientcore_algo-limbo_measure-il_serial-50_stop-25.rsf"
+    baseline_file = r"D:\Upb\dsse\group8_hadoop_mapReduce\output\WCA\mapreduceclientcore_algo-wca_measure-uem_serial-90_stop-75.rsf"
     target_dir = r"D:\Upb\dsse\group8_hadoop_mapReduce\Semantic_Clustering & Evaluation\Harsh_Savani"
     a2a_jar = r"D:\Upb\dsse\group8_hadoop_mapReduce\jars\arcade_core_A2a.jar"
     cvg_jar = r"D:\Upb\dsse\group8_hadoop_mapReduce\jars\arcade_core_Cvg.jar"
