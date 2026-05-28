@@ -1,0 +1,10 @@
+Module Title: MapReduce System - Job Resource Scheduler Subsystem
+
+High-Level Descriptive Summary:
+The Job Resource Scheduler Subsystem is responsible for managing the allocation of resources for MapReduce jobs in a distributed computing environment. It is responsible for scheduling tasks, monitoring job progress, and handling failures. The subsystem interacts with various components such as the JobTracker, TaskTracker, and the NameNode to coordinate the execution of MapReduce jobs.
+
+The Job Resource Scheduler Subsystem is designed to be scalable and fault-tolerant, ensuring that jobs are executed efficiently and reliably. It uses a combination of algorithms and data structures to optimize resource allocation and job scheduling, taking into account factors such as job priority, task dependencies, and available resources.
+
+The subsystem also provides a comprehensive set of APIs for submitting, monitoring, and controlling MapReduce jobs. These APIs allow users to submit jobs, monitor job progress, and retrieve job status and output. The subsystem also provides a web-based user interface for monitoring job progress and managing the cluster.
+
+In summary, the Job Resource Scheduler Subsystem is a critical component of the MapReduce system, responsible for efficient and reliable execution of MapReduce jobs in a distributed computing environment.

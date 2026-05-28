@@ -1,0 +1,10 @@
+Module Title: MapReduce System - Shuffle & Sort Layer
+
+High-Level Descriptive Summary:
+The Shuffle & Sort Layer is responsible for managing the shuffle of map outputs from different maps to the reduce task. It is a crucial component of the MapReduce system as it ensures that the data is properly distributed and sorted before being processed by the reduce task.
+
+The core logic of the Shuffle & Sort Layer is to fetch map outputs from different maps, sort them, and then send them to the reduce task. This is achieved by using the Fetcher class, which handles the fetching of map outputs from different hosts. The Shuffle & Sort Layer also uses the SpillRecord class to manage the spill files used for intermediate data storage.
+
+The Shuffle & Sort Layer depends on external classes such as JobConf, TaskID, TaskStatus, and Fetcher for its functionality. It also uses the SpillRecord class for managing spill files.
+
+Overall, the Shuffle & Sort Layer is a critical component of the MapReduce system, responsible for ensuring that the data is properly distributed and sorted before being processed by the reduce task.

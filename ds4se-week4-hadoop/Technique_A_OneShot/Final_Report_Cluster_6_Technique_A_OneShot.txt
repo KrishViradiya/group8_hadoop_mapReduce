@@ -1,0 +1,12 @@
+Module Title: MapReduce Security Subsystem
+High-Level Descriptive Summary:
+The MapReduce Security Subsystem is responsible for managing the security of MapReduce jobs. It includes the following components:
+- TokenCache: Manages the generation and acceptance of MapReduce delegation tokens.
+- DelegationTokenSecretManager: Manages the generation and acceptance of MapReduce delegation tokens.
+- JobTokenSelector: Selects the first job token that matches the service from a collection of tokens.
+- JobTokenSecretManager: Manages the generation and acceptance of job tokens.
+- DelegationTokenIdentifier: Identifies a delegation token specific to MapReduce.
+- SecureShuffleUtils: Provides utilities for secure shuffle, including encryption and decryption of shuffle data.
+- CryptoUtils: Provides utilities for encrypting and decrypting data using a specified CryptoCodec.
+- DelegationTokenSelector: Selects a delegation token for MapReduce.
+These components work together to ensure the security of MapReduce jobs by managing delegation tokens and encrypting shuffle data.
