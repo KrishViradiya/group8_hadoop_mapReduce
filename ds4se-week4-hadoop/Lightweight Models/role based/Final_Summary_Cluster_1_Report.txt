@@ -1,0 +1,17 @@
+Module Title: MapReduce System - Core Processing Layer
+
+High-Level Descriptive Summary:
+The Core Processing Layer of the MapReduce System in Apache Hadoop is pivotal for executing the distributed processing of large datasets. It encompasses components responsible for managing job configurations, sorting and merging data, handling intermediate files, and coordinating task execution. The system initiates with the 'JobConf' class, which encapsulates all necessary job settings. 'MapTask' and 'ReduceTask' classes represent the fundamental units of work, executing the 'Mapper' and 'Reducer' functionalities, respectively. 'Mapper' and 'Reducer' classes process input data, transforming it into intermediate key-value pairs. 'BufferSorter' and 'MergeSorter' facilitate sorting and merging of these pairs, ensuring efficient data processing. 'MapOutputFile' and 'IFile' manage the storage and retrieval of intermediate data, while 'MROutputFiles' oversees the transient storage areas for map and reduce tasks. 'BasicTypeSorterBase' provides a foundational sorting mechanism for key-value pairs, and 'SortedRanges' maintains sorted ranges of data for efficient access. 'ShuffleConsumerPlugin' handles the shuffling and sorting of intermediate key-value pairs from Map tasks to Reducers. 'SpillRecord' manages metadata for spilled records during the Map phase, aiding in handling large datasets that exceed memory capacity. 'Task' serves as an abstract base for both Map and Reduce tasks, incorporating common functionalities. 'TaskLog' and 'TaskUmbilicalProtocol' ensure task execution logging and inter-process communication, respectively. This layer's design ensures scalability by distributing work across nodes and fault-tolerance through redundancy and checkpointing mechanisms.
+
+Constituent Component Source Entries:
+• Class: BackupStore -> Intent: Supports mark-reset functionality of value iterators in Apache Hadoop MapReduce
+• Class: BasicTypeSorterBase -> Intent: Base implementation for sorting key-value pairs in Apache Hadoop MapReduce
+• Class: BufferSorter -> Intent: Generic sorting interface for key/value records written to a buffer
+• Class: IFile -> Intent: Handles intermediate map-output format in Apache Hadoop MapReduce
+• Class: InvalidInputException -> Intent: Exception class for invalid input scenarios in MapReduce
+• Class: JobConf -> Intent: Configuration object for defining and managing MapReduce jobs
+• Class: LocatedFileStatusFetcher -> Intent: Efficiently fetches block locations for input paths using configurable threads
+• Class: MROutputFiles -> Intent: Manages transient storage for map and reduce tasks
+• Class: MapOutputFile -> Intent: Manages paths for intermediate files in MapReduce jobs
+• Class: MapTask -> Intent: Abstract base class for Map tasks in Apache Hadoop MapReduce
+• Class: MergeSorter -> Intent: Operational logic module component for merging data segments
