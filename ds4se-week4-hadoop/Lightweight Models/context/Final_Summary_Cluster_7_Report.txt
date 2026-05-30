@@ -1,0 +1,13 @@
+Module Title: MapReduce System - Data Processing Layer
+
+High-Level Descriptive Summary:
+The Data Processing Layer of the MapReduce System is pivotal in transforming raw input data into consumable output formats. It orchestrates the distributed processing of large datasets across a cluster of nodes. The layer begins with the InputFormat, which defines how data is read from the storage system and splits it into manageable chunks for distribution. The Mapper processes these chunks in parallel, applying user-defined functions to extract and transform data. The IntermediateKey classes temporarily store these transformations, facilitating the shuffling phase where data is sorted and grouped by keys. Subsequently, the Reducer processes grouped data, applying aggregation or further transformation before producing the final output. This layer ensures scalability by distributing tasks and handles fault tolerance through task tracking and re-execution of failed tasks on different nodes. Data flows in a directed acyclic graph (DAG) pattern, with each Mapper and Reducer operating as nodes, and IntermediateKeys as edges guiding data between processing stages.
+
+The component layer consists of the following key elements:
+* InputFormat: Defines the data reading and splitting strategy.
+* Mapper: Executes the map operation on input data chunks, producing intermediate key-value pairs.
+* IntermediateKey: Temporary storage class for data shuffling and grouping.
+* Reducer: Consumers grouped intermediate key-value pairs, producing the final output.
+
+Concluding Paragraph:
+Performance optimizations in this layer are achieved through efficient data partitioning strategies by InputFormat, parallel processing capabilities of Mappers, and optimized data locality through HDFS. Scalability is inherent due to the distributed nature of processing, allowing the system to handle petabytes of data. Structural fault-tolerance is maintained via task tracking, where the JobTracker monitors task progress and reassigns failed tasks to other nodes, ensuring reliability and resilience in the face of node failures.

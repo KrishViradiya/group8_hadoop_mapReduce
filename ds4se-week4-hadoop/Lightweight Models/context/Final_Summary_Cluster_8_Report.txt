@@ -1,0 +1,25 @@
+Module Title: MapReduce System - Data Processing Layer
+
+High-Level Descriptive Summary:
+The Data Processing Layer of the MapReduce System is pivotal in transforming raw input data into a format suitable for subsequent processing and analysis. This layer comprises components responsible for data ingestion, partitioning, and initial processing. The Mapper class processes input data, generating intermediate key-value pairs. InputFormat classes, such as TextInputFormat and SequenceFileInputFormat, define how records are read from diverse input sources and create InputSplits to enable parallel processing by cluster nodes. RecordReader classes, including KeyValueLineRecordReader and SequenceFileRecordReader, interpret the raw data formats, converting them into key-value pairs. Partitioner classes, though not explicitly listed, play a crucial role in distributing these pairs across reducers for aggregation. Collectively, these components ensure efficient data distribution, parallel processing, and the generation of intermediate results, setting the stage for the reduction phase of MapReduce jobs.
+
+The component layer consists of the following key elements:
+* Mapper: Processes input data into key-value pairs.
+* InputFormat: Defines input record reading and split creation for parallel processing.
+* RecordReader: Interprets raw data formats into key-value pairs.
+* InputSplit: Divides input data into logical chunks for parallel map task processing.
+* SequenceFileInputFormat: Reads data from Sequence Files, a binary format for key-value pairs.
+* KeyValueLineRecordReader: Reads key-value pairs from text input files.
+* MapRunner: Executes map tasks within the MapReduce framework.
+* FixedLengthRecordReader: Reads fixed-length records from input sources.
+* MultiFileSplit: Handles input splits for multiple files in MapReduce jobs.
+* TextInputFormat: Reads text files as input for MapReduce jobs.
+* SequenceFileAsTextRecordReader: Reads Sequence Files as text input.
+* SequenceFileAsTextInputFormat: Manages Sequence Files as text input and output formats.
+* MapRunnable: Executes map tasks as runnable components within the MapReduce framework.
+* MultiFileInputFormat: Handles input from multiple files in MapReduce jobs.
+* FixedLengthInputFormat: Reads fixed-length record formatted input data.
+* SequenceFileInputFilter: Filters input data based on SequenceFile criteria.
+
+Concluding Paragraph:
+This Data Processing Layer is designed with scalability in mind, leveraging parallel processing through InputSplit and Mapper components. Fault tolerance is ensured by the robust nature of Hadoop's distributed file system, which replicates data across nodes. Performance optimizations are achieved through efficient data partitioning and the use of specialized RecordReader classes tailored for different input formats. The layer's modular design allows for easy integration of new data sources and formats, supporting the system's adaptability to evolving data processing needs.
