@@ -1,0 +1,19 @@
+Module Title: MapReduce System - Performance and Statistics Management
+
+High-Level Descriptive Summary:
+The MapReduce System - Performance and Statistics Management module is pivotal in tracking, accumulating, and presenting performance metrics and statistics crucial for job monitoring and optimization in Apache Hadoop MapReduce. This module encompasses classes responsible for managing various counters, accumulating periodic statistics, and organizing task-related performance data. The `Counters` class serves as the central repository for all counters, including `JobCounter`, `TaskCounter`, and `AbstractCounter`, which are instrumental in quantifying different aspects of job execution. The `PeriodicStatsAccumulator` family, represented by `CumulativePeriodicStats`, `StatePeriodicStats`, and `ProgressSplitsBlock`, accumulates time-varying metrics such as memory usage, CPU time, and split processing statistics, facilitating detailed performance analysis. These components ensure that MapReduce jobs can be monitored for efficiency and bottlenecks, enabling adjustments for better resource utilization and scalability. The `StatisticsCollector` likely orchestrates the collection and aggregation of these metrics, providing a holistic view of the job's performance. The `AbstractCounterGroup` and `FileSystemCounterGroup` classes offer foundational support for generic and filesystem-specific counter group management, respectively, ensuring flexibility and extensibility. This subsystem's role is critical for both real-time job tuning and post-job analysis, contributing to the overall fault-tolerance and scalability of the Hadoop MapReduce framework by offering actionable insights into job execution behavior.
+
+Constituent Component Source Entries:
+• Class: Counters -> Intent: Manages and organizes various counters used within a MapReduce job.
+• Class: CumulativePeriodicStats -> Intent: Accumulates measurements over time, representing cumulative periodic statistics.
+• Class: PeriodicStatsAccumulator -> Intent: Accumulates measurements of time-varying quantities across task segments.
+• Class: ProgressSplitsBlock -> Intent: Aggregates and manages performance statistics for different data splits in a MapReduce task.
+• Class: StatePeriodicStats -> Intent: Concrete implementation of PeriodicStatsAccumulator for state-specific statistics.
+• Class: StatisticsCollector -> Intent: Orchestrates the collection and aggregation of performance metrics.
+• Class: Counter -> Intent: Generic counter for tracking specific events or quantities.
+• Class: JobCounter -> Intent: Counter specifically for tracking job-level metrics.
+• Class: TaskCounter -> Intent: Counter for tracking task-level metrics.
+• Class: AbstractCounter -> Intent: Abstract base class for generic counter implementations.
+• Class: AbstractCounterGroup -> Intent: Provides a common implementation for generic counter groups.
+• Class: FileSystemCounterGroup -> Intent: Common implementation for filesystem-specific counter groups.
+• Class: GenericCounter -> Intent: Generic implementation of a counter

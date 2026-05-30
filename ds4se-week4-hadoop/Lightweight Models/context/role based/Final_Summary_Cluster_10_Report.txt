@@ -1,0 +1,21 @@
+Module Title: MapReduce System - Database Integration Layer
+
+High-Level Descriptive Summary:
+The Database Integration Layer within the MapReduce System is designed to facilitate seamless interaction between Hadoop MapReduce jobs and SQL databases. This layer encompasses a suite of components that manage database-specific configurations, input formats, and record readers. The `DBConfiguration` class centralizes property names crucial for database interactions within MapReduce jobs. The `DBInputFormat` and its variants like `DataDrivenDBInputFormat` are tailored to read data from SQL databases, offering flexibility in data retrieval methods, including data-driven splitting based on WHERE clauses. Interfaces such as `DBWritable` ensure standardized database input/output operations, while specialized splitter classes like `BigDecimalSplitter`, `IntegerSplitter`, and `DateSplitter` partition data into manageable chunks for parallel processing. Record reader classes, including `DBRecordReader`, `MySQLDBRecordReader`, `OracleDBRecordReader`, and their data-driven counterparts, handle the extraction of records from various database systems, ensuring compatibility with MySQL, Oracle, and other SQL databases. This layer's components work in concert to enable efficient, large-scale data processing across diverse database systems, optimizing performance through tailored data splitting and ensuring scalability by adhering to the distributed nature of Hadoop.
+
+Constituent Component Source Entries:
+• Class: DBConfiguration -> Intent: Centralizes database-related configuration properties for MapReduce jobs.
+• Class: DBInputFormat -> Intent: Facilitates reading of input data from SQL databases.
+• Class: DBWritable -> Intent: Defines a standard for objects to be written to and read from databases.
+• Class: BigDecimalSplitter -> Intent: Splits ranges of BigDecimal values for MapReduce tasks.
+• Class: BooleanSplitter -> Intent: (Operational logic module component)
+• Class: DBRecordReader -> Intent: Reads records from databases, fundamental for data extraction.
+• Class: DBSplitter -> Intent: (Unspecified, likely involved in data partitioning)
+• Class: DataDrivenDBInputFormat -> Intent: Enables data-driven splitting of input data from databases.
+• Class: DataDrivenDBRecordReader -> Intent: Reads records using dynamic WHERE clauses for efficient splitting.
+• Class: DateSplitter -> Intent: Partitions data based on date/time values from database results.
+• Class: FloatSplitter -> Intent: (Unspecified, possibly for splitting floating-point ranges)
+• Class: IntegerSplitter -> Intent: Splits integer ranges into sub-ranges for task distribution.
+• Class: MySQLDBRecordReader -> Intent: (Operational logic module component, for MySQL databases)
+• Class: MySQLDataDrivenDBRecordReader -> Intent: (Operational logic module component, data-driven for MySQL)
+• Class: OracleDBRecordReader
