@@ -1,0 +1,4 @@
+Key Functionality: Collects the <code>&lt;key, value&gt;</code> pairs output by Mappers and Reducers.
+Core Logic: Generalization of the Map-Reduce framework to collect data output by Mappers or Reducers.
+Inputs/Outputs: Intermediate outputs or the output of the job.
+Dependencies: None

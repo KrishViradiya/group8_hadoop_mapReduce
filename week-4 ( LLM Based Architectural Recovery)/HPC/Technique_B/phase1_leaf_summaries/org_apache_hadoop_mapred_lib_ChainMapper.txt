@@ -1,0 +1,4 @@
+Key Functionality: Invoke multiple Mapper classes within a single Map task.
+Core Logic: The output of the first Mapper becomes the input of the second, and so on until the last Mapper.
+Inputs/Outputs: The output of the last Mapper is written to the task's output.
+Dependencies: org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.Mapper, org.apache.hadoop.mapred.OutputCollector, org.apache.hadoop.mapred.Reporter, java.io.IOException.

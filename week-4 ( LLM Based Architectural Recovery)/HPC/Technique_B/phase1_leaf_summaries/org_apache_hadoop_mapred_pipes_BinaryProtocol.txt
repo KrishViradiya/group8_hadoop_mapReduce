@@ -1,0 +1,4 @@
+Key Functionality: Submits a job to the MapReduce framework.
+Core Logic: Connects to the JobTracker and submits a job.
+Inputs/Outputs: JobConf, jobGraph, jobId.
+Dependencies: JobConf, jobGraph, jobId.

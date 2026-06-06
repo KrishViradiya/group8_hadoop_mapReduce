@@ -1,0 +1,4 @@
+Key Functionality: Manages the creation and mapping of counter names to IDs.
+Core Logic: Maintains a mapping of counter names to IDs and provides methods for creating new groups and counters.
+Inputs/Outputs: None
+Dependencies: None

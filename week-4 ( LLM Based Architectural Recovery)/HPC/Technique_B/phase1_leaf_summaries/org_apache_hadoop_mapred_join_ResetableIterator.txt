@@ -1,0 +1,4 @@
+Key Functionality: Stateful iterator that can replay elements added to it directly.
+Core Logic: The iterator can be reset to replay elements added to it.
+Inputs/Outputs: The iterator takes and returns writable data.
+Dependencies: The iterator depends on the org.apache.hadoop.mapreduce.lib.join package.

@@ -1,0 +1,4 @@
+Key Functionality: Chains multiple Mapper classes after a Reducer within the Reducer task.
+Core Logic: For each record output by the Reducer, the Mapper classes are invoked in a chained (or piped) fashion, the output of the first becomes the input of the second, and so on until the last Mapper, the output of the last Mapper will be written to the task's output.
+Inputs/Outputs: The key/values output by a Mapper are valid for the following Mapper in the chain.
+Dependencies: org.apache.hadoop.mapred, org.apache.hadoop.classification

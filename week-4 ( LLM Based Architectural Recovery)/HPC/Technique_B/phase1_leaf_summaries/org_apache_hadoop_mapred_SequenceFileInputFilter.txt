@@ -1,0 +1,4 @@
+Key Functionality: Allows a map/reduce job to work on a sample of sequence files.
+Core Logic: The sample is decided by the filter class set by the job.
+Inputs/Outputs: List data.
+Dependencies: List classes.

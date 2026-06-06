@@ -1,0 +1,4 @@
+Key Functionality: Wraps a given Reducer to allow for custom Reducer.Context implementations.
+Core Logic: The core logic of this class is to wrap a given Reducer to allow for custom Reducer.Context implementations.
+Inputs/Outputs: The class takes in KEYIN, VALUEIN, KEYOUT, and VALUEOUT as input and output types.
+Dependencies: The class has dependencies on Configuration, InputFormat, JobID, Mapper, OutputCommitter, OutputFormat, Partitioner, RawComparator, ReduceContext, Reducer, TaskAttemptID, and Credentials.

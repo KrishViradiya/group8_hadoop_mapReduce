@@ -1,0 +1,11 @@
+Key Functionality: Records the start of a task attempt
+Core Logic: Creates an event to record the start of an attempt
+Inputs/Outputs: 
+- attemptId: Id of the attempt
+- taskType: Type of task
+- startTime: Start time of the attempt
+- trackerName: Name of the Task Tracker where attempt is running
+- httpPort: The port number of the tracker
+- shufflePort: The shuffle port number of the container
+- containerId: The containerId for the task attempt.
+Dependencies: org.apache.hadoop.mapreduce.TaskAttemptID, org.apache.hadoop.mapreduce.TaskID, org.apache.hadoop.mapreduce.TaskType, org.apache.hadoop.util.StringUtils, org.apache.hadoop.yarn.api.records.ContainerId, org.apache.hadoop.yarn.api.records.timelineservice.TimelineEvent, org.apache.hadoop.yarn.api.records.timelineservice.TimelineMetric

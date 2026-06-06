@@ -1,0 +1,4 @@
+Key Functionality: Tracks various job-level statistics such as the number of failed/killed maps and reduces, total launched maps and reduces, and the number of other local, data local, and rack local maps.
+Core Logic: The code snippet provides a set of enum values representing different job-level counters. These counters are used to track various statistics related to the execution of maps and reduces in a MapReduce job.
+Inputs/Outputs: The enum values represent different types of job-level statistics that can be used to monitor the progress and performance of a MapReduce job.
+Dependencies: The code snippet does not depend on any specific classes or methods.

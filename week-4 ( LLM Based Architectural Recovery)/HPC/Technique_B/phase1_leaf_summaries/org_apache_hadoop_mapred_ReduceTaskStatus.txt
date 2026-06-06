@@ -1,0 +1,4 @@
+Key Functionality: Manages the status of a reduce task.
+Core Logic: Keeps track of the task's progress, finish time, and the list of failed fetch tasks.
+Inputs/Outputs: shuffleFinishTime, sortFinishTime, failedFetchTasks
+Dependencies: TaskAttemptID, State, String, float, int, Counters

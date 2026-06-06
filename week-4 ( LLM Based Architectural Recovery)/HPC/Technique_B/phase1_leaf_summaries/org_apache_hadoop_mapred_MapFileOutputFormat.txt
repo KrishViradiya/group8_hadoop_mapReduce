@@ -1,0 +1,4 @@
+Key Functionality: Write MapFile
+Core Logic: FileSystem fs = file.getFileSystem(job);
+Inputs/Outputs: file
+Dependencies: FileSystem, Path, JobConf, Progressable, IOException, CompressionCodec, DefaultCodec, Configuration, ReflectionUtils

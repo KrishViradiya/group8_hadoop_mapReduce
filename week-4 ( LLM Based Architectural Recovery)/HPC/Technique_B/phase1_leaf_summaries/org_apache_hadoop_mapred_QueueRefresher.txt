@@ -1,0 +1,4 @@
+Key Functionality: Refresh the queue-configuration in the scheduler.
+Core Logic: Schedulers will be passed a list of JobQueueInfo objects of the root queues, and should use them to update their own queue-configuration.
+Inputs/Outputs: The input is a list of JobQueueInfo objects representing the root queues, and the output is the updated queue-configuration in the scheduler.
+Dependencies: QueueManager, TaskScheduler, JobTracker.

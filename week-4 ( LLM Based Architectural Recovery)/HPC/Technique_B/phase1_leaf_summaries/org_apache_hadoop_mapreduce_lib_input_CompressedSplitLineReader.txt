@@ -1,0 +1,4 @@
+Key Functionality: Reads records from a compressed split.
+Core Logic: Uses the reported compressed input stream position to determine when a split has ended.
+Inputs/Outputs: InputStream, Configuration
+Dependencies: SplitCompressionInputStream, Text

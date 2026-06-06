@@ -1,0 +1,4 @@
+Key Functionality: Delegates behavior of paths to multiple other InputFormats.
+Core Logic: The core logic involves creating a map of paths to input formats and then using this map to delegate behavior to the appropriate input format for each path.
+Inputs/Outputs: The input is a JobConf object and an integer representing the number of splits. The output is an array of InputSplit objects.
+Dependencies: The class depends on the org.apache.hadoop.mapred package and its dependencies.

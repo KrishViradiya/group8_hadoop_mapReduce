@@ -1,0 +1,4 @@
+Key Functionality: The common counter group interface.
+Core Logic: The core logic of the counter group is to provide methods for adding, finding, and iterating over counters.
+Inputs/Outputs: The inputs and outputs of the counter group are counters, which can be added, found, and iterated over.
+Dependencies: The counter group has dependencies on the Counter interface and the Writable interface.

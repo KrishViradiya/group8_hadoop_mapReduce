@@ -1,0 +1,10 @@
+Key Functionality:
+- Encrypts intermediate data such as MapReduce spill files.
+
+Core Logic:
+- The class provides utilities to make it easier to work with Cryptographic Streams.
+
+Inputs/Outputs:
+- The class takes an InputStream and an OutputStream as inputs and provides encrypted versions of them as outputs.
+
+Dependencies:

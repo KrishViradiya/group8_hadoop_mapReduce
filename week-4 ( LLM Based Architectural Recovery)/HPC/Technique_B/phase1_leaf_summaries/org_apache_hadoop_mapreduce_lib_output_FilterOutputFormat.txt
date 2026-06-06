@@ -1,0 +1,4 @@
+Key Functionality: Wraps OutputFormat.
+Core Logic: Delegates to the underlying OutputFormat.
+Inputs/Outputs: K, V (key and value types)
+Dependencies: OutputFormat, IOException, InterruptedException

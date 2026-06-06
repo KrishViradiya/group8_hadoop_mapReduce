@@ -1,0 +1,4 @@
+Key Functionality: Skip bad records functionality.
+Core Logic: The feature can be used when map/reduce tasks crashes deterministically on certain input.
+Inputs/Outputs: The skipping mode gets kicked off after certain no of failures.
+Dependencies: org.apache.hadoop.classification.InterfaceAudience, org.apache.hadoop.classification.InterfaceStability, org.apache.hadoop.conf.Configuration, org.apache.hadoop.fs.Path.

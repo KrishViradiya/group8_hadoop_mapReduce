@@ -1,0 +1,4 @@
+Key Functionality: Notifies a custom URL when a job ends.
+Core Logic: The core logic is implemented in the notify method, which takes a URL and a Configuration object as parameters.
+Inputs/Outputs: The notify method takes a URL and a Configuration object as parameters and returns a boolean value indicating whether the notification was successful.
+Dependencies: The CustomJobEndNotifier interface has no dependencies.

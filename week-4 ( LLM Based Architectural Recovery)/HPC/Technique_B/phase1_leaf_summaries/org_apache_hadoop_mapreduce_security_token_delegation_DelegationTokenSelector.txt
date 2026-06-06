@@ -1,0 +1,4 @@
+Key Functionality: Selects delegation tokens of type MAPREDUCE_DELEGATION_KIND.
+Core Logic: The class extends AbstractDelegationTokenSelector and specifies MAPREDUCE_DELEGATION_KIND as the kind of tokens it can select.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSelector

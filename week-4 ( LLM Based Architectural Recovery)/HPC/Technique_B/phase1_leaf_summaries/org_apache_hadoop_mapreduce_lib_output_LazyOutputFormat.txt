@@ -1,0 +1,4 @@
+Key Functionality: LazyOutputFormat is a convenience class that creates output lazily.
+Core Logic: It uses the org.apache.hadoop.mapreduce.lib.output.MultipleOutputs class to recreate the behavior of org.apache.hadoop.mapred.lib.MultipleTextOutputFormat (etc) of the old Hadoop API.
+Inputs/Outputs: LazyOutputFormat takes in a key and value and outputs the result.
+Dependencies: LazyOutputFormat depends on the MultipleOutputs class.

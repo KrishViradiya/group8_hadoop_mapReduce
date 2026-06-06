@@ -1,0 +1,4 @@
+Key Functionality: Manages a group of {@link Counter}s
+Core Logic: Maintains a map of counter names to {@link Counter} objects
+Inputs/Outputs: None
+Dependencies: {@link Counter}, {@link FileSystemCounter}, {@link JobCounter}, {@link TaskCounter}

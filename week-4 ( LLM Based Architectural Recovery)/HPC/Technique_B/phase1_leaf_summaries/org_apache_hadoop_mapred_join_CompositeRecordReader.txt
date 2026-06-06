@@ -1,0 +1,4 @@
+Key Functionality: A RecordReader that can effect joins of RecordReaders sharing a common key type and partitioning.
+Core Logic: Accepts RecordReaders as children and emits Writables of a specified type.
+Inputs/Outputs: The RecordReader takes a key type K, a value type V, and an emitted type X.
+Dependencies: The RecordReader depends on classes such as Writable, WritableComparable, WritableComparator, Configuration, and PriorityQueue.

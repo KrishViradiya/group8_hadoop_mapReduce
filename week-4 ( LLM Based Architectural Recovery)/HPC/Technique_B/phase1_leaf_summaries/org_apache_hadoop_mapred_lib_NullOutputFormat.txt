@@ -1,0 +1,4 @@
+Key Functionality: Consume all outputs and put them in /dev/null.
+Core Logic: Write() method does nothing, close() method does nothing.
+Inputs/Outputs: K, V (key and value)
+Dependencies: org.apache.hadoop.mapred, org.apache.hadoop.fs, org.apache.hadoop.util

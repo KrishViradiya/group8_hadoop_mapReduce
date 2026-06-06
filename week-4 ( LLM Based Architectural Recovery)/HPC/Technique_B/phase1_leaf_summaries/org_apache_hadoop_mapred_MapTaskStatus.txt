@@ -1,0 +1,4 @@
+Key Functionality: Keeps track of the status of a map task.
+Core Logic: Manages the finish time of the map task and provides methods to get and set the finish time.
+Inputs/Outputs: None
+Dependencies: TaskStatus, TaskAttemptID, Counters, State, Phase

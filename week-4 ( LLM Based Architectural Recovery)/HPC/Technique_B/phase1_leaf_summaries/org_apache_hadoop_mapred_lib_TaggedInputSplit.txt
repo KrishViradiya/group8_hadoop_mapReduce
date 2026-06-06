@@ -1,0 +1,4 @@
+Key Functionality: Tags another InputSplit with extra data for use by DelegatingInputFormat and DelegatingMapper.
+Core Logic: Creates a new TaggedInputSplit with the provided InputSplit, configuration, InputFormat class, and Mapper class.
+Inputs/Outputs: inputSplit (InputSplit), conf (Configuration), inputFormatClass (Class), mapperClass (Class)
+Dependencies: Configuration, InputSplit, InputFormat, Mapper, ReflectionUtils, StringInterner

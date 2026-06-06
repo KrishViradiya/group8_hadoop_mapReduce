@@ -1,0 +1,4 @@
+Key Functionality: Connects to a database and executes SQL queries.
+Core Logic: Manages JDBC connections and executes SQL queries.
+Inputs/Outputs: Connects to a database and executes SQL queries.
+Dependencies: org.apache.hadoop.classification, org.apache.hadoop.mapreduce, org.apache.hadoop.mapreduce.lib.db.DBInputFormat, org.apache.hadoop.mapreduce.lib.db.DBOutputFormat

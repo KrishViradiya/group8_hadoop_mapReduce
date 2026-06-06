@@ -1,0 +1,4 @@
+Key Functionality: Perform field selections in a manner similar to unix cut.
+Core Logic: The input data is treated as fields separated by a user specified separator. The user can specify a list of fields that form the reduce output keys, and a list of fields that form the reduce output values. The fields are the union of those from the key and those from the value.
+Inputs/Outputs: The field separator is under attribute "mapreduce.fieldsel.data.field.separator". The reduce output field list spec is under attribute "mapreduce.fieldsel.reduce.output.key.value.fields.spec". The value is expected to be like "keyFieldsSpec:valueFieldsSpec" key/valueFieldsSpec are comma (,) separated field spec: fieldSpec,fieldSpec,.
+Dependencies: org.apache.hadoop.io.Text, org.apache.hadoop.mapreduce.Reducer, org.slf4j.Logger, org.slf4j.LoggerFactory.

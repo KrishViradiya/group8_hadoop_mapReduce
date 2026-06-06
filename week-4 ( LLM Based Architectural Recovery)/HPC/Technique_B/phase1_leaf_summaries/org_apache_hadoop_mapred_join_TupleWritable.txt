@@ -1,0 +1,4 @@
+Key Functionality: A Writable type storing multiple Writables.
+Core Logic: The class is used to store multiple Writables.
+Inputs/Outputs: The class takes an array of Writables as input and stores them.
+Dependencies: The class depends on the Writable class.

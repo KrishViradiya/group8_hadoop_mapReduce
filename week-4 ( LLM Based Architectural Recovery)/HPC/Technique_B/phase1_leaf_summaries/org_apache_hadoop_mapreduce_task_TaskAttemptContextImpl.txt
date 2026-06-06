@@ -1,0 +1,4 @@
+Key Functionality: Manages the context for task attempts.
+Core Logic: Maintains the task attempt ID and provides a status message.
+Inputs/Outputs: Task attempt ID, status message.
+Dependencies: Configuration, StatusReporter.

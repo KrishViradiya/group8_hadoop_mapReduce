@@ -1,0 +1,4 @@
+Key Functionality: Reads events from an Avro data file.
+Core Logic: Uses an Avro reader to parse events from an Avro data file.
+Inputs/Outputs: The input is an Avro data file. The output is a stream of parsed events.
+Dependencies: org.apache.avro, org.apache.hadoop.fs, org.apache.hadoop.mapreduce, org.apache.hadoop.util

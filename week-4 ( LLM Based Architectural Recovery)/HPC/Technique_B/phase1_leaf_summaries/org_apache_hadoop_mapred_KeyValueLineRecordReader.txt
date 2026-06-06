@@ -1,0 +1,4 @@
+Key Functionality: Reads a line as a key/value pair, where the key and value are separated by a separator character.
+Core Logic: Treats a line in the input as a key/value pair separated by a separator character.
+Inputs/Outputs: The input is a line, and the output is a key/value pair.
+Dependencies: org.apache.hadoop.io.LongWritable, org.apache.hadoop.io.Text, org.apache.hadoop.conf.Configuration, org.apache.hadoop.mapred.FileSplit, org.apache.hadoop.mapred.LineRecordReader, java.io.IOException.

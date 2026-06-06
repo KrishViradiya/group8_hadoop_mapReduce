@@ -1,0 +1,4 @@
+Key Functionality: Swaps keys and values in a Mapper.
+Core Logic: The map function takes input key-value pairs and writes them out as value-key pairs.
+Inputs/Outputs: The input is a key-value pair, and the output is a value-key pair.
+Dependencies: None.

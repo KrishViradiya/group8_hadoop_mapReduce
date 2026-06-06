@@ -1,0 +1,4 @@
+Key Functionality: Represents a record in an index file.
+Core Logic: Stores the start offset, raw length, and part length of a record.
+Inputs/Outputs: startOffset (long), rawLength (long), partLength (long)
+Dependencies: None

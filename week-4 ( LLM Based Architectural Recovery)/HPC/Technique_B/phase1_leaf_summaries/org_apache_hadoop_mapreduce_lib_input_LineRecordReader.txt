@@ -1,0 +1,4 @@
+Key Functionality: This class is a record reader for reading whole files.
+Core Logic: It uses a splittable compression codec if the file is compressed, and a regular compression codec if it is not. It also handles opening and closing the file handles.
+Inputs/Outputs: The input is a file path, and the output is the content of the file.
+Dependencies: It depends on the Configuration, Path, FSDataInputStream, Seekable, CompressionCodec, Decompressor, and other classes.

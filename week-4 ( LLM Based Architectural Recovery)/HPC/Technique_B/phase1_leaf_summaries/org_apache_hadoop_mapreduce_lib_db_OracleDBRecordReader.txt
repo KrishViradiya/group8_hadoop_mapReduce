@@ -1,0 +1,4 @@
+Key Functionality: Reads records from an Oracle SQL table.
+Core Logic: Uses reflection to call an appropriate method forOracleDBRecordReader.
+Inputs/Outputs: Connection, Configuration, DBConfiguration, DBInputSplit, Class.
+Dependencies: org.apache.hadoop.classification, org.apache.hadoop.conf, org.slf4j.

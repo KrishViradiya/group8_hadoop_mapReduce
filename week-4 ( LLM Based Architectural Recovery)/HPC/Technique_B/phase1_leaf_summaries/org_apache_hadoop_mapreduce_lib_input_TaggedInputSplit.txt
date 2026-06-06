@@ -1,0 +1,4 @@
+Key Functionality: Tags another InputSplit with extra data for use by DelegatingInputFormat and DelegatingMapper.
+Core Logic: The class contains a Class object for the inputSplitClass, inputSplit, inputFormatClass, and mapperClass.
+Inputs/Outputs: The inputSplitClass is a Class object that represents the input split class. The inputSplit is an instance of the input split class. The inputFormatClass is a Class object that represents the input format class. The mapperClass is a Class object that represents the mapper class.
+Dependencies: The class implements the Configurable and Writable interfaces.

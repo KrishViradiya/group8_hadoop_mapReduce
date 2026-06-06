@@ -1,0 +1,4 @@
+Key Functionality: Tracks file system-related statistics in a MapReduce job.
+Core Logic: The enum values represent different file system operations, such as bytes read, bytes written, read operations, large read operations, write operations, and bytes read with erasure coding.
+Inputs/Outputs: The enum values can be used to track the progress and performance of file system operations in a MapReduce job.
+Dependencies: This enum is used in the org.apache.hadoop.mapreduce package, which is part of the Hadoop MapReduce framework.

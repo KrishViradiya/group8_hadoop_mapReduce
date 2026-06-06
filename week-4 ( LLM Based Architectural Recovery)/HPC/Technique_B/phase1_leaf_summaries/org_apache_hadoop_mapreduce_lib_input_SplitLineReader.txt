@@ -1,0 +1,4 @@
+Key Functionality: Reads lines from input stream.
+Core Logic: Reads bytes from input stream and checks for record delimiters.
+Inputs/Outputs: InputStream, byte[] recordDelimiterBytes
+Dependencies: Configuration, IOException, InputStream

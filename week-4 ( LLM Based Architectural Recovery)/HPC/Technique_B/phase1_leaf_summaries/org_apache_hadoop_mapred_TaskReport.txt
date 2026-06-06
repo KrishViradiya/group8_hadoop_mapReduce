@@ -1,0 +1,4 @@
+Key Functionality: Monitors the state of a task.
+Core Logic: Tracks the progress, state, diagnostics, start time, finish time, and counters of a task.
+Inputs/Outputs: TaskID, progress (float), state (String), diagnostics (String array), currentStatus (TIPStatus), startTime (long), finishTime (long), counters (Counters)
+Dependencies: org.apache.hadoop.mapreduce.TaskReport

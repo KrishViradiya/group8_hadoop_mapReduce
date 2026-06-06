@@ -1,0 +1,4 @@
+Key Functionality: Partitions data based on a total order reading split points from an externally generated source.
+Core Logic: Reads split points from an externally generated source and uses them to effect a total order partitioning of the data.
+Inputs/Outputs: The input is a set of key-value pairs. The output is a partitioning of the input data based on the total order defined by the split points.
+Dependencies: org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.Partitioner, org.apache.hadoop.fs.Path

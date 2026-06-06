@@ -1,0 +1,4 @@
+Key Functionality: Tracks the progress of a map/reduce job.
+Core Logic: Represents global counters, defined either by the Map-Reduce framework or applications.
+Inputs/Outputs: Counters are named by an Enum and have a long for the value.
+Dependencies: org.apache.hadoop.io.Writable

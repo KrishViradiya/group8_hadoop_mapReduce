@@ -1,0 +1,4 @@
+Key Functionality: Submits and monitors a set of MapReduce jobs.
+Core Logic: Tracks job states and submits jobs when they become ready.
+Inputs/Outputs: Jobs are added to the group and their states are updated.
+Dependencies: org.apache.hadoop.mapred.jobcontrol.Job, org.apache.hadoop.mapreduce.lib.jobcontrol.ControlledJob.State, org.apache.hadoop.util.StringUtils, org.slf4j.Logger, org.slf4j.LoggerFactory.

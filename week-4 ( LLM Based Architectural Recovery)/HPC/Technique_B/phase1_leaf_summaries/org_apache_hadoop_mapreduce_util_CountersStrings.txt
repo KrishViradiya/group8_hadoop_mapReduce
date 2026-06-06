@@ -1,0 +1,28 @@
+(unit)}{(actual-name)(display-name)(value)(unit)}*
+   * @param c
+   * @return the string
+   */
+  public static String toString(AbstractCounters<Counter, CounterGroupBase<Counter>> c) {
+    StringBuilder sb = new StringBuilder();
+    List<String> parts = Lists.newArrayList();
+    for (CounterGroupBase<? extends Counter> g: c) {
+      parts.add(groupToString(g));
+    }
+    sb.append(StringUtils.join(parts, GROUP_OPEN + "AND" + GROUP_CLOSE));
+    return sb.toString();
+  }
+
+  private static String groupToString(CounterGroupBase<? extends Counter> g) {
+    StringBuilder parts = new StringBuilder();
+    parts.append(GROUP_OPEN);
+    parts.append(StringInterner.weakIntern(g.getName()));
+    parts.append(StringUtils.escapeString(g.getDisplayName(), charsToEscape, false));
+    for (Counter counter : g) {
+      parts.append(COUNTER_OPEN);
+      parts.append(StringInterner.weakIntern(counter.getName()));
+      parts.append(StringUtils.escapeString(counter.getDisplayName(), charsToEscape, false));
+      parts.append(counter.getValue());
+      String unit = counter.getDisplayName().replace(counter.getName(), "").trim();
+      if (!unit.isEmpty()) {
+        parts.append(UNIT_OPEN);
+        parts.append

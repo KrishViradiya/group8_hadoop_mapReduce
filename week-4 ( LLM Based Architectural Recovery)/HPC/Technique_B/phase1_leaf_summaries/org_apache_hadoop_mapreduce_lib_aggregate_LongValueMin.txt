@@ -1,0 +1,4 @@
+Key Functionality: Maintains the minimum of a sequence of long values.
+Core Logic: The minimum value is updated when a new value is added.
+Inputs/Outputs: The aggregator takes a long value as input and outputs its string representation.
+Dependencies: None

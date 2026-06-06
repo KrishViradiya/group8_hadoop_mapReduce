@@ -1,0 +1,4 @@
+Key Functionality: Abstracts the communication with the MapReduce framework.
+Core Logic: Creates a connection to the MapReduce framework and handles communication.
+Inputs/Outputs: Configuration, InetSocketAddress, IOException.
+Dependencies: ClientProtocol, Configuration, InetSocketAddress, IOException.

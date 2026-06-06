@@ -1,0 +1,4 @@
+Key Functionality: Filters output(part) files from the given directory and rejects files with filenames _logs and _SUCCESS.
+Core Logic: The class checks if the file name is not _logs or _SUCCESS.
+Inputs/Outputs: The class takes a Path object as input and returns a boolean value.
+Dependencies: The class depends on the OutputLogFilter class.

@@ -1,0 +1,4 @@
+Key Functionality: Place holder for JobTracker server-level configuration.
+Core Logic: The keys should have "mapreduce.jobtracker." as the prefix.
+Inputs/Outputs: None
+Dependencies: None

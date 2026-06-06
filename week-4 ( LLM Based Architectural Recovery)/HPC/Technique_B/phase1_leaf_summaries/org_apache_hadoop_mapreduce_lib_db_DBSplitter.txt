@@ -1,0 +1,4 @@
+Key Functionality: DBSplitter will generate DBInputSplits to use with DataDrivenDBInputFormat.
+Core Logic: DataDrivenDBInputFormat needs to interpolate between two values that represent the lowest and highest valued records to import.
+Inputs/Outputs: ResultSet containing one record with two columns (a low value, and a high value, both of the same type), determine a set of splits that span the given values.
+Dependencies: org.apache.hadoop.conf.Configuration, org.apache.hadoop.mapreduce.InputSplit, java.sql.ResultSet, java.sql.SQLException, java.util.List.

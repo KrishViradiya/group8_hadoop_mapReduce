@@ -1,0 +1,10 @@
+Key Functionality: LoadedManifestData contains information about the loaded manifest data, including directories, entry sequence data, and file count.
+
+Core Logic: It is used for renaming the work in the MapReduce codebase.
+
+Inputs/Outputs: 
+- directories: A collection of DirEntry objects representing directories.
+- entrySequenceData: A Path object representing the path of the intermediate cache of files to rename.
+- fileCount: An integer representing the number of files to be renamed.
+
+Dependencies:

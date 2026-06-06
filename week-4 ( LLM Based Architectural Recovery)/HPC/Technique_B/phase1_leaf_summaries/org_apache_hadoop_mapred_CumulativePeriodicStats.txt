@@ -1,0 +1,4 @@
+Key Functionality: Keeps a running account of the value distance from the beginning of the bucket to the end of the reading.
+Core Logic: The result in each bucket is the estimate of the progress-weighted change in that quantity over the progress range covered by the bucket.
+Inputs/Outputs: newProgress (double) - the progress of the current reading, newValue (int) - the value of the current reading.
+Dependencies: state (object) - the state of the accumulator.

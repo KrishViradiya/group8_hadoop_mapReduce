@@ -1,0 +1,4 @@
+Key Functionality: Manages the generic mapper, reducer, and combiner classes of Aggregate.
+Core Logic: Implements common functionalities for these classes.
+Inputs/Outputs: Reads from and writes to the job configuration.
+Dependencies: None.

@@ -1,0 +1,4 @@
+Key Functionality: Records the failure of a task
+Core Logic: Stores information about the failed task, including its ID, type, finish time, status, error message, counters, and start time.
+Inputs/Outputs: The event takes in the task ID, task type, finish time, status, error message, counters, and start time as inputs, and stores them as attributes in the TaskFailedEvent object.
+Dependencies: The event depends on the Counters class and the TaskID and TaskAttemptID classes.

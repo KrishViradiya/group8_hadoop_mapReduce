@@ -1,0 +1,4 @@
+Key Functionality: Filters log files from a given directory.
+Core Logic:rejects paths containing "_logs".
+Inputs/Outputs: List of paths.
+Dependencies: org.apache.hadoop.fs.Path, org.apache.hadoop.fs.PathFilter.

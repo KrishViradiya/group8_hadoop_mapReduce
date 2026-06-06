@@ -1,0 +1,4 @@
+Key Functionality: Represents information about a TaskTracker.
+Core Logic: Maintains the name of the TaskTracker and whether it is blacklisted.
+Inputs/Outputs: The name of the TaskTracker and blacklisting status can be obtained.
+Dependencies: None.

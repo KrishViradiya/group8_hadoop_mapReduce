@@ -1,0 +1,4 @@
+Key Functionality: Sorts key/value pairs using primitive int arrays.
+Core Logic: The class implements the sort interface using primitive int arrays as the data structures.
+Inputs/Outputs: The class takes in key/value pairs and outputs a sorted array of key/value pairs.
+Dependencies: The class depends on the RawKeyValueIterator and Progressable interfaces.

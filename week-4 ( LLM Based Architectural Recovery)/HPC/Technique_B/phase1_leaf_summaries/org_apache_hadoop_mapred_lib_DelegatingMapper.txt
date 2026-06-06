@@ -1,0 +1,4 @@
+Key Functionality: Delegates behaviour of paths to multiple other mappers.
+Core Logic: Uses TaggedInputSplit to find the appropriate Mapper for each input path.
+Inputs/Outputs: K1, V1, K2, V2
+Dependencies: TaggedInputSplit, JobConf, Mapper, OutputCollector, Reporter, IOException

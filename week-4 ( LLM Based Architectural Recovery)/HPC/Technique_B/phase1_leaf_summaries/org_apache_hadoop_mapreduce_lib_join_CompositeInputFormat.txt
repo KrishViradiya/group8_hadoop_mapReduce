@@ -1,0 +1,4 @@
+Key Functionality: Perform joins over a set of data sources sorted and partitioned the same way.
+Core Logic: The core logic involves defining new join types by setting the property mapreduce.join.define.<ident> to a classname and using the identifier in the expression mapreduce.join.expr as a ComposableRecordReader. The mapreduce.join.keycomparator property can be used to specify a classname for comparing keys.
+Inputs/Outputs: The input to the join is specified by setting the mapreduce.join.expr property. The output is the result of the join operation.
+Dependencies: The join operation depends on the classes specified in the mapreduce.join.define property and the mapreduce.join.keycomparator property.

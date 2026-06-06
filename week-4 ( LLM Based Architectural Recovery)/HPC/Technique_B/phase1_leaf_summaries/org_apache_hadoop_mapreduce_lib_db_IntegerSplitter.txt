@@ -1,0 +1,4 @@
+Key Functionality: Split database table into chunks based on integer values.
+Core Logic: Divide the range of values into a specified number of splits.
+Inputs/Outputs: Input: ResultSet containing minimum and maximum values. Output: List of InputSplit objects.
+Dependencies: org.apache.hadoop.mapreduce.InputSplit, org.apache.hadoop.conf.Configuration, java.sql.ResultSet, java.sql.SQLException.

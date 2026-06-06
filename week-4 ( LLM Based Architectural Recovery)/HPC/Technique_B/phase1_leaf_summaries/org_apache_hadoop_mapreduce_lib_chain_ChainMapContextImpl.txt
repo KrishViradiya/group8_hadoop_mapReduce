@@ -1,0 +1,4 @@
+Key Functionality: A simple wrapper class that delegates most of its functionality to the underlying context, but overrides the methods to do with record readers, record writers, input formats, output formats, and task commit.
+Core Logic: The class delegates most of its functionality to the underlying context, but overrides the methods to handle record readers, record writers, input formats, output formats, and task commit.
+Inputs/Outputs: The class takes a TaskInputOutputContext as input and delegates most of its functionality to it.
+Dependencies: The class depends on the TaskInputOutputContext class and its dependencies.

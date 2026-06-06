@@ -1,0 +1,4 @@
+Key Functionality: Manages the split information for the task.
+Core Logic: Handles the parsing and storage of the split information.
+Inputs/Outputs: Accepts a JobSplit.TaskSplitMetaInfo object and provides access to the split locations and lengths.
+Dependencies: Requires the JobSplit.TaskSplitMetaInfo class for parsing and storage.

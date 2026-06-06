@@ -1,0 +1,7 @@
+Key Functionality: Represents the completion of a task attempt that failed or was killed.
+
+Core Logic: The event records the details of a task attempt's completion, including the task attempt ID, task type, status, finish time, hostname, error message, counter data, and task attempt finish time.
+
+Inputs/Outputs: The event takes in the task attempt ID, task type, status, finish time, hostname, error message, counter data, and task attempt finish time as inputs, and outputs the task attempt completion information in an Avro data structure.
+
+Dependencies: The event depends on the org.apache.hadoop.mapreduce.jobhistory package and related classes for Avro data structures and utility functions.

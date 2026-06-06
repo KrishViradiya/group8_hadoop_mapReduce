@@ -1,0 +1,4 @@
+Key Functionality: Updating status information and progressing in a MapReduce application.
+Core Logic: Updating status information and progressing in a MapReduce application.
+Inputs/Outputs: Status information and progress updates.
+Dependencies: org.apache.hadoop.mapred.Counters.Counter, org.apache.hadoop.util.Progressable.

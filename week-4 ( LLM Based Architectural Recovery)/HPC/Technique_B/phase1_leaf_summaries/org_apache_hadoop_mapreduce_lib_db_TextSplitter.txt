@@ -1,0 +1,4 @@
+Key Functionality: Split text strings into splits differing in the third letter.
+Core Logic: Determine the splits between two user-provided strings.
+Inputs/Outputs: List data
+Dependencies: List classes

@@ -1,0 +1,4 @@
+Key Functionality: Reduce Attempt Finished Event
+Core Logic: This event records the successful completion of a reduce attempt, including the task attempt ID, task type, task status, shuffle finish time, sort finish time, finish time, hostname, rack name, and task counters.
+Inputs/Outputs: The inputs include the task attempt ID, task type, task status, shuffle finish time, sort finish time, finish time, hostname, rack name, and task counters. The outputs are recorded in the datum object.
+Dependencies: This event depends on the org.apache.hadoop.mapreduce.jobhistory package and the org.apache.hadoop.mapred.ProgressSplitsBlock class.

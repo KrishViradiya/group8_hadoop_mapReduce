@@ -1,0 +1,4 @@
+Key Functionality: The context that is given to the Mapper.
+Core Logic: The MapContext provides access to the input split for the map.
+Inputs/Outputs: The MapContext takes input from KEYIN and VALUEIN and emits output to KEYOUT and VALUEOUT.
+Dependencies: The MapContext depends on the TaskInputOutputContext.

@@ -1,0 +1,4 @@
+Key Functionality: Converts input keys and values to their String forms by calling toString() method.
+Core Logic: The class is similar to SequenceFileInputFormat, but it generates SequenceFileAsTextRecordReader.
+Inputs/Outputs: The input keys and values are converted to their String forms.
+Dependencies: SequenceFileInputFormat, Text, IOException, RecordReader, InputSplit, TaskAttemptContext.

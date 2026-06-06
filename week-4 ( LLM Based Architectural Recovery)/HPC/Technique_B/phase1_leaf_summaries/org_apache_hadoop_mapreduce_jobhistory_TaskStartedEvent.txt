@@ -1,0 +1,4 @@
+Key Functionality: Records the start of a task
+Core Logic: Sets the task ID, split locations, start time, and task type
+Inputs/Outputs: Task ID, start time, task type, split locations
+Dependencies: org.apache.hadoop.mapreduce.TaskID, org.apache.hadoop.mapreduce.TaskType, org.apache.hadoop.util.StringUtils, org.apache.hadoop.yarn.api.records.timelineservice.TimelineEvent, org.apache.hadoop.yarn.api.records.timelineservice.TimelineMetric

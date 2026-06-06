@@ -1,0 +1,6 @@
+Key Functionality: Dummy input format used when non-Java a {@link RecordReader} is used by the Pipes' application.
+
+Core Logic: The only useful thing this does is set up the Map-Reduce job to get the {@link PipesDummyRecordReader}, everything else left for the 'actual' InputFormat specified by the user which is given by <i>mapreduce.pipes.inputformat</i>.
+
+Inputs/Outputs: [List data]
+Dependencies: [List classes]

@@ -1,0 +1,7 @@
+Key Functionality: IdentityReducer is a Reducer that writes all input values directly to the output.
+
+Core Logic: The reduce function iterates through the values iterator and calls output.collect(key, value) for each value.
+
+Inputs/Outputs: The reduce function takes in a key, an iterator of values, an OutputCollector, and a Reporter. It writes all the values to the output using the OutputCollector.
+
+Dependencies: IdentityReducer is part of the org.apache.hadoop.mapred.lib package and depends on the MapReduceBase class.

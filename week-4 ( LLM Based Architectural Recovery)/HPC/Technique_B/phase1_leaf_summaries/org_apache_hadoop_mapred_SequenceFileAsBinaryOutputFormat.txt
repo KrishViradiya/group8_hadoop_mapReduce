@@ -1,0 +1,6 @@
+Key Functionality: writes keys, values to SequenceFile in binary(raw) format
+Core Logic: writes key-value pairs to a SequenceFile in binary format
+Inputs/Outputs: 
+  - Input: key, value
+  - Output: key, value
+Dependencies: org.apache.hadoop.io.BytesWritable, org.apache.hadoop.io.SequenceFile, org.apache.hadoop.io.compress.CompressionCodec, org.apache.hadoop.io.compress.DefaultCodec, org.apache.hadoop.util.Progressable, org.apache.hadoop.util.ReflectionUtils

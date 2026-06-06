@@ -1,0 +1,4 @@
+Key Functionality: Manages in-memory map-outputs.
+Core Logic: Maintains a byte array for map-outputs and handles compression.
+Inputs/Outputs: Manages byte array for map-outputs.
+Dependencies: CompressionCodec, Decompressor, Configuration, TaskAttemptID, MergeManagerImpl.

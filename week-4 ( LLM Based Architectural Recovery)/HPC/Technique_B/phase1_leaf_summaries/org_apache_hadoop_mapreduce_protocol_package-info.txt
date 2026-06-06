@@ -1,0 +1,7 @@
+Key Functionality: The code provides a private, stable interface for MapReduce functionality.
+
+Core Logic: The code defines the MapReduce protocol, which includes methods for submitting jobs, monitoring job status, and retrieving job results.
+
+Inputs/Outputs: The code defines input and output formats for MapReduce jobs, including methods for setting input paths, output paths, and input formats.
+
+Dependencies: The code depends on the org.apache.hadoop.classification package for audience and stability annotations.

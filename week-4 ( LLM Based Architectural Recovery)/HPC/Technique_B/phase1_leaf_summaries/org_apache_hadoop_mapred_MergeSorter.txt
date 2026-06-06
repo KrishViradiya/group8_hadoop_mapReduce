@@ -1,0 +1,4 @@
+Key Functionality: Sorts the intermediate map-outputs by key using a mergesort algorithm.
+Core Logic: The sort method is derived from BasicTypeSorterBase and overridden to use the MergeSort algorithm.
+Inputs/Outputs: The input is the intermediate map-outputs, and the output is the sorted map-outputs.
+Dependencies: The MergeSort algorithm is dependent on the Comparator interface.

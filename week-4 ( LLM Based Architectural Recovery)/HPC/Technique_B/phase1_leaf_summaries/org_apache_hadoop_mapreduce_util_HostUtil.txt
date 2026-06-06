@@ -1,0 +1,4 @@
+Key Functionality: Construct the taskLogUrl
+Core Logic: Always throws RuntimeException because this method is not supposed to be called at runtime.
+Inputs/Outputs: taskTrackerHostName, httpPort, taskAttemptID
+Dependencies: None

@@ -1,0 +1,4 @@
+Key Functionality: Extracts specific fields from input data and generates key-value pairs.
+Core Logic: The code processes input data, splits it into fields based on a user-specified separator, and selects the desired fields for map output keys and values.
+Inputs/Outputs: The input data is treated as fields separated by a user-specified separator. The map output keys and values are formed by selecting specific fields from the input data.
+Dependencies: The code depends on the org.apache.hadoop.io.Text class for input and output data handling.

@@ -1,0 +1,4 @@
+Key Functionality: Handle resource bundles in a saner way
+Core Logic: Provide a helper class to get resource bundles and retrieve resources from them.
+Inputs/Outputs: bundleName (String), key (String), suffix (String), defaultValue (T)
+Dependencies: ResourceBundle, MissingResourceException, ClassCastException

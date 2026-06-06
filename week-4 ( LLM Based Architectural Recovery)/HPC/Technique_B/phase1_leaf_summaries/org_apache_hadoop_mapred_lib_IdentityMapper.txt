@@ -1,0 +1,4 @@
+Key Functionality: Maps inputs directly to outputs.
+Core Logic: Input key/value pair is written directly to output.
+Inputs/Outputs: K key, V val, OutputCollector<K, V> output, Reporter reporter
+Dependencies: None

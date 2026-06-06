@@ -1,0 +1,18 @@
+/**
+ * Implementation of manifest store operations through the filesystem API.
+ * This class is subclassed in the ABFS module, which does add the resilient
+ * commit method.
+ */
+@InterfaceAudience.LimitedPrivate("mapreduce, object-stores")
+@InterfaceStability.Unstable
+public class ManifestStoreOperationsThroughFileSystem extends ManifestStoreOperations {
+
+  /**
+   * Filesystem; set in {@link #bindToFileSystem(FileSystem, Path)}.
+   */
+  private FileSystem fileSystem;
+
+  /**
+   * Has a call to FileSystem.msync() failed as unsupported?
+   * If so, no new attempts will be made when
+   * (@link {@

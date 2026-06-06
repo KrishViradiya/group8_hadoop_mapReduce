@@ -1,0 +1,4 @@
+Key Functionality: Maintains the biggest of a sequence of strings.
+Core Logic: Compares each new string value with the current maximum value and updates the maximum if the new value is greater.
+Inputs/Outputs: Accepts string values and returns the maximum string value.
+Dependencies: None.

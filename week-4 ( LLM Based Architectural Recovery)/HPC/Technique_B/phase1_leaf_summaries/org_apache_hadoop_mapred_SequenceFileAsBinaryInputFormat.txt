@@ -1,0 +1,4 @@
+Key Functionality: Read records from a SequenceFile as binary (raw) bytes.
+Core Logic: The SequenceFileAsBinaryRecordReader class implements the RecordReader interface to read records from a SequenceFile in binary format.
+Inputs/Outputs: The SequenceFileAsBinaryRecordReader reads records from a SequenceFile and returns the key and value as BytesWritable objects.
+Dependencies: The SequenceFileAsBinaryRecordReader class depends on the SequenceFile.Reader class for reading the SequenceFile.

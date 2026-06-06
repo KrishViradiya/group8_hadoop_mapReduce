@@ -1,0 +1,4 @@
+Key Functionality: Breaks files into lines and divides each line into key and value parts by a separator byte.
+Core Logic: Uses a CompressionCodecFactory to determine if a file is splittable.
+Inputs/Outputs: Input: FileSystem, Path; Output: Text, Text
+Dependencies: CompressionCodecFactory, CompressionCodec, SplittableCompressionCodec

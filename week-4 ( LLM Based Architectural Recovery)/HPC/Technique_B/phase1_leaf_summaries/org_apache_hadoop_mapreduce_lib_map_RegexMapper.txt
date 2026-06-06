@@ -1,0 +1,4 @@
+Key Functionality: Extracts text matching a regular expression.
+Core Logic: The mapper uses a regular expression pattern to match and extract text from input data.
+Inputs/Outputs: The mapper takes input key-value pairs, where the value is the text to be processed. It outputs key-value pairs, where the key is the extracted text and the value is a LongWritable indicating the count of occurrences.
+Dependencies: The mapper depends on the Configuration object to retrieve the regular expression pattern and group index.

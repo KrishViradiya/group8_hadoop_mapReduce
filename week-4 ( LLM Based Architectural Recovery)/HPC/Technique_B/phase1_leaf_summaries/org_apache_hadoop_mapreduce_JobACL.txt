@@ -1,0 +1,4 @@
+Key Functionality: Job related ACLs
+Core Logic: The JobACL enum defines the access control lists (ACLs) for jobs in the Hadoop MapReduce framework.
+Inputs/Outputs: The enum has two values: VIEW_JOB and MODIFY_JOB, each with a corresponding ACL name.
+Dependencies: This code is part of the Hadoop MapReduce framework and depends on the MRJobConfig class for configuration properties.

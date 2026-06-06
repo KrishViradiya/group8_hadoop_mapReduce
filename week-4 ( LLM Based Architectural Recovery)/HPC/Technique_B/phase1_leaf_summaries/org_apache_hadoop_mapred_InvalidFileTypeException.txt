@@ -1,0 +1,4 @@
+Key Functionality: Used when file type differs from the desired file type.
+Core Logic: Thrown when a file is expected but a directory is found, or when the file type is incorrect.
+Inputs/Outputs: None
+Dependencies: IOException class

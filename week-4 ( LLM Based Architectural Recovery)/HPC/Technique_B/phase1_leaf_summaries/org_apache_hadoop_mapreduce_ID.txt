@@ -1,0 +1,4 @@
+Key Functionality: Abstract class for all IDs used by Hadoop.
+Core Logic: Stores an integer ID and provides methods to manipulate and compare IDs.
+Inputs/Outputs: None
+Dependencies: None

@@ -1,0 +1,11 @@
+Key Functionality:
+- Callbacks on stage entry/exit.
+
+Core Logic:
+- The class provides methods to handle stage entry and exit events.
+
+Inputs/Outputs:
+- The class does not take any inputs.
+- It provides methods to register callback functions for stage entry and exit events.
+
+Dependencies:

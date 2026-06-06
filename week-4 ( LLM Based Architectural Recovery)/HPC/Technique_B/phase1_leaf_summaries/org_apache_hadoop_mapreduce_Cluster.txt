@@ -1,0 +1,4 @@
+Key Functionality: Submits a MapReduce job to the cluster and returns immediately.
+Core Logic: Connects to the JobTracker and submits the job.
+Inputs/Outputs: Job configuration, job jar, input splits.
+Dependencies: FileSystem, JobConf, ClientProtocol.

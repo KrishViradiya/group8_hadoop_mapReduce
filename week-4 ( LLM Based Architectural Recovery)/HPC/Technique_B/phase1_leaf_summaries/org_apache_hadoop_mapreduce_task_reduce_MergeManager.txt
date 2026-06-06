@@ -1,0 +1,13 @@
+Key Functionality:
+- Waits for merge to have available resources before accepting shuffled data.
+- Reserves resources for shuffled data after a network connection is made.
+
+Core Logic:
+- Manages resources for shuffled data and waits for available resources.
+
+Inputs/Outputs:
+- mapId: mapper from which data will be shuffled.
+- requestedSize: size in bytes of data that will be shuffled.
+- fetcher: id of the map output fetcher that will shuffle the data.
+
+Dependencies:

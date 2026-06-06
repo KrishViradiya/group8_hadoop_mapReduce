@@ -1,0 +1,4 @@
+Key Functionality: Breaks files into lines.
+Core Logic: Uses linefeed or carriage-return to signal end of line.
+Inputs/Outputs: Keys are position in file, values are line of text.
+Dependencies: org.apache.hadoop.io.LongWritable, org.apache.hadoop.io.Text, org.apache.hadoop.io.compress.

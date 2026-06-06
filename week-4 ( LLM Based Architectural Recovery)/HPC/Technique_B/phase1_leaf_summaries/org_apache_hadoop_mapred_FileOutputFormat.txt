@@ -1,0 +1,4 @@
+Key Functionality: Base class for OutputFormat.
+Core Logic: Manages the writing of data to HDFS.
+Inputs/Outputs: K - key, V - value
+Dependencies: org.apache.hadoop.mapreduce.lib.output.FileOutputFormat, org.apache.hadoop.mapreduce.security.TokenCache, org.apache.hadoop.fs.FileSystem, org.apache.hadoop.fs.Path, org.apache.hadoop.io.compress.CompressionCodec, org.apache.hadoop.util.Progressable

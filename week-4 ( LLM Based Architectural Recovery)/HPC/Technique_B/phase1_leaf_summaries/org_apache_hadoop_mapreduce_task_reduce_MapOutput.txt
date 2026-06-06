@@ -1,0 +1,4 @@
+Key Functionality: Manages the data and metadata of a map output.
+Core Logic: Maintains the map ID, size, and primary map output status.
+Inputs/Outputs: mapId (TaskAttemptID), size (long), primaryMapOutput (boolean)
+Dependencies: None

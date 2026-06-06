@@ -1,0 +1,4 @@
+Key Functionality: Reads key-value pairs from a SequenceFile.
+Core Logic: Uses a SequenceFile.Reader to read key-value pairs from a file.
+Inputs/Outputs: The input is a FileSplit, which specifies the file to read from. The output is a key-value pair read from the file.
+Dependencies: SequenceFile.Reader, FileSplit, FileSystem, Path, Configuration.

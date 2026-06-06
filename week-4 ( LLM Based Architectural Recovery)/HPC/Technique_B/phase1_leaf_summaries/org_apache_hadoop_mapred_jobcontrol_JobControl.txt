@@ -1,0 +1,4 @@
+Key Functionality: Submit and manage a group of MapReduce jobs.
+Core Logic: The JobControl class provides methods for submitting jobs, adding them to the group, and monitoring their status.
+Inputs/Outputs: The class takes a group name as input and provides methods to retrieve waiting, running, and ready jobs.
+Dependencies: The class depends on the ControlledJob class from the mapreduce library.

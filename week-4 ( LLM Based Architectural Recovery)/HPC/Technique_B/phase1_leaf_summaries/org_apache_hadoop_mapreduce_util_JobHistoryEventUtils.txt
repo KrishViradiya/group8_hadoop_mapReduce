@@ -1,0 +1,4 @@
+Key Functionality: Extracts semantic summary from a MapReduce codebase.
+Core Logic: Extracts information such as dependencies, inputs/outputs, and key functionality.
+Inputs/Outputs: List of classes, data, and Java code.
+Dependencies: Jackson library for JSON parsing.

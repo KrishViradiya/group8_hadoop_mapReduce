@@ -1,0 +1,4 @@
+Key Functionality: [Parses input files as line records]
+Core Logic: [Uses a CompressionCodec to read from a split]
+Inputs/Outputs: [BytesWritable key, BytesWritable value]
+Dependencies: [CompressionCodecFactory, Configuration, FSDataInputStream, FutureDataInputStreamBuilder, IOException, InputStream, LongWritable, Path, Seekable]

@@ -1,0 +1,4 @@
+Key Functionality: Job initialization event
+Core Logic: Records job initialization with job ID, launch time, total maps, total reduces, job status, and uberization status.
+Inputs/Outputs: jobid (JobID), launchTime (long), totalMaps (int), totalReduces (int), jobStatus (String), uberized (boolean)
+Dependencies: None

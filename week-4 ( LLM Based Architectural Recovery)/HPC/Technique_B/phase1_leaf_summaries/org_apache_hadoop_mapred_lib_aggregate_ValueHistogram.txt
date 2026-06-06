@@ -1,0 +1,4 @@
+Key Functionality: Computes the histogram of a sequence of strings.
+Core Logic: Maintains a map of strings to their frequency counts.
+Inputs/Outputs: Accepts strings as input and outputs a map of strings to their frequency counts.
+Dependencies: org.apache.hadoop.mapreduce.lib.aggregate.ValueHistogram

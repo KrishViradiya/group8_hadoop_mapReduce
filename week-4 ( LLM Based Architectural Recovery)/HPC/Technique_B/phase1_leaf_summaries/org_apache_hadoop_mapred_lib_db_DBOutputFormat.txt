@@ -1,0 +1,4 @@
+Key Functionality: Writes reduce output to a SQL table
+Core Logic: Opens a connection to the database, prepares an insert statement, and writes each key/value pair to the database table
+Inputs/Outputs: K: DBWritable, V: None
+Dependencies: org.apache.hadoop.mapreduce.lib.db.DBOutputFormat, org.apache.hadoop.mapred.RecordWriter, org.apache.hadoop.mapreduce.TaskAttemptID, org.apache.hadoop.mapreduce.task.TaskAttemptContextImpl, org.apache.hadoop.util.Progressable

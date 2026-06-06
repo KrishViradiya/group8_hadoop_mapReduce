@@ -1,0 +1,7 @@
+Key Functionality: Keeps track of the "head" key-value pair for the provided RecordReader and keeps a store of values matching a key when this source is participating in a join.
+
+Core Logic: The class provides a way to manage key-value pairs and store values matching a key when participating in a join.
+
+Inputs/Outputs: The class takes a RecordReader as input and provides methods to retrieve the key and value at the top of the RecordReader. It also allows adding values to a collector.
+
+Dependencies: The class depends on the RecordReader, Writable, WritableComparable, WritableComparator, Configuration, and other related classes.

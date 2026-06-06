@@ -1,0 +1,4 @@
+Key Functionality: Joins values sharing a common key.
+Core Logic: Maintains a priority queue of RecordReaders.
+Inputs/Outputs: Accepts RecordReaders as children, emits Writables.
+Dependencies: Configuration, Writable, WritableComparable.

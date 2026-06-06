@@ -1,0 +1,4 @@
+Key Functionality: Submits a job to the MapReduce framework.
+Core Logic: Submits a job to the MapReduce framework.
+Inputs/Outputs: jobConf: a mapred job configuration representing a job to be executed.
+Dependencies: dependingJobs: an array of jobs the current job depends on

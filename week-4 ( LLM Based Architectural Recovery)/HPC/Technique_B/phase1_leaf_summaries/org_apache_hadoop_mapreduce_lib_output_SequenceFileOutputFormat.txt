@@ -1,0 +1,4 @@
+Key Functionality: Write SequenceFile format.
+Core Logic: Write key-value pairs to a SequenceFile.
+Inputs/Outputs: K: key class, V: value class
+Dependencies: org.apache.hadoop.io.SequenceFile, org.apache.hadoop.io.compress.CompressionCodec, org.apache.hadoop.mapreduce.lib.output.FileOutputFormat

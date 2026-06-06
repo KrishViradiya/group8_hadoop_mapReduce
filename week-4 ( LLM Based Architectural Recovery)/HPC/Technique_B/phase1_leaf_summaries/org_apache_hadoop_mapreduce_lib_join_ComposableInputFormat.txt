@@ -1,0 +1,4 @@
+Key Functionality: Abstracts a data-source as input for a MapReduce job.
+Core Logic: Defines createRecordReader() to create a ComposableRecordReader for a given InputSplit.
+Inputs/Outputs: InputSplit, TaskAttemptContext
+Dependencies: WritableComparable, Writable, InputFormat, IOException, InterruptedException

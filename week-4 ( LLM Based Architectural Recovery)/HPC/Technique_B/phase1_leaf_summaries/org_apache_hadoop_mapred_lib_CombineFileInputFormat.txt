@@ -1,0 +1,4 @@
+Key Functionality: Abstract InputFormat that returns CombineFileSplit's
+Core Logic: Returns CombineFileSplit's in getSplits() method.
+Inputs/Outputs: List data
+Dependencies: List classes

@@ -1,0 +1,4 @@
+Key Functionality: Abstract class for single/multiple commit data structures.
+Core Logic: None
+Inputs/Outputs: None
+Dependencies: None

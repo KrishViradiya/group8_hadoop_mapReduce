@@ -1,0 +1,4 @@
+Key Functionality: Controls the partitioning of the keys of the intermediate map-outputs.
+Core Logic: Derives the partition typically by a hash function.
+Inputs/Outputs: Key and value are used to derive the partition.
+Dependencies: None

@@ -1,0 +1,4 @@
+Key Functionality: Splits N lines of input as one split.
+Core Logic: Reads input from a file and splits it into N line-sized chunks.
+Inputs/Outputs: Input: Path to input file; Output: Array of N line-sized chunks.
+Dependencies: org.apache.hadoop.mapred.FileInputFormat, org.apache.hadoop.mapred.FileSplit, org.apache.hadoop.mapred.InputSplit, org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.JobConfigurable, org.apache.hadoop.mapred.LineRecordReader, org.apache.hadoop.mapred.RecordReader, org.apache.hadoop.mapred.Reporter, org.apache.hadoop.io.LongWritable, org.apache.hadoop.io.Text, java.io.IOException, java.util.ArrayList, org.apache.hadoop.fs.FileStatus, org.apache.hadoop.fs.Path.

@@ -1,0 +1,4 @@
+Key Functionality: Annotation representing that the task can be safely preempted and restarted between invocations of the user-defined function.
+Core Logic: The result of a function does not rely on state derived from previous elements in the record stream.
+Inputs/Outputs: None
+Dependencies: None

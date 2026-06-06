@@ -1,0 +1,7 @@
+Key Functionality: Represents the state of a queue in a MapReduce system.
+
+Core Logic: The QueueState enum provides a way to define and retrieve the state of a queue, with options for "stopped", "running", and "undefined".
+
+Inputs/Outputs: The enum has no inputs or outputs, as it is used to define and retrieve states.
+
+Dependencies: The enum is used in the MapReduce system, and may have dependencies on other classes or systems.

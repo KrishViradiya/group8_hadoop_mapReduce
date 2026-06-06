@@ -1,0 +1,4 @@
+Key Functionality: Divides the spectrum of progress from 0.0D to 1.0D into a specified number of buckets.
+Core Logic: Overrides extendInternal() and initializeInterval() to fold readings for portions of a bucket and interpret readings.
+Inputs/Outputs: None
+Dependencies: None

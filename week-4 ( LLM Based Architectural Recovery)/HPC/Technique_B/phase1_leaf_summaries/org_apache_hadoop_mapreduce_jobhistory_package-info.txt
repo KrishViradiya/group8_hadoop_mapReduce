@@ -1,0 +1,7 @@
+Key Functionality: org.apache.hadoop.mapreduce.jobhistory contains classes for MapReduce job history files.
+
+Core Logic: The classes in this package provide functionality for reading and writing job history files.
+
+Inputs/Outputs: The input to the classes in this package is a job history file, and the output is a data structure containing the parsed contents of the file.
+
+Dependencies: The classes in this package depend on the org.apache.hadoop.mapreduce package and the org.apache.hadoop.mapreduce.jobhistory package.

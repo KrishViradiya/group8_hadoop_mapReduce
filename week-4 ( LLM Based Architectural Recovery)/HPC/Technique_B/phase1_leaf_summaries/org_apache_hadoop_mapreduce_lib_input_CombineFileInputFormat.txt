@@ -1,0 +1,12 @@
+Key Functionality:
+- This class is an implementation of InputFormat for reading whole files.
+
+Core Logic:
+- This class is responsible for dividing the input file into splits based on the block size of the file and the configured split size.
+- It also handles the creation of RecordReaders for each split.
+
+Inputs/Outputs:
+- The input to this class is a Path, which represents the file to be read.
+- The output is a collection of InputSplit objects, which represent the splits of the file.
+
+Dependencies:

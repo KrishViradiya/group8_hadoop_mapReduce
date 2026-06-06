@@ -1,0 +1,4 @@
+Key Functionality: Default MapRunnable implementation.
+Core Logic: Allocates key and value instances that are re-used for all entries. While there are more entries to process, it calls the map function of the mapper.
+Inputs/Outputs: RecordReader, OutputCollector, Reporter.
+Dependencies: Mapper, JobConf, ReflectionUtils, SkipBadRecords.

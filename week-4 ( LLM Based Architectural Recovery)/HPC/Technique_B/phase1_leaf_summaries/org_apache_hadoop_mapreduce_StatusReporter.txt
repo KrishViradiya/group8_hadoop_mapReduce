@@ -1,0 +1,4 @@
+Key Functionality: Abstract class for reporting the status of the task.
+Core Logic: The class provides methods for getting counters, progress, and setting status.
+Inputs/Outputs: The class has abstract methods for getting counters, progress, and setting status.
+Dependencies: The class is part of the Hadoop MapReduce framework.

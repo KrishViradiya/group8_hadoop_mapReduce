@@ -1,0 +1,4 @@
+Key Functionality: An InputFormat for SequenceFiles.
+Core Logic: The core logic of this InputFormat is to list all the files in the given input paths and check if they are directories. If they are directories, it will use the data file inside the directory.
+Inputs/Outputs: The input paths are the paths given to the setInputPaths() method. The output is the list of files that will be processed by the job.
+Dependencies: This InputFormat depends on the SequenceFile class and the MapFile class.

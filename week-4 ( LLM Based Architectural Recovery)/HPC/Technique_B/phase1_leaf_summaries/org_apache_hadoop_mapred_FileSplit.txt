@@ -1,0 +1,4 @@
+Key Functionality: Divides input data into chunks for processing by individual map tasks.
+Core Logic: Defines the start and end positions of the data chunk and provides methods for retrieving the file path, start position, end position, and hosts.
+Inputs/Outputs: File path, start position, end position, and optional hosts.
+Dependencies: org.apache.hadoop.mapreduce.lib.input.FileSplit

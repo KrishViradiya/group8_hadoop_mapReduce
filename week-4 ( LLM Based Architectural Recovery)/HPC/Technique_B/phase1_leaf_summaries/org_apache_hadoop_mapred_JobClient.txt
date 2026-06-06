@@ -1,0 +1,4 @@
+Key Functionality: Submits jobs to the Hadoop framework.
+Core Logic: The core logic of this class is to submit jobs to the Hadoop framework.
+Inputs/Outputs: The inputs to this class are job configuration files and input data. The outputs are the results of the jobs.
+Dependencies: This class depends on the Hadoop framework and its dependencies.

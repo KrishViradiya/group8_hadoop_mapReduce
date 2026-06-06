@@ -1,0 +1,7 @@
+Key Functionality: NormalizedResourceEvent records the normalized map/reduce requirements.
+
+Core Logic: The event contains the task type and the normalized memory requirements.
+
+Inputs/Outputs: The event has no inputs. The normalized memory requirements are stored as a long value.
+
+Dependencies: The event does not have any dependencies.

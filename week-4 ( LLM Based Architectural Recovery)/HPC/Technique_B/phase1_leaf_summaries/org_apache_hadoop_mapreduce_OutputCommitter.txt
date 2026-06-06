@@ -1,0 +1,10 @@
+Key Functionality:coordinates the commit of task output for a Map-Reduce job.
+Core Logic:The Map-Reduce framework relies on the OutputCommitter of the job to:
+- Setup the job during initialization.
+- Cleanup the job after the job completion.
+- Setup the task temporary output.
+- Check whether a task needs a commit.
+- Commit of the task output.
+- Discard the task commit.
+Inputs/Outputs:List data.
+Dependencies:List classes.

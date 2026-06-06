@@ -1,0 +1,4 @@
+Key Functionality: A generic RecordReader that can hand out different recordReaders for each chunk in a CombineFileSplit.
+Core Logic: The class allows using different RecordReaders for processing data chunks from different files.
+Inputs/Outputs: CombineFileSplit, TaskAttemptContext
+Dependencies: org.apache.hadoop.mapreduce, org.apache.hadoop.classification

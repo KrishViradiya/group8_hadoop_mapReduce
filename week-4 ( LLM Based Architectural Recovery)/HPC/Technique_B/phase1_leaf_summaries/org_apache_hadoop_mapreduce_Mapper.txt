@@ -1,0 +1,4 @@
+Key Functionality: Transforms input key/value pairs to a set of intermediate key/value pairs.
+Core Logic: The transformed intermediate records need not be of the same type as the input records.
+Inputs/Outputs: Input key/value pairs, intermediate key/value pairs.
+Dependencies: org.apache.hadoop.classification, org.apache.hadoop.conf, org.apache.hadoop.io, org.apache.hadoop.mapreduce.

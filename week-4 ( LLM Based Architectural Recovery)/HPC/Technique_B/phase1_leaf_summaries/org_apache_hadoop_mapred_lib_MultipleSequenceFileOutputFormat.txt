@@ -1,0 +1,7 @@
+Key Functionality: Write output data to different output files in sequence file output format.
+
+Core Logic: Extends the MultipleOutputFormat and overrides the getBaseRecordWriter method to use the SequenceFileOutputFormat for writing the output data.
+
+Inputs/Outputs: The input is a FileSystem, JobConf, String name, and Progressable. The output is a RecordWriter.
+
+Dependencies: The class depends on the SequenceFileOutputFormat and MultipleOutputFormat classes.

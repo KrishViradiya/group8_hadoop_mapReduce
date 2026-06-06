@@ -1,0 +1,4 @@
+Key Functionality: Write MapFile
+Core Logic: The core logic of this class is to write MapFile.
+Inputs/Outputs: The input is a key-value pair. The output is a MapFile.
+Dependencies: This class depends on the classes MapFile, Writable, and WritableComparable.

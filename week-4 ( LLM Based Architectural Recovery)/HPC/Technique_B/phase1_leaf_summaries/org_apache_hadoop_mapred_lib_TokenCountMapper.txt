@@ -1,0 +1,4 @@
+Key Functionality: Maps text values into <token,freq> pairs.
+Core Logic: Breaks text into tokens using StringTokenizer and outputs <token,1> pairs.
+Inputs/Outputs: Text value as input, <token,1> pairs as output.
+Dependencies: None.

@@ -1,0 +1,18 @@
+Key Functionality:
+- The class is responsible for creating manifest files for each task attempt.
+- It also handles the creation of manifest files for each directory.
+- It is capable of creating manifest files for both the task attempt and the directory.
+- It is also responsible for creating manifest files for each task attempt and directory.
+
+Core Logic:
+- The class uses a Map to store the manifest files for each task attempt.
+- It also uses a Map to store the manifest files for each directory.
+- It uses a ConcurrentHashMap to store the manifest files for each task attempt.
+- It uses a ConcurrentHashMap to store the manifest files for each directory.
+
+Inputs/Outputs:
+- The class takes in a Path and a String as inputs.
+- It returns a Map of manifest files for each task attempt.
+- It returns a Map of manifest files for each directory.
+
+Dependencies:

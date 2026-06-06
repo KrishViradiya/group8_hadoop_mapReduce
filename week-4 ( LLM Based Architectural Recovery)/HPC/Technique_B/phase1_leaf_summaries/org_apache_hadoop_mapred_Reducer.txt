@@ -1,0 +1,13 @@
+Key Functionality:
+- Reduces a set of intermediate values which share a key to a smaller set of values.
+
+Core Logic:
+- The number of Reducers for the job is set by the user via JobConf#setNumReduceTasks(int).
+- Reducers can access the JobConf for the job via the JobConfigurable#configure(JobConf) method and initialize themselves.
+- Similarly, they can use the Closeable#close() method for de-initialization.
+
+Inputs/Outputs:
+- Reducers are input the grouped output of a Mapper.
+- The framework fetches the relevant partition of the output of all the Mappers, via HTTP.
+
+Dependencies:

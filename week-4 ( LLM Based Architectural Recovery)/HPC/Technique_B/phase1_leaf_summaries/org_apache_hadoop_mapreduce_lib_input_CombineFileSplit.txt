@@ -1,0 +1,4 @@
+Key Functionality: Represents a sub-collection of input files.
+Core Logic: Divides input files into smaller sets, with blocks from different files potentially on different racks.
+Inputs/Outputs: Paths, start offsets, lengths, and locations of the input files.
+Dependencies: None

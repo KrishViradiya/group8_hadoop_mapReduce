@@ -1,0 +1,4 @@
+Key Functionality: Committer which creates the factory for the committer and runs off that.
+Core Logic: The committer delegates all commit protocol methods and accessors to the wrapped committer.
+Inputs/Outputs: The committer takes a classname of committer in a configuration option and sets the actual implementation dynamically by the factory options and destination filesystem.
+Dependencies: The committer depends on the wrapped committer.

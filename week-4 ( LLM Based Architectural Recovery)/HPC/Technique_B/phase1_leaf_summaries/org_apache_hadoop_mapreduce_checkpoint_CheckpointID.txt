@@ -1,0 +1,7 @@
+Key Functionality: Identifies a checkpoint by containing metadata and providing sufficient information for the corresponding CheckpointService to locate and retrieve the checkpoint data.
+
+Core Logic: None
+
+Inputs/Outputs: None
+
+Dependencies: Writable

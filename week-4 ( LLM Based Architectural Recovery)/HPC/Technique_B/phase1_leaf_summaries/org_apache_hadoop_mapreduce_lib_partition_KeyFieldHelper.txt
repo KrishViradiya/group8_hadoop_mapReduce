@@ -1,0 +1,4 @@
+Key Functionality: [Sorts or partitions based on key fields]
+Core Logic: [Parses key specifications and performs comparisons]
+Inputs/Outputs: [Key fields, character positions, ordering options]
+Dependencies: [UTF8ByteArrayUtils, StandardCharsets]

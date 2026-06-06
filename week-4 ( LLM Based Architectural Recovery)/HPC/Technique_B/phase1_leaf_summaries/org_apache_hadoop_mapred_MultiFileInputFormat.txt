@@ -1,0 +1,4 @@
+Key Functionality: Abstract InputFormat that returns MultiFileSplit's in getSplits() method.
+Core Logic: Splits are constructed from the files under the input paths. Each split returned contains nearly equal content length.
+Inputs/Outputs: List data
+Dependencies: List classes

@@ -1,0 +1,4 @@
+Key Functionality: Partitions keys by their Object#hashCode().
+Core Logic: Uses Object#hashCode() to determine the partition.
+Inputs/Outputs: K2: key, V2: value
+Dependencies: None

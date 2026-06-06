@@ -1,0 +1,4 @@
+Key Functionality: Communicates task completion events and reset flag between tasktracker and child tasks.
+Core Logic: Handles the communication and storage of task completion events, as well as the reset flag.
+Inputs/Outputs: TaskCompletionEvent array, boolean reset flag.
+Dependencies: org.apache.hadoop.io.Writable, org.apache.hadoop.classification.InterfaceAudience, org.apache.hadoop.classification.InterfaceStability.

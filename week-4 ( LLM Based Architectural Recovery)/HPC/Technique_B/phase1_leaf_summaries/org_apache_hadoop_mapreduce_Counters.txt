@@ -1,0 +1,4 @@
+Key Functionality: Holds per job/task counters, defined by the Map-Reduce framework or applications.
+Core Logic: Bunches counters into groups, each comprising of counters from a particular Enum class.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.counters

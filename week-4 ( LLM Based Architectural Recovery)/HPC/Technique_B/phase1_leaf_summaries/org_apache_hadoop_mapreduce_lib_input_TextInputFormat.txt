@@ -1,0 +1,4 @@
+Key Functionality: An InputFormat for plain text files.
+Core Logic: Files are broken into lines. Either linefeed or carriage-return are used to signal end of line. Keys are the position in the file, and values are the line of text.
+Inputs/Outputs: InputSplit, TaskAttemptContext
+Dependencies: FileInputFormat, LongWritable, Text

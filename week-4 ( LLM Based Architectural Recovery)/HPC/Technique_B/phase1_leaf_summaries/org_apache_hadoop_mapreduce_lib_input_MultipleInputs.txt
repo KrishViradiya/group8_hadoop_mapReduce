@@ -1,0 +1,4 @@
+Key Functionality: Add a Path with a custom InputFormat to the list of inputs for the map-reduce job.
+Core Logic: The method takes a Job, Path, and InputFormat as parameters and adds the Path to the list of inputs for the job, along with the specified InputFormat.
+Inputs/Outputs: The method takes a Job, Path, and InputFormat as parameters and returns void.
+Dependencies: The method depends on the Job, Path, and InputFormat classes.

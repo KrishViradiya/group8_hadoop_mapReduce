@@ -1,0 +1,4 @@
+Key Functionality: A group of counters that logically belong together.
+Core Logic: Typically, it is an Enum subclass and the counters are the values.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.counters.CounterGroupBase

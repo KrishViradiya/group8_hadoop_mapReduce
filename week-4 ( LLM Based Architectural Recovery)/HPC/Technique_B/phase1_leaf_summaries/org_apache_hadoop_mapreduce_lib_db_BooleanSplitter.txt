@@ -1,0 +1,13 @@
+Key Functionality:
+- Split boolean values into true and false.
+
+Core Logic:
+- If the range is null to null, return a null split accordingly.
+- If the minimum value is false, add a split for false.
+- If the maximum value is true, add a split for true.
+
+Inputs/Outputs:
+- Input: ResultSet containing boolean values
+- Output: List of InputSplit objects
+
+Dependencies:

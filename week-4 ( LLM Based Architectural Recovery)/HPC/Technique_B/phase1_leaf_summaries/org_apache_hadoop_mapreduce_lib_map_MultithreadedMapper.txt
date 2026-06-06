@@ -1,0 +1,4 @@
+Key Functionality: Multithreaded implementation for Mapper.
+Core Logic: It can be used instead of the default implementation, which processes data sequentially.
+Inputs/Outputs: The input is the data to be processed, and the output is the processed data.
+Dependencies: The class depends on the Mapper class and its dependencies.

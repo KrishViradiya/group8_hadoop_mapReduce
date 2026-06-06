@@ -1,0 +1,4 @@
+Key Functionality: Identifies a Map or Reduce Task.
+Core Logic: Combines JobID, task type (map or reduce), and task number.
+Inputs/Outputs: JobID, task type, task number.
+Dependencies: None.

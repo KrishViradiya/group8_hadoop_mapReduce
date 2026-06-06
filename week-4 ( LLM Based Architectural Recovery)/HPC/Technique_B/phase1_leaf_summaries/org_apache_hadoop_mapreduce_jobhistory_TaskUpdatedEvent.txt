@@ -1,0 +1,4 @@
+Key Functionality: Event to record updates to a task
+Core Logic: Create an event to record task updates
+Inputs/Outputs: Id of the task, finish time of the task
+Dependencies: TaskID, finish time

@@ -1,0 +1,12 @@
+Key Functionality:
+- This class is responsible for building a manifest of files and directories created by a task.
+
+Core Logic:
+- The buildManifest method iterates through the output directory and its subdirectories, creating manifest entries for each file and directory.
+- It also calculates statistics such as the mean directory count and directory depth.
+
+Inputs/Outputs:
+- The buildManifest method takes a Path parameter representing the output directory and returns a TaskManifest object.
+- It uses the listStatusIterator method to iterate through the directory and its subdirectories.
+
+Dependencies:

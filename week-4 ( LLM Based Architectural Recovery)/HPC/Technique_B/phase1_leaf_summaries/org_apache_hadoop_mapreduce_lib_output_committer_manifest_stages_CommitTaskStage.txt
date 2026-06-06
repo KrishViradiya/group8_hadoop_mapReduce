@@ -1,0 +1,4 @@
+Key Functionality: Commit a task attempt.
+Core Logic: Scan the task attempt directories through TaskAttemptScanDirectoryStage and then save to the task manifest path at SaveTaskManifestStage.
+Inputs/Outputs: List data.
+Dependencies: List classes.

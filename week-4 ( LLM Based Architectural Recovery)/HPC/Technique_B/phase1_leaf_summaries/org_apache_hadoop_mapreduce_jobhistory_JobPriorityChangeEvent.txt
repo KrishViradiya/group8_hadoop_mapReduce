@@ -1,0 +1,4 @@
+Key Functionality: Change the priority of a job
+Core Logic: Set the new priority of the job
+Inputs/Outputs: Job ID, New job priority
+Dependencies: None

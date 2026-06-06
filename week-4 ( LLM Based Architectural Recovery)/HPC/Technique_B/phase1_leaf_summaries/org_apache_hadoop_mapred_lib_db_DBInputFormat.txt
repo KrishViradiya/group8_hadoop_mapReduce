@@ -1,0 +1,4 @@
+Key Functionality: DBInputFormat is a MapReduce InputFormat for reading data from a SQL table.
+Core Logic: DBInputFormat uses a DBRecordReader to read records from a SQL table and emits LongWritable keys containing the record number and DBWritable values.
+Inputs/Outputs: DBInputFormat takes a DBInputFormat.DBInputSplit as input and emits LongWritable keys and DBWritable values.
+Dependencies: DBInputFormat depends on the org.apache.hadoop.mapreduce.lib.db package.

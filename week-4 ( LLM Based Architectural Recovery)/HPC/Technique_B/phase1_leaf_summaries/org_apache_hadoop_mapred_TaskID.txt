@@ -1,0 +1,4 @@
+Key Functionality: Represents the immutable and unique identifier for a Map or Reduce Task.
+Core Logic: TaskID consists of 3 parts: JobID, task type (map or reduce), and task number.
+Inputs/Outputs: TaskID is used to identify tasks and their attempts.
+Dependencies: None.

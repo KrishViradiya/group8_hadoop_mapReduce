@@ -1,0 +1,17 @@
+Key Functionality:
+- The code is a part of the MapReduce framework and is used for committing tasks in a fault-tolerant manner.
+- It handles the process of creating and updating manifest files to track the output of each task.
+
+Core Logic:
+- The code defines a class called "ManifestCommitterStage" which is responsible for committing task outputs and updating manifest files.
+- It uses a ManifestStoreOperations instance to interact with the manifest store, which is used to read and write manifest files.
+- The commitTask() method is the entry point for committing task outputs. It creates a manifest for the task, updates the manifest store, and returns the manifest.
+- The createManifest() method creates a new manifest for the task, including adding file entries for all output files.
+- The updateManifestStore() method updates the manifest store with the new manifest.
+
+Inputs/Outputs:
+- The commitTask() method takes a manifest name, a task attempt ID, and a task manifest as input.
+- The createManifest() method takes a manifest name, a task attempt ID, and a task manifest as input.
+- The updateManifestStore() method takes a manifest name and a task manifest as input.
+
+Dependencies:

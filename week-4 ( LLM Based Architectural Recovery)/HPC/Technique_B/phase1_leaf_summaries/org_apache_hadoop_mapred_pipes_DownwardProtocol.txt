@@ -1,0 +1,4 @@
+Key Functionality: Communicates with a child process to set up and execute a MapReduce task.
+Core Logic: Handles authentication, starts communication, sets JobConf, input types, and runs a map task.
+Inputs/Outputs: JobConf, input split, number of reduces, piped input.
+Dependencies: org.apache.hadoop.io.Writable, org.apache.hadoop.io.WritableComparable, org.apache.hadoop.mapred.InputSplit, org.apache.hadoop.mapred.JobConf.

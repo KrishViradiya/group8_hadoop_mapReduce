@@ -1,0 +1,4 @@
+Key Functionality: Manages a cache of index information for MapReduce jobs.
+Core Logic: Maintains a cache of index information, reading files into cache if necessary, and evicting least recently used entries when the cache exceeds a specified memory limit.
+Inputs/Outputs: Caches index information for a specific mapId and reduce, reading from a file if necessary.
+Dependencies: java.util.concurrent, org.apache.hadoop.mapreduce, org.slf4j.Logger.

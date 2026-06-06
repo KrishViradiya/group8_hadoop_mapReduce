@@ -1,0 +1,7 @@
+Key Functionality: CombineTextInputFormat is a CombineFileInputFormat-equivalent for TextInputFormat.
+
+Core Logic: It creates a CombineFileRecordReader that can be used in a CombineFileInputFormat-equivalent for TextInputFormat.
+
+Inputs/Outputs: The input is an InputSplit, and the output is a RecordReader.
+
+Dependencies: It depends on the classes CombineFileInputFormat, CombineFileRecordReader, and TextRecordReaderWrapper.

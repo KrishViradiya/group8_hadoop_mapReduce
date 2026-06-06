@@ -1,0 +1,4 @@
+Key Functionality: Manages the map-reduce job token (JobToken) for authentication.
+Core Logic: The JobTokenIdentifier class represents the token identifier and the JobTokenSecretManager class is responsible for creating and verifying tokens.
+Inputs/Outputs: JobTokenIdentifier contains information about the job and the user, while JobTokenSecretManager generates and authenticates these tokens.
+Dependencies: The classes in this package depend on the Hadoop common and mapreduce libraries.

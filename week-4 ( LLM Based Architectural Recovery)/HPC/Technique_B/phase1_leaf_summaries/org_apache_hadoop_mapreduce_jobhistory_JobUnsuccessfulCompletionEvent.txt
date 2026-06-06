@@ -1,0 +1,4 @@
+Key Functionality: Failed and Killed completion of jobs
+Core Logic: The core logic of this event is to record the completion status of a job, whether it was successful or not.
+Inputs/Outputs: The input to this event is the job ID, finish time, number of succeeded maps, number of succeeded reduces, number of failed maps, number of failed reduces, job status, and diagnostics. The output is a completion status for the job.
+Dependencies: This event depends on the JobID, finish time, number of succeeded maps, number of succeeded reduces, number of failed maps, number of failed reduces, job status, and diagnostics.

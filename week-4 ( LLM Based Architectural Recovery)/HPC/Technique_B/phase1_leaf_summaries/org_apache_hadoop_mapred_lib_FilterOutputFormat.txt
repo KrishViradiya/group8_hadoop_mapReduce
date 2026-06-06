@@ -1,0 +1,4 @@
+Key Functionality: Wraps OutputFormat.
+Core Logic: Delegates to base OutputFormat.
+Inputs/Outputs: FileSystem, JobConf, String, Progressable
+Dependencies: OutputFormat, RecordWriter, IOException

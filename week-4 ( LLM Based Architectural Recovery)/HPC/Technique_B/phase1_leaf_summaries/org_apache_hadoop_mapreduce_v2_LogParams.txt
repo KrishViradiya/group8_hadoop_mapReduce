@@ -1,0 +1,4 @@
+Key Functionality: LogParams class for storing log parameters
+Core Logic: Container ID, application ID, node ID, and owner are stored as private variables and can be accessed and modified using getter and setter methods.
+Inputs/Outputs: Container ID, application ID, node ID, and owner are passed as parameters to the constructor and can be retrieved using getter methods.
+Dependencies: None

@@ -1,0 +1,4 @@
+Key Functionality: Emits aggregation id/value pairs.
+Core Logic: Iterates through the value aggregator descriptor list to generate aggregation id/value pairs.
+Inputs/Outputs: K1 key, V1 value, OutputCollector<Text, Text> output
+Dependencies: ValueAggregatorJobBase, ValueAggregatorDescriptor, Text, Writable, WritableComparable, IOException, Iterator, Map.Entry

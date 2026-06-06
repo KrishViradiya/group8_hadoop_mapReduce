@@ -1,0 +1,4 @@
+Key Functionality: Generate a list of aggregation-id/value pairs.
+Core Logic: Guide the way to aggregate the value in the reduce/combiner phrase of an Aggregate based job.
+Inputs/Outputs: aggregation-id/value pairs.
+Dependencies: org.apache.hadoop.mapred.JobConf, org.apache.hadoop.io.Text.

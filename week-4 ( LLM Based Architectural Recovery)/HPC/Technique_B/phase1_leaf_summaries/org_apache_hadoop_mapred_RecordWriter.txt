@@ -1,0 +1,4 @@
+Key Functionality: Writes the output <key, value> pairs to an output file.
+Core Logic: The core logic of this class is to write the job outputs to the FileSystem.
+Inputs/Outputs: The input is a key/value pair, and the output is written to the FileSystem.
+Dependencies: This class depends on the FileSystem class.

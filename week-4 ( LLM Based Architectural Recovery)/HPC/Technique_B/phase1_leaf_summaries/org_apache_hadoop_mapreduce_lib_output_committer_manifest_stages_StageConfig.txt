@@ -1,0 +1,7 @@
+Key Functionality: The code is part of a larger system for managing the commit process of MapReduce tasks. It is responsible for saving the task manifest, which contains information about the output of the task.
+
+Core Logic: The code creates a task manifest and saves it to a specified location. It also handles the creation of the success marker file and the saving of the manifest.
+
+Inputs/Outputs: The code takes in a configuration object, a manifest store operations object, a task manifest object, a path object, a progressable object, and an IOStatisticsStore object as inputs. It does not produce any outputs.
+
+Dependencies: The code depends on the configuration object, manifest store operations object, task manifest object, path object, progressable object, and IOStatisticsStore object. It also uses the JsonSerialization class and the Preconditions class.

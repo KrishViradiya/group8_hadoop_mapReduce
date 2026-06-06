@@ -1,0 +1,4 @@
+Key Functionality: Randomly samples a subset of data from an InputFormat.
+Core Logic: Uses a provided InputFormat to generate splits, then randomly samples a percentage of splits.
+Inputs/Outputs: Splits generated from InputFormat.
+Dependencies: org.apache.hadoop.mapred.InputFormat, org.apache.hadoop.mapred.InputSplit, org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.RecordReader, org.apache.hadoop.mapred.Reporter, org.apache.hadoop.mapreduce.Job.

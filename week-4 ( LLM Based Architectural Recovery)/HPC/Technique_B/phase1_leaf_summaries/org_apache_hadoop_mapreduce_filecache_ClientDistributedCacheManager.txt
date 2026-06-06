@@ -1,0 +1,7 @@
+Key Functionality: Manages internal configuration of the cache by the client for job submission.
+
+Core Logic: Determines timestamps of files to be cached, and stores those in the configuration. Determines the visibilities of the distributed cache files and archives. The visibility of a cache path is "public" if the leaf component has READ permissions for others, and the parent subdirs have EXECUTE permissions for others.
+
+Inputs/Outputs: job - Configuration
+
+Dependencies: Configuration, FileSystem, Path, FsAction, Credentials, TokenCache, JobContextImpl

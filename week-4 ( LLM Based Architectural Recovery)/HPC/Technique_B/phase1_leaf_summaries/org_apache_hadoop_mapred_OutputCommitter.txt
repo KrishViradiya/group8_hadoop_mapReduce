@@ -1,0 +1,4 @@
+Key Functionality:coordinates the commit of task output for a Map-Reduce job.
+Core Logic:Coordinates the commit of task output for a Map-Reduce job.
+Inputs/Outputs:List data
+Dependencies:List classes

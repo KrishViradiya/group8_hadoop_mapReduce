@@ -1,0 +1,4 @@
+Key Functionality: Sums up a sequence of double values.
+Core Logic: Aggregates double values by summing them up.
+Inputs/Outputs: Double values can be added to the aggregator using the addNextValue method. The aggregated value can be obtained as a string using the getReport method or as a double using the getSum method.
+Dependencies: None.

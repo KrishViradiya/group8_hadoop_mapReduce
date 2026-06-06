@@ -1,0 +1,4 @@
+Key Functionality: Reads key/value pairs from a SequenceFile.
+Core Logic: Uses a SequenceFile.Reader to iterate through the file and extract key/value pairs.
+Inputs/Outputs: Expects a Configuration object and a FileSplit object as input. Emits key/value pairs as output.
+Dependencies: SequenceFile.Reader, FileSystem, Path, Configuration, FileSplit, IOException, ReflectionUtils, IOException.

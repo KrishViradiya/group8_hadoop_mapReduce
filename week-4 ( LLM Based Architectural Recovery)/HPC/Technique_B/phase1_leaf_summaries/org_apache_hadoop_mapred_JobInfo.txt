@@ -1,0 +1,4 @@
+Key Functionality: Represents the basic information that is saved per a job when the JobTracker receives a submitJob request.
+Core Logic: Saves the job id, user-name, and job submission directory.
+Inputs/Outputs: job id, user-name, job submission directory
+Dependencies: org.apache.hadoop.mapreduce.JobID, Text, Path, Writable, WritableUtils

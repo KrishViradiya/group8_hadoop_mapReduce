@@ -1,0 +1,4 @@
+Key Functionality: Extracts specific fields from input data based on user-specified criteria.
+Core Logic: The mapper and reducer classes handle the field selection process, using the user-defined separator to split the input data and select the desired fields for the map output keys and values.
+Inputs/Outputs: The mapper takes the input data and processes it to generate map output keys and values based on the specified fields. The reducer receives the map output and further processes it to generate the final output.
+Dependencies: The code depends on the TextInputFormat class for processing text input data.

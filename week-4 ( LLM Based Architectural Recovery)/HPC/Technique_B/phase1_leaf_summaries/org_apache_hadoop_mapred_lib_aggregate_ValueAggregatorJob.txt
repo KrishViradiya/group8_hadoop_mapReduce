@@ -1,0 +1,4 @@
+Key Functionality: Perform simple aggregations
+Core Logic: The Aggregate framework specializes in performing various simple aggregations.
+Inputs/Outputs: The Map/Reduce job takes input from the input directory and writes the output to the output directory.
+Dependencies: The Aggregate framework depends on the Map/Reduce framework and the Hadoop core library.

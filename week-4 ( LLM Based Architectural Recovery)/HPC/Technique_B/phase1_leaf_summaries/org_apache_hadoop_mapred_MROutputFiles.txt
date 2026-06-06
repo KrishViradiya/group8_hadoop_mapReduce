@@ -1,0 +1,4 @@
+Key Functionality: Manages the working area for map and reduce transient store.
+Core Logic: Identifies directories for writing/reading intermediate files.
+Inputs/Outputs: Intermediate files.
+Dependencies: LocalDirAllocator, MRConfig, MRJobConfig.

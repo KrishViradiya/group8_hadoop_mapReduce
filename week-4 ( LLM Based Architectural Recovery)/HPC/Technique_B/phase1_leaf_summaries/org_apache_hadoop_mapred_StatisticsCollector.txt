@@ -1,0 +1,4 @@
+Key Functionality: Collects the statistics in time windows.
+Core Logic: Maintains a map of time windows and their corresponding statistics.
+Inputs/Outputs: Time windows and their corresponding statistics.
+Dependencies: TimeWindow class.

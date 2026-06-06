@@ -1,0 +1,4 @@
+Key Functionality: Partition keys by their Object#hashCode().
+Core Logic: The core logic of this partitioner is to use the Object#hashCode() method to generate a hash code for each key, and then use the modulo operator to determine the partition for each key.
+Inputs/Outputs: The input to this partitioner is a key and a value, and the output is the partition number for that key-value pair.
+Dependencies: This partitioner does not have any dependencies on other classes or methods.

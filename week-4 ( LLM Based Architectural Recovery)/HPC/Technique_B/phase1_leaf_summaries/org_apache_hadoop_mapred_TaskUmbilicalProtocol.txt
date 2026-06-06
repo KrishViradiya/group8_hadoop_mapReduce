@@ -1,0 +1,4 @@
+Key Functionality: Submits tasks to TaskTracker.
+Core Logic: Communicates with the central master to receive new tasks and submit completed tasks.
+Inputs/Outputs: Receives new tasks and submits completed tasks.
+Dependencies: org.apache.hadoop.mapred.JvmTask, org.apache.hadoop.mapreduce.checkpoint.TaskCheckpointID, org.apache.hadoop.mapreduce.security.token.JobTokenSelector, org.apache.hadoop.security.token.TokenInfo

@@ -1,0 +1,4 @@
+Key Functionality: Splits N lines of input as one split.
+Core Logic: Reads input from a file, splits it into N lines, and assigns each line as a split.
+Inputs/Outputs: Input file, N lines
+Dependencies: org.apache.hadoop.fs, org.apache.hadoop.io, org.apache.hadoop.mapreduce, org.apache.hadoop.util

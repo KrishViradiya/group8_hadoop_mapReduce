@@ -1,0 +1,4 @@
+Key Functionality: A factory for committers implementing the PathOutputCommitter methods, and so can be used from FileOutputFormat.
+Core Logic: Examines the output path and creates an instance of FileOutputCommitter if no explicit committer factory is named and there is no explicit schema for the filesystem.
+Inputs/Outputs: The output path is examined to create an instance of FileOutputCommitter.
+Dependencies: FileOutputCommitter, PathOutputCommitter, FileOutputFormat.

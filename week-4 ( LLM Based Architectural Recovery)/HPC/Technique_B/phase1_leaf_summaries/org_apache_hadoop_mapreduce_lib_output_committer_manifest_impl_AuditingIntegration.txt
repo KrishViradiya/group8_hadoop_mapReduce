@@ -1,0 +1,4 @@
+Key Functionality: [1 sentence]
+Core Logic: [Brief explanation]
+Inputs/Outputs: [List data]
+Dependencies: [List classes]

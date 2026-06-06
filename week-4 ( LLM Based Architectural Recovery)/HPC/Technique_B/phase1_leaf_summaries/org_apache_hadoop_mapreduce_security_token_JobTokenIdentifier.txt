@@ -1,0 +1,4 @@
+Key Functionality: Identifies a job token.
+Core Logic: Holds a job ID.
+Inputs/Outputs: jobid (Text)
+Dependencies: org.apache.hadoop.security.token.Token, org.apache.hadoop.security.UserGroupInformation

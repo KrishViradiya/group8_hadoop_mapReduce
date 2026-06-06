@@ -1,0 +1,7 @@
+Key Functionality: Optimized for object stores where listing is slow, directory renames may not be atomic, and the output is a deep tree of files intermixed with the output of (many) other task attempts.
+
+Core Logic: All classes in this module are private/unstable, except where stated.
+
+Inputs/Outputs: None
+
+Dependencies: org.apache.hadoop.classification.InterfaceAudience, org.apache.hadoop.classification.InterfaceStability

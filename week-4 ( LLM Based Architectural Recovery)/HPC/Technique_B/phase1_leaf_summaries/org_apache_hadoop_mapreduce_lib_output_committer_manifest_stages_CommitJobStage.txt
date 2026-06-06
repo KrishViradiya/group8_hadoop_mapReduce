@@ -1,0 +1,13 @@
+Key Functionality:
+- The class is responsible for creating a manifest file that contains information about the output data.
+- It also handles the logic for committing the data and updating the manifest file accordingly.
+
+Core Logic:
+- The class uses the provided manifest committer and output statistics to create a manifest file.
+- It also handles the logic for committing the data and updating the manifest file accordingly.
+
+Inputs/Outputs:
+- The class takes in the manifest committer, output statistics, and other necessary parameters.
+- It produces a manifest file as the output.
+
+Dependencies:

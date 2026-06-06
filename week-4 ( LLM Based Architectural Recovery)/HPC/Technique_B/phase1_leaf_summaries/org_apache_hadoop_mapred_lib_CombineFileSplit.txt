@@ -1,0 +1,11 @@
+Key Functionality:
+- Represents the data to be processed by an individual task.
+
+Core Logic:
+- Maintains information about the files and their offsets, as well as the locations of the blocks in the cluster.
+
+Inputs/Outputs:
+- Input: JobConf, Path[], long[], long[], String[]
+- Output: None
+
+Dependencies:

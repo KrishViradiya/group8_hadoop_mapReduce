@@ -1,0 +1,4 @@
+Key Functionality: Commits data to a manifest file in a directory.
+Core Logic: The committer builds a manifest of all the files in the task attempt directory and uploads it to the destination directory.
+Inputs/Outputs: The input is the task attempt directory, and the output is the manifest file in the destination directory.
+Dependencies: The committer depends on the filesystem implementation to support atomic rename operations.

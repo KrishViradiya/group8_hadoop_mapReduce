@@ -1,0 +1,7 @@
+Key Functionality: Manages the states of a task in a MapReduce system.
+
+Core Logic: Keeps track of the current state of a task, such as pending, running, complete, killed, or failed.
+
+Inputs/Outputs: None
+
+Dependencies: org.apache.hadoop.classification.InterfaceAudience, org.apache.hadoop.classification.InterfaceStability

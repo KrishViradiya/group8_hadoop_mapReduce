@@ -1,0 +1,4 @@
+Key Functionality: Submits a notification to a URL when a job ends.
+Core Logic: Creates a JobEndStatusInfo object with job status information and sends it to a specified URL using an HTTP POST request.
+Inputs/Outputs: The URL to send the notification to is specified in the JobConf object.
+Dependencies: org.apache.http.client.HttpClient, org.apache.http.client.methods.HttpPost, org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.JobStatus

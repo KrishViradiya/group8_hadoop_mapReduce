@@ -1,0 +1,4 @@
+Key Functionality: Tracks the state of a task.
+Core Logic: Maintains taskid, progress, state, diagnostics, startTime, finishTime, counters, currentStatus, runningAttempts, and successfulAttempt.
+Inputs/Outputs: taskid, progress, state, diagnostics, startTime, finishTime, counters, currentStatus, runningAttempts, and successfulAttempt are all inputs and outputs.
+Dependencies: org.apache.hadoop.mapreduce, org.apache.hadoop.mapred, org.apache.hadoop.io, and org.apache.hadoop.util.

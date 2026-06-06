@@ -1,0 +1,4 @@
+Key Functionality: Submits jobs to the Hadoop framework.
+Core Logic: Manages the execution of the job and its tasks.
+Inputs/Outputs: Submits jobs to the Hadoop framework.
+Dependencies: org.apache.hadoop.mapreduce.JobACL, org.apache.hadoop.security.authorize.AccessControlList

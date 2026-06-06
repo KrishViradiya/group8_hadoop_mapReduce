@@ -1,0 +1,4 @@
+Key Functionality: Sums the IntWritable values for each key.
+Core Logic: The reduce function iterates through the values for each key, adding them up and writing the result to the context.
+Inputs/Outputs: The input is a key and an iterable of IntWritable values. The output is a key and an IntWritable result.
+Dependencies: org.apache.hadoop.io.IntWritable, org.apache.hadoop.mapreduce.Reducer

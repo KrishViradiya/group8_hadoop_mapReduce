@@ -1,0 +1,4 @@
+Key Functionality: Filters input sequence files based on user-specified criteria.
+Core Logic: Reads input sequence files and applies a filter to determine which records to include in the map/reduce job.
+Inputs/Outputs: Input sequence files, filtered output.
+Dependencies: org.apache.hadoop.io.BytesWritable, org.apache.hadoop.io.Text, org.apache.hadoop.mapreduce.InputSplit, org.apache.hadoop.mapreduce.Job, org.apache.hadoop.mapreduce.RecordReader, org.apache.hadoop.mapreduce.TaskAttemptContext, org.apache.hadoop.util.ReflectionUtils.

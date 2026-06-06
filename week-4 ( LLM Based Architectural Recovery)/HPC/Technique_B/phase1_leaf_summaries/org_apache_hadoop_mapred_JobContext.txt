@@ -1,0 +1,7 @@
+Key Functionality: JobContext is a public interface for accessing information about a MapReduce job.
+
+Core Logic: The JobContext interface provides methods for accessing the Configuration, Progressable, and other job-related information.
+
+Inputs/Outputs: The JobContext interface has two methods: getJobConf() returns the job's Configuration, and getProgressible() returns the progress mechanism for reporting progress.
+
+Dependencies: The JobContext interface is part of the org.apache.hadoop.mapred package and depends on the org.apache.hadoop.mapreduce.JobContext interface.

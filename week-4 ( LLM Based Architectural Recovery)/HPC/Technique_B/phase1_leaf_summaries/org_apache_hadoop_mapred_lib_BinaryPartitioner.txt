@@ -1,0 +1,7 @@
+Key Functionality: Partitions BinaryComparable keys using a configurable part of the bytes array returned by BinaryComparable#getBytes().
+
+Core Logic: The core logic of this class is to partition BinaryComparable keys based on a configurable part of the bytes array returned by BinaryComparable#getBytes().
+
+Inputs/Outputs: The input to this class is a BinaryComparable key and a value of type V. The output is an integer representing the partition to which the key-value pair should be assigned.
+
+Dependencies: This class depends on the org.apache.hadoop.mapreduce.lib.partition.BinaryPartitioner class.

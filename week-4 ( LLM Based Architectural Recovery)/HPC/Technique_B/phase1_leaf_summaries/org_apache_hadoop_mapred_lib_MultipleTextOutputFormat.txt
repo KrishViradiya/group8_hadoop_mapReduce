@@ -1,0 +1,4 @@
+Key Functionality: Write output data to different output files in Text output format.
+Core Logic: Extends the MultipleOutputFormat class and overrides the getBaseRecordWriter method to use the TextOutputFormat for writing the output data.
+Inputs/Outputs: FileSystem fs, JobConf job, String name, Progressable arg3
+Dependencies: org.apache.hadoop.mapred.lib.MultipleOutputFormat, org.apache.hadoop.mapred.TextOutputFormat, org.apache.hadoop.fs.FileSystem, org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.RecordWriter, org.apache.hadoop.util.Progressable, java.io.IOException

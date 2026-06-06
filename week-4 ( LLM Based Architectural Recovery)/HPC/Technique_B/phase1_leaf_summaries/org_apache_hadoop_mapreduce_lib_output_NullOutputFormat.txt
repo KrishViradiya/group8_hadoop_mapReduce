@@ -1,0 +1,4 @@
+Key Functionality: Consume all outputs and put them in /dev/null.
+Core Logic: The core logic is to create a RecordWriter that discards all the outputs.
+Inputs/Outputs: The input is a TaskAttemptContext, and the output is a RecordWriter.
+Dependencies: The class depends on the OutputFormat and RecordWriter classes.

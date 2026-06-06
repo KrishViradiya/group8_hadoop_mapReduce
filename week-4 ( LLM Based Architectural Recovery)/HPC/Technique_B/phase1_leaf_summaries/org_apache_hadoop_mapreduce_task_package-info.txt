@@ -1,0 +1,4 @@
+Key Functionality: Manages the execution of a single Map or Reduce task.
+Core Logic: Monitors the task's status and updates the application master accordingly.
+Inputs/Outputs: Communicates with the application master, task tracker, and job tracker.
+Dependencies: org.apache.hadoop.mapreduce.task.reduce.MapHost

@@ -1,0 +1,7 @@
+Key Functionality: The code snippet provides a set of methods for interacting with a MapReduce cluster, including submitting jobs, checking job status, and retrieving job counters.
+
+Core Logic: The methods allow users to submit jobs, check job status, and retrieve job counters. They also provide information about the cluster, such as the number of blacklisted nodes and the status of the job tracker.
+
+Inputs/Outputs: The methods take inputs such as job IDs, task attempt IDs, and task completion events, and return outputs such as job status, task reports, and task completion events.
+
+Dependencies: The code snippet depends on classes such as Cluster, JobTrackerStatus, ClusterMetrics, Counters, JobID, JobStatus, QueueAclsInfo, QueueInfo, TaskAttemptID, TaskCompletionEvent, TaskReport, TaskTrackerInfo, TaskType, and DelegationTokenSelector.

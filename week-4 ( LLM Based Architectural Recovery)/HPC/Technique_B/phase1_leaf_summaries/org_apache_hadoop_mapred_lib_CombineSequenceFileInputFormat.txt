@@ -1,0 +1,4 @@
+Key Functionality: Handles CombineSequenceFileInputFormat for SequenceFileInputFormat.
+Core Logic: Uses CombineFileRecordReader to handle CombineFileInputFormat.
+Inputs/Outputs: CombineFileSplit, JobConf, Reporter.
+Dependencies: CombineFileRecordReader, SequenceFileRecordReaderWrapper.

@@ -1,0 +1,4 @@
+Key Functionality: Swaps keys and values in a MapReduce job.
+Core Logic: The map function takes input key-value pairs and emits the value as the new key and the key as the new value.
+Inputs/Outputs: The mapper takes input key-value pairs and emits the value as the new key and the key as the new value.
+Dependencies: org.apache.hadoop.mapred.MapReduceBase, org.apache.hadoop.mapred.Mapper, org.apache.hadoop.mapred.OutputCollector, org.apache.hadoop.mapred.Reporter

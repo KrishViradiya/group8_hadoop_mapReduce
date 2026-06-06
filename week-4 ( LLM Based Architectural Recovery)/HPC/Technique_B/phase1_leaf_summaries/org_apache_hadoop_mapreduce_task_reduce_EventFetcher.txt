@@ -1,0 +1,4 @@
+Key Functionality: Fetches map task completion events from the jobtracker.
+Core Logic: Polls the jobtracker for new map task completion events and notifies the scheduler.
+Inputs/Outputs: None
+Dependencies: TaskAttemptID, TaskUmbilicalProtocol, ShuffleScheduler, ExceptionReporter, int

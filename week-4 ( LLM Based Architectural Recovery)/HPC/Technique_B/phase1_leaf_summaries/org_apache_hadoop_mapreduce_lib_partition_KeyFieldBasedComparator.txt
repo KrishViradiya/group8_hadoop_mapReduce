@@ -1,0 +1,4 @@
+Key Functionality: Sorts text keys using a configurable set of fields and character positions.
+Core Logic: The comparator uses a configurable set of fields and character positions to compare text keys.
+Inputs/Outputs: The comparator takes a list of KeyDescription objects, each of which specifies a field, character position, and sort options.
+Dependencies: The comparator depends on the KeyFieldHelper class for parsing and processing the KeyDescription objects.

@@ -1,0 +1,4 @@
+Key Functionality: Manages the distributed cache for MapReduce tasks.
+Core Logic: Handles the upload and localizing of files and archives to the task trackers.
+Inputs/Outputs: Handles the distribution of files and archives to the task trackers.
+Dependencies: org.apache.hadoop.classification.InterfaceAudience

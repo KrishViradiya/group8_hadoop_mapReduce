@@ -1,0 +1,4 @@
+Key Functionality: Partitions keys based on certain key fields.
+Core Logic: Defines a way to partition keys based on certain key fields.
+Inputs/Outputs: List data.
+Dependencies: List classes.

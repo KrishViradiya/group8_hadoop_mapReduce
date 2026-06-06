@@ -1,0 +1,4 @@
+Key Functionality: Common functionalities of subclasses of ValueAggregatorDescriptor.
+Core Logic: Brief explanation of core logic.
+Inputs/Outputs: List data.
+Dependencies: List classes.

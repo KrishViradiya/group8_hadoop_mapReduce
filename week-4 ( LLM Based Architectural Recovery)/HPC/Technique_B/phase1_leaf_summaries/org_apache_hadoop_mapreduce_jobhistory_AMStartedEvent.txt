@@ -1,0 +1,7 @@
+Key Functionality: AMStartedEvent records the start of an MR AppMaster.
+
+Core Logic: The event contains the application attempt id, start time of the AM, containerId of the AM, node on which the AM is running, port on which the AM is running, and the AM's tracking URL.
+
+Inputs/Outputs: The event takes in the application attempt id, start time, containerId, nodeManagerHost, nodeManagerPort, nodeManagerHttpPort, and trackingUrl as inputs. It sets these values in the datum object.
+
+Dependencies: The event depends on the org.apache.hadoop.yarn.api.records.ApplicationAttemptId, org.apache.hadoop.yarn.api.records.ContainerId, and org.apache.hadoop.mapreduce.jobhistory.AMStarted classes.

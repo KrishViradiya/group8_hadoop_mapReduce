@@ -1,0 +1,4 @@
+Key Functionality: Manages the shuffle of map outputs from different maps to the reduce task.
+Core Logic: Fetches map outputs from different maps, sorts them, and sends them to the reduce task.
+Inputs/Outputs: Map outputs from different maps are fetched and sorted, and then sent to the reduce task.
+Dependencies: shuffle.html

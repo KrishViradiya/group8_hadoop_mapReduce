@@ -1,0 +1,4 @@
+Key Functionality: Split date/time values into min/max range.
+Core Logic: Logic from IntegerSplitter, since date/time are just longs in Java.
+Inputs/Outputs: List of InputSplits.
+Dependencies: Configuration, ResultSet, Types.

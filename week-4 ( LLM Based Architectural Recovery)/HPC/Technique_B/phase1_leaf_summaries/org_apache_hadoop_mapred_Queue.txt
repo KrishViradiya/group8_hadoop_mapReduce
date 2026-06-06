@@ -1,0 +1,4 @@
+Key Functionality: Manages job queues and their properties.
+Core Logic: Maintains queue name, ACLs, state, scheduling info, children, and properties.
+Inputs/Outputs: Queue name, ACLs, state, scheduling info, children, and properties can be set and retrieved.
+Dependencies: AccessControlList, QueueState, Properties, Logger, LoggerFactory, ArrayList, HashMap, Iterator, List, Map, Set, TreeSet.

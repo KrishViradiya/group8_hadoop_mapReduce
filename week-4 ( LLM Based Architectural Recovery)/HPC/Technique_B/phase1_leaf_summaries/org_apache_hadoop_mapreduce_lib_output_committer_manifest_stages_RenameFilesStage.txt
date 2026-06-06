@@ -1,0 +1,4 @@
+Key Functionality: Rename files as part of the job commit.
+Core Logic: The committer loads the manifest of all tasks, renames all files, and creates a new manifest.
+Inputs/Outputs: The committer loads the manifest of all tasks, renames all files, and creates a new manifest.
+Dependencies: The committer loads the manifest of all tasks, renames all files, and creates a new manifest.

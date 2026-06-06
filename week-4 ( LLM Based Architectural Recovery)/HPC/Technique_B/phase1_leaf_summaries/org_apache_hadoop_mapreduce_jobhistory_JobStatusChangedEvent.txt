@@ -1,0 +1,4 @@
+Key Functionality: Captures the change in status of a job.
+Core Logic: jobStatus is set to the new status of the job.
+Inputs/Outputs: jobid: The ID of the job. jobStatus: The new status of the job.
+Dependencies: JobID, StringUtils, TimelineEvent, TimelineMetric.

@@ -1,0 +1,4 @@
+Key Functionality: EnumCounter is an enumeration of counters used in the CheckpointID.
+Core Logic: The counters are used to track various metrics related to checkpoints, such as input keys, input values, output records, checkpoint bytes, and checkpoint time in milliseconds.
+Inputs/Outputs: The counters are used to track specific metrics related to the checkpoint process.
+Dependencies: EnumCounter does not have any dependencies on other classes or methods.

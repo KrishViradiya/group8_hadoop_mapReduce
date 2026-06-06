@@ -1,0 +1,4 @@
+Key Functionality: Reads key/value pairs from an InputSplit.
+Core Logic: Converts byte-oriented input to record-oriented input for Mapper and Reducer tasks.
+Inputs/Outputs: K key, V value
+Dependencies: None

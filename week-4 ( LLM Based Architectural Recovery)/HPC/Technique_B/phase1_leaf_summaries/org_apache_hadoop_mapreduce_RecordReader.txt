@@ -1,0 +1,4 @@
+Key Functionality: Breaks data into key/value pairs for input to the Mapper.
+Core Logic: Reads the next key, value pair and returns true if a pair was read.
+Inputs/Outputs: Current key, current value.
+Dependencies: None.

@@ -1,0 +1,4 @@
+Key Functionality: An InputFormat for SequenceFiles.
+Core Logic: Creates a RecordReader for SequenceFiles.
+Inputs/Outputs: InputSplit -> RecordReader
+Dependencies: SequenceFile, MapFile

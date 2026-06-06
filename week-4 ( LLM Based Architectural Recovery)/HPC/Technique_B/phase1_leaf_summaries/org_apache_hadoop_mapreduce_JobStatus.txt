@@ -1,0 +1,4 @@
+Key Functionality: Tracks the current state of a job.
+Core Logic: Maintains the state of the job and provides methods to update it.
+Inputs/Outputs: jobId, state, details, mapProgress, reduceProgress, cleanupProgress, setupProgress, jobFile, trackingUrl, jobPriority, jobOwner, jobName, retired, jobACLs
+Dependencies: org.apache.hadoop.classification, org.apache.hadoop.io, org.apache.hadoop.security.authorize, org.apache.hadoop.util

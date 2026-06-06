@@ -1,0 +1,13 @@
+Key Functionality:
+- Aggregates values based on the prefix of the key, which indicates the type of aggregation to perform.
+- Assumes that each aggregator's getReport method emits appropriate output for the aggregator.
+
+Core Logic:
+- Iterates over the values to be aggregated.
+- Extracts the prefix from the key and performs the appropriate aggregation based on the prefix.
+
+Inputs/Outputs:
+- Input: Text key, Text value
+- Output: Text key, Text value
+
+Dependencies:

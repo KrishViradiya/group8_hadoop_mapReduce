@@ -1,0 +1,4 @@
+Key Functionality: Provides information about the current state of the Map-Reduce cluster.
+Core Logic: Tracks the size of the cluster, the names of the trackers, the task capacity of the cluster, the number of currently running map and reduce tasks, the state of the JobTracker, and details regarding blacklisted tracks.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.classification, org.apache.hadoop.io, org.apache.hadoop.mapreduce, org.apache.hadoop.util

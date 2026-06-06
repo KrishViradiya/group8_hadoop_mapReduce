@@ -1,0 +1,4 @@
+Key Functionality: Writes SequenceFiles
+Core Logic: Uses a RecordWriter to write the data to a SequenceFile
+Inputs/Outputs: K: key class, V: value class
+Dependencies: org.apache.hadoop.io.SequenceFile, org.apache.hadoop.io.compress.CompressionCodec, org.apache.hadoop.io.compress.DefaultCodec, org.apache.hadoop.util.ReflectionUtils

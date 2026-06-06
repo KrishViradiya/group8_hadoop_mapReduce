@@ -1,0 +1,4 @@
+Key Functionality: Validate the output-specification of the job.
+Core Logic: Provide the RecordWriter implementation to be used to write out the output files of the job.
+Inputs/Outputs: FileSystem
+Dependencies: JobConf

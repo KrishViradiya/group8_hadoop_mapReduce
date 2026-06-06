@@ -1,0 +1,4 @@
+Key Functionality: Represents an AccessControlList that drives set of operations that can be performed on a queue.
+Core Logic: The core logic is to define the different operations that can be performed on a queue and assign them to specific ACLs.
+Inputs/Outputs: The inputs are the operations that can be performed on a queue, and the outputs are the ACLs that are assigned to these operations.
+Dependencies: This code is part of the Hadoop MapReduce framework and depends on the classification package.

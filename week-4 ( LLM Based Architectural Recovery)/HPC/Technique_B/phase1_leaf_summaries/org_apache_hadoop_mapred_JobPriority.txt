@@ -1,0 +1,7 @@
+Key Functionality: JobPriority is an enum used to describe the priority of a running job.
+
+Core Logic: The enum includes six priority levels: VERY_HIGH, HIGH, NORMAL, LOW, VERY_LOW, DEFAULT, and UNDEFINED_PRIORITY.
+
+Inputs/Outputs: JobPriority is used to set the priority of a job when submitting it to the YARN framework.
+
+Dependencies: JobPriority is part of the org.apache.hadoop.mapred package, which is used for MapReduce-related functionality in the Hadoop ecosystem.

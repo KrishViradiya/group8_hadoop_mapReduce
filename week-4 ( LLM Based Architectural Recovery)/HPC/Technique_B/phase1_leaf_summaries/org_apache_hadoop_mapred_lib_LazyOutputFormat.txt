@@ -1,0 +1,4 @@
+Key Functionality: LazyOutputFormat creates output lazily.
+Core Logic: The class sets the underlying output format for LazyOutputFormat and creates a record writer.
+Inputs/Outputs: FileSystem, JobConf, String, Progressable
+Dependencies: OutputFormat, RecordWriter, ReflectionUtils

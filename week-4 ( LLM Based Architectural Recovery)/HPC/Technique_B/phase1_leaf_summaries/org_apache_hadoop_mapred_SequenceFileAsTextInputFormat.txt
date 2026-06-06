@@ -1,0 +1,4 @@
+Key Functionality: Converts input keys and values to their String forms by calling toString() method.
+Core Logic: The class is similar to SequenceFileInputFormat, except it generates SequenceFileAsTextRecordReader.
+Inputs/Outputs: The input keys and values are converted to their String forms.
+Dependencies: org.apache.hadoop.io.Text, org.apache.hadoop.classification.InterfaceAudience, org.apache.hadoop.classification.InterfaceStability, org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.InputSplit, org.apache.hadoop.mapred.RecordReader, org.apache.hadoop.mapred.Reporter, org.apache.hadoop.mapred.SequenceFileInputFormat, org.apache.hadoop.mapred.SequenceFileAsTextRecordReader, org.apache.hadoop.mapred.FileSplit, java.io.IOException.

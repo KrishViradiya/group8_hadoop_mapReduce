@@ -1,0 +1,4 @@
+Key Functionality: Encapsulates Queue ACLs for a particular user.
+Core Logic: The class provides a way to store and manipulate queue ACLs for a specific user.
+Inputs/Outputs: The class has a constructor that takes the queue name and an array of queue operations as input. It also has a method to downgrade a QueueAclsInfo object from the mapreduce package.
+Dependencies: The class depends on the mapreduce package.

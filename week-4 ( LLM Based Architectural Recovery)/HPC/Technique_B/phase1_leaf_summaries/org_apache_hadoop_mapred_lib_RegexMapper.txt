@@ -1,0 +1,4 @@
+Key Functionality: Extracts text matching a regular expression.
+Core Logic: Uses a regular expression pattern to match and extract text from input.
+Inputs/Outputs: Text input, LongWritable output.
+Dependencies: org.apache.hadoop.mapreduce.lib.map.RegexMapper.PATTERN, org.apache.hadoop.mapreduce.lib.map.RegexMapper.GROUP.

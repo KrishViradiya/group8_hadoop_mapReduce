@@ -1,0 +1,4 @@
+Key Functionality: Delegates behavior of paths to multiple other InputFormats.
+Core Logic: Uses a Map to store InputFormats and their corresponding paths.
+Inputs/Outputs: Accepts a JobContext and returns a list of InputSplits.
+Dependencies: Requires the classes of the InputFormats to be provided.

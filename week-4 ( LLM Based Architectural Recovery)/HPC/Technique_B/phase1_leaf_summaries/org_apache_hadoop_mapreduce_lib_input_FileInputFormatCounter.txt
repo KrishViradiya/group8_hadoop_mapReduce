@@ -1,0 +1,4 @@
+Key Functionality: Tracks the number of bytes read by the FileInputFormat class.
+Core Logic: Incremented each time a byte is read from the input file.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.lib.input.FileInputFormat

@@ -1,0 +1,4 @@
+Key Functionality: Manages job queues in the Hadoop Map/Reduce framework.
+Core Logic: Maintains scheduling information and job statuses for each queue.
+Inputs/Outputs: Queue name, scheduling information, job statuses.
+Dependencies: QueueInfo class from the mapreduce package.

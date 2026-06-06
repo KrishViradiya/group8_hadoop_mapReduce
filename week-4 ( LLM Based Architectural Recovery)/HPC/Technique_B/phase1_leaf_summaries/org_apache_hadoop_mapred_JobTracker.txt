@@ -1,0 +1,4 @@
+Key Functionality: Dummy class for compatibility with M/R 1.x applications.
+Core Logic: None.
+Inputs/Outputs: None.
+Dependencies: None.

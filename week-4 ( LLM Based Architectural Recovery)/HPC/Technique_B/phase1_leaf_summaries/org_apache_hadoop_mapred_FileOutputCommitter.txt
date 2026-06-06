@@ -1,0 +1,4 @@
+Key Functionality: commits files specified in job output directory.
+Core Logic: commits files in the job output directory.
+Inputs/Outputs: job context, output path.
+Dependencies: JobContext, JobConf, Path.

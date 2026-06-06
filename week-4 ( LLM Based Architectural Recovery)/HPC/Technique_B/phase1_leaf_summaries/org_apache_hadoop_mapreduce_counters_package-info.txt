@@ -1,0 +1,7 @@
+Key Functionality: The package contains the implementations of different types of map-reduce counters.
+
+Core Logic: The core logic involves the implementation of various map-reduce counters and their functionalities.
+
+Inputs/Outputs: The package does not have any specific inputs or outputs.
+
+Dependencies: The package depends on the org.apache.hadoop.classification.InterfaceStability class.

@@ -1,0 +1,7 @@
+Key Functionality: The JobContext class provides a read-only view of the job that is provided to the tasks while they are running.
+
+Core Logic: The JobContext class includes methods to retrieve the configuration for the job, the unique ID for the job, the number of reduce tasks for the job, the current working directory, the input paths, the output path, the user-defined mapper, reducer, combiner, partitioner, and key and value classes, the input format class, the output format class, the comparator class, the combiner class, the partitioner class, the number of reduce tasks, the credentials for the job, and the task attempt ID.
+
+Inputs/Outputs: The JobContext class takes a Configuration object and a TaskAttemptID object in its constructor. It provides methods to retrieve various job-related information such as the job ID, the number of reduce tasks, the current working directory, the input paths, the output path, the user-defined mapper, reducer, combiner, partitioner, and key and value classes, the input format class, the output format class, the comparator class, the combiner class, the partitioner class, the credentials for the job, and the task attempt ID.
+
+Dependencies: The JobContext class depends on the Configuration and TaskAttemptID classes.

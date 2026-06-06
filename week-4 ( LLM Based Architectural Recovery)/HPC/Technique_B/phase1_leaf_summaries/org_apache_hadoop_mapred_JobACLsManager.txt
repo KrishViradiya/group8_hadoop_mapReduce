@@ -1,0 +1,4 @@
+Key Functionality: Manages job ACLs in a MapReduce codebase.
+Core Logic: Constructs job ACLs from the configuration and checks if authorization is enabled.
+Inputs/Outputs: Configuration object.
+Dependencies: AccessControlList, JobACL, MRConfig, UserGroupInformation.

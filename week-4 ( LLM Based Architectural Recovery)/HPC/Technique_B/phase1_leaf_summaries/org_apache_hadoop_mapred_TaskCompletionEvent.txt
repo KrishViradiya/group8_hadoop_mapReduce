@@ -1,0 +1,4 @@
+Key Functionality: Tracks task completion events on the job tracker.
+Core Logic: Monitors task completion statuses and provides information about task completion events.
+Inputs/Outputs: Listens for and receives task completion events.
+Dependencies: org.apache.hadoop.mapreduce.TaskCompletionEvent

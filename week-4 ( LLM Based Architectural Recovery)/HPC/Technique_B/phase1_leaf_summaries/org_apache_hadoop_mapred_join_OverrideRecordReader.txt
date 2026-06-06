@@ -1,0 +1,4 @@
+Key Functionality: Emit the value with the highest position in the tuple.
+Core Logic: Prefer the "rightmost" data source for this key.
+Inputs/Outputs: dst (TupleWritable)
+Dependencies: TupleWritable

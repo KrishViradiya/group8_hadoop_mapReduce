@@ -1,0 +1,7 @@
+Key Functionality: The Master class is a utility class used to interact with the master node in a MapReduce cluster.
+
+Core Logic: The Master class provides methods to get the address and principal of the master node, which are used for communication and authentication purposes.
+
+Inputs/Outputs: The Master class does not have any specific inputs or outputs, as its functionality is limited to retrieving information about the master node.
+
+Dependencies: The Master class depends on the Configuration class from the Hadoop configuration library, as well as the MRConfig class from the MapReduce configuration library. It also uses the NetUtils and SecurityUtil classes from the Hadoop core library.

@@ -1,0 +1,4 @@
+Key Functionality: Exception for when counters exceed a limit.
+Core Logic: Extends CountersExceededException.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapred.Counters.CountersExceededException

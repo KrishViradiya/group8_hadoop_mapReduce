@@ -1,0 +1,4 @@
+Key Functionality: Manages the merging of intermediate data in a MapReduce job.
+Core Logic: The MergeThread class is responsible for merging intermediate data from different sources into a single output. It maintains a list of pending data to be merged and uses a specified merge factor to determine the number of inputs to merge at a time. The class also handles exceptions and provides a way to close the merging process.
+Inputs/Outputs: The MergeThread class takes a set of inputs to be merged and adds them to a pending list. It also provides a way to close the merging process and interrupt any ongoing merging operations.
+Dependencies: The MergeThread class depends on the MergeManagerImpl class to handle the actual merging of data and the ExceptionReporter class to report any exceptions that occur during the merging process.

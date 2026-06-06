@@ -1,0 +1,4 @@
+Key Functionality: Delegates functionality to the underlying record reader in TaggedInputSplit.
+Core Logic: Extracts the InputFormat and RecordReader from the TaggedInputSplit.
+Inputs/Outputs: TaggedInputSplit, TaskAttemptContext
+Dependencies: InputFormat, RecordReader

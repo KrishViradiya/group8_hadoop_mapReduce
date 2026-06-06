@@ -1,0 +1,4 @@
+Key Functionality: This class is responsible for cleaning up the output directory by deleting all the files and directories.
+Core Logic: The cleanup task is executed in a separate thread and it iterates through all the files and directories in the output directory, deleting them one by one.
+Inputs/Outputs: The input is the output directory path, and the output is the deletion of all the files and directories in the output directory.
+Dependencies: This class depends on the Configuration object, the FileSystem object, and the Path object.

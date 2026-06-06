@@ -1,0 +1,7 @@
+Key Functionality: Validate the output-specification of the job and provide the RecordWriter implementation to be used to write out the output files of the job.
+
+Core Logic: The Map-Reduce framework relies on the OutputFormat of the job to validate the output-specification and provide the RecordWriter implementation.
+
+Inputs/Outputs: The output files are stored in a FileSystem.
+
+Dependencies: None

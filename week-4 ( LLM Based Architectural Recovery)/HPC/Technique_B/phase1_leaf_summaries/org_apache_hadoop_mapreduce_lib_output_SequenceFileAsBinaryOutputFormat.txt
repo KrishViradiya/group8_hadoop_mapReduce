@@ -1,0 +1,4 @@
+Key Functionality: Write binary(raw) format SequenceFiles
+Core Logic: Write keys and values to SequenceFiles in binary format
+Inputs/Outputs: Keys and values are written to SequenceFiles in binary format
+Dependencies: org.apache.hadoop.io.WritableComparable, org.apache.hadoop.io.Writable, org.apache.hadoop.io.BytesWritable, org.apache.hadoop.io.SequenceFile, org.apache.hadoop.mapreduce.Job, org.apache.hadoop.mapreduce.JobContext, org.apache.hadoop.mapreduce.RecordWriter, org.apache.hadoop.mapreduce.TaskAttemptContext

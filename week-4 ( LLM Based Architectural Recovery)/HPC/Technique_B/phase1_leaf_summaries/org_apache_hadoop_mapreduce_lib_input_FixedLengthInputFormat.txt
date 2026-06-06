@@ -1,0 +1,4 @@
+Key Functionality: An input format used to read input files containing fixed length records.
+Core Logic: Reads input files and splits them into records based on the configured record length.
+Inputs/Outputs: The input files are binary data files. The output is a list of records.
+Dependencies: CompressionCodecFactory, Configuration, Path, LongWritable, BytesWritable, IOException, RecordReader, TaskAttemptContext, JobContext, InputSplit.

@@ -1,0 +1,4 @@
+Key Functionality: Helper classes for the shuffle/spill encryptions.
+Core Logic: The code provides encryption and decryption functionalities for shuffle and spill operations.
+Inputs/Outputs: The code takes input data and encrypts it, and then decrypts the encrypted data to produce the original output.
+Dependencies: The code depends on the org.apache.hadoop.classification package for audience and stability annotations.

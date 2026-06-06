@@ -1,0 +1,4 @@
+Key Functionality: DBRecordReader is a RecordReader for reading data from a database table.
+Core Logic: The DBRecordReader uses a DBInputSplit to divide the table/query into smaller units of work, and fetches rows from the database using a PreparedStatement.
+Inputs/Outputs: The DBRecordReader takes a DBInputSplit as input and outputs key-value pairs, where the key is a LongWritable and the value is an array of Writables representing the fetched row.
+Dependencies: The DBRecordReader depends on the Configuration, Connection, PreparedStatement, ResultSet, and Writable classes.

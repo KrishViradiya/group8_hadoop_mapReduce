@@ -1,0 +1,4 @@
+Key Functionality: Identifies the type of task (map, reduce, job-setup, job-cleanup, task-cleanup).
+Core Logic: None.
+Inputs/Outputs: None.
+Dependencies: None.

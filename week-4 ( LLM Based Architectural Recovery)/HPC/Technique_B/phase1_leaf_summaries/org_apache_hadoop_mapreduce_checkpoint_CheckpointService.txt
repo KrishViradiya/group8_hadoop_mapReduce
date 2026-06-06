@@ -1,0 +1,12 @@
+Key Functionality:
+- The CheckpointService provides a simple API to store and retrieve the state of a task.
+
+Core Logic:
+- Checkpoints are atomic, single-writer, write-once, multiple-readers, ready-many type of objects.
+- The CheckpointID for a checkpoint is released only upon commit of the checkpoint.
+- Checkpoints cannot be re-opened for writes.
+
+Inputs/Outputs:
+- CheckpointWriteChannel and CheckpointReadChannel are provided for writing and reading checkpoints.
+
+Dependencies:

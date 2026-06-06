@@ -1,0 +1,4 @@
+Key Functionality: Allows input and output from the task.
+Core Logic: Supplied to the Mapper or Reducer.
+Inputs/Outputs: KEYIN, VALUEIN, KEYOUT, VALUEOUT
+Dependencies: None

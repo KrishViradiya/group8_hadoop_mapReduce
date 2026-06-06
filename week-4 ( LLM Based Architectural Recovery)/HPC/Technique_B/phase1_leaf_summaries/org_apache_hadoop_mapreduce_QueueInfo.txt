@@ -1,0 +1,4 @@
+Key Functionality: Manages job queues in the Hadoop Map/Reduce framework.
+Core Logic: Maintains information about job queues, including queue name, scheduling information, queue state, and job statistics.
+Inputs/Outputs: QueueInfo objects can be serialized and deserialized using the Writable interface.
+Dependencies: QueueInfo objects depend on the JobStatus class for job statistics.

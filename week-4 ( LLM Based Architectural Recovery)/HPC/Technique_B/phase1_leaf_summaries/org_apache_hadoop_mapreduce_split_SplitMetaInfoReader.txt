@@ -1,0 +1,7 @@
+Key Functionality: Reads the split meta info and creates split meta info objects
+Core Logic: Reads the split meta info and creates split meta info objects
+Inputs/Outputs: jobId - The job id for which the split meta info is being read
+                fs - The file system for the path
+                conf - The configuration object
+                jobSubmitDir - The directory for the job submission
+Dependencies: org.apache.hadoop.mapreduce.split, org.apache.hadoop.mapreduce.JobID, org.apache.hadoop.fs.FileSystem, org.apache.hadoop.conf.Configuration, org.apache.hadoop.fs.Path

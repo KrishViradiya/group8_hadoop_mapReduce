@@ -1,0 +1,4 @@
+Key Functionality: A thread-safe implementation of MapRunnable that can improve throughput for non-CPU-bound Map operations.
+Core Logic: The Map operation is executed in multiple threads to improve throughput.
+Inputs/Outputs: Map implementations must be thread-safe.
+Dependencies: org.apache.hadoop.mapreduce.lib.map.MultithreadedMapper, org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor

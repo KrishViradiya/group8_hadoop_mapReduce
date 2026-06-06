@@ -1,0 +1,4 @@
+Key Functionality: Calculates and appends a checksum to the end of a file on close.
+Core Logic: The checksum for the file's contents is calculated and appended to the end of the file.
+Inputs/Outputs: The input is a stream of bytes, and the output is the same stream with a checksum appended.
+Dependencies: org.apache.hadoop.io.IOUtils, org.apache.hadoop.util.DataChecksum

@@ -1,0 +1,4 @@
+Key Functionality: Submits a map/reduce job using the Aggregate framework.
+Core Logic: The Aggregate framework is used to perform various simple operations on data.
+Inputs/Outputs: The input data is read from a specified input path, and the output data is written to a specified output path.
+Dependencies: The Aggregate framework depends on the map/reduce framework and the input/output formats specified for the job.

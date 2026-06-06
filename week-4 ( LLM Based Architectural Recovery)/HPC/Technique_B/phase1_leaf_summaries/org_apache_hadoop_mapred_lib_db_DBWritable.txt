@@ -1,0 +1,7 @@
+Key Functionality: DBWritable is an interface for objects that can be written to a database using DBOutputFormat.
+
+Core Logic: DBWritable objects must implement the write method, which writes an object's fields to a PreparedStatement.
+
+Inputs/Outputs: DBWritable objects are written to a database using DBOutputFormat, which expects an implementation of DBWritable as input.
+
+Dependencies: DBWritable depends on the org.apache.hadoop.mapreduce.lib.db.DBWritable interface.

@@ -1,0 +1,4 @@
+Key Functionality: Serves Reducers by shuffling MOF files from either the built-in ShuffleHandler or a 3rd party AuxiliaryService.
+Core Logic: The plugin initializes, runs, and closes the shuffle process.
+Inputs/Outputs: The plugin takes a context object, which includes the reduce ID, job configuration, file system, task umbilical protocol, local directory allocator, and other necessary parameters. It returns a RawKeyValueIterator for the shuffle process.
+Dependencies: The plugin depends on various classes and interfaces such as org.apache.hadoop.mapreduce.TaskAttemptID, JobConf, FileSystem, TaskUmbilicalProtocol, LocalDirAllocator, and others.

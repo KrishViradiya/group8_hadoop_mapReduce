@@ -1,0 +1,7 @@
+Key Functionality: The code is part of a larger system for managing and coordinating the output of MapReduce tasks.
+
+Core Logic: The code is responsible for creating and managing manifest files, which contain metadata about the output of MapReduce tasks.
+
+Inputs/Outputs: The code takes inputs such as job and task context, and produces outputs in the form of manifest files.
+
+Dependencies: The code depends on various classes and interfaces, including Configuration, FileSystem, Path, and others.

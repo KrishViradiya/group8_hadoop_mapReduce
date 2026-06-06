@@ -1,0 +1,4 @@
+Key Functionality: Monitors and manages the resource usage of a process tree.
+Core Logic: Uses the ShellCommandExecutor to execute shell commands and manage process trees.
+Inputs/Outputs: Monitors resource usage and manages process trees.
+Dependencies: org.apache.hadoop.util.Shell.ShellCommandExecutor, org.apache.hadoop.util.Shell.ExitCodeException.

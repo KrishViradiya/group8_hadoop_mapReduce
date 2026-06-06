@@ -1,0 +1,4 @@
+Key Functionality: Manages the in-memory map output of a reduce task.
+Core Logic: Maintains a list of in-memory map-outputs and handles spilling to disk when the in-memory limit is exceeded.
+Inputs/Outputs: Inputs are map-outputs in memory, and outputs are spilled map-outputs to disk.
+Dependencies: Depends on the MapOutput class for managing map-outputs in memory.

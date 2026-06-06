@@ -1,0 +1,4 @@
+Key Functionality: Persistence formats for passing data from tasks to the job committer.
+Core Logic: The persistence formats are used for passing data from tasks to the job committer and for a _SUCCESS file.
+Inputs/Outputs: The formats are used for passing data from tasks to the job committer and for a _SUCCESS file.
+Dependencies: The formats have dependencies on classes such as TaskManifest and ManifestSuccessData.

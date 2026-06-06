@@ -1,0 +1,4 @@
+Key Functionality: Base class for Mapper and Reducer implementations.
+Core Logic: Default no-op implementations for a few methods.
+Inputs/Outputs: None
+Dependencies: None

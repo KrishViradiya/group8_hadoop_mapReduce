@@ -1,0 +1,7 @@
+Key Functionality: Partition BinaryComparable keys using a configurable part of the bytes array returned by BinaryComparable.getBytes().
+Core Logic: The subarray to be used for the partitioning can be defined by means of the following properties:
+mapreduce.partition.binarypartitioner.left.offset: left offset in array (0 by default)
+mapreduce.partition.binarypartitioner.right.offset: right offset in array (-1 by default)
+
+Inputs/Outputs: None
+Dependencies: None

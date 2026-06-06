@@ -1,0 +1,10 @@
+Key Functionality:
+- Interface for an OutputCommitter implementing partial commit of task output, as during preemption.
+
+Core Logic:
+- The cleanUpPartialOutputForTask method removes all previously committed outputs from prior executions of the task.
+
+Inputs/Outputs:
+- Context for cleaning up previously promoted output.
+
+Dependencies:

@@ -1,0 +1,4 @@
+Key Functionality: Implementation classes for the manifest committer.
+Core Logic: Nothing outside this module should be using these classes, except where explicitly stated.
+Inputs/Outputs: N/A
+Dependencies: N/A

@@ -1,0 +1,4 @@
+Key Functionality: Identifies a unique JVM within a job.
+Core Logic: Manages the creation and comparison of JVM IDs.
+Inputs/Outputs: jobId (JobID), isMap (boolean), id (long)
+Dependencies: JobID class

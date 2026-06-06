@@ -1,0 +1,4 @@
+Key Functionality: Represents a successful completion of a map attempt.
+Core Logic: Stores information about the completion time, hostname, rack name, port, and map finish time.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.jobhistory.MapAttemptFinished, org.apache.hadoop.mapreduce.TaskAttemptID, org.apache.hadoop.mapreduce.TaskType, org.apache.hadoop.mapreduce.util.JobHistoryEventUtils, org.apache.hadoop.yarn.api.records.timelineservice.TimelineEvent, org.apache.hadoop.yarn.api.records.timelineservice.TimelineMetric, org.apache.hadoop.yarn.util.SystemClock

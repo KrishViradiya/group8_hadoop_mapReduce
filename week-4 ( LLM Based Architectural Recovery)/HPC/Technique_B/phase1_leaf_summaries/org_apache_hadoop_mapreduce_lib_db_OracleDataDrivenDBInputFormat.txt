@@ -1,0 +1,4 @@
+Key Functionality: Reads input data from an SQL table in an Oracle database.
+Core Logic: Divides the table/query into InputSplits based on data type.
+Inputs/Outputs: DBWritable objects.
+Dependencies: DBSplitter, Configuration.

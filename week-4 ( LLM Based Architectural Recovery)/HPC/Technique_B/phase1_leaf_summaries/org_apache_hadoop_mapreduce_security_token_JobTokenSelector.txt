@@ -1,0 +1,6 @@
+Key Functionality: Selects a job token from a collection of tokens that matches the service.
+Core Logic: Iterates through the tokens and returns the first job token that matches the service.
+Inputs/Outputs: 
+  - service: The service for which to select a token.
+  - tokens: A collection of tokens to select from.
+Dependencies:

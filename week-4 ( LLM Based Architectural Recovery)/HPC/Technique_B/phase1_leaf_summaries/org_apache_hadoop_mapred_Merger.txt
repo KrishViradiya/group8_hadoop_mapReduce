@@ -1,0 +1,4 @@
+Key Functionality: Sorts raw map output by key and applies configured serialization and compression policies.
+Core Logic: The sorter first segments the map output into segments of raw key-value pairs. It then sorts segments by key using a configurable RawComparator. Finally, it sets up the required threads for merging the sorted segments.
+Inputs/Outputs: The sorter takes raw map output as input and produces sorted segments as output.
+Dependencies: The sorter depends on various classes such as IFile, RawComparator, CompressionCodec, Configuration, FileSystem, Path, etc.

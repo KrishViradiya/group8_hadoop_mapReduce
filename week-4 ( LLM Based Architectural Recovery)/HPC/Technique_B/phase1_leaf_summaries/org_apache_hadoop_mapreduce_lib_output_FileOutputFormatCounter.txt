@@ -1,0 +1,4 @@
+Key Functionality: Tracks the number of bytes written by the task.
+Core Logic: Incremented each time a byte is written to disk.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.lib.output.FileOutputFormatCounter

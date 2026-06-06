@@ -1,0 +1,4 @@
+Key Functionality: Records successful completion of a job
+Core Logic: Stores job completion details such as finish time, number of succeeded and failed maps and reduces, and job counters
+Inputs/Outputs: jobId (Job ID), finishTime (Finish time of the job), succeededMaps (Number of succeeded maps), succeededReduces (Number of succeeded reduces), failedMaps (Number of failed maps), failedReduces (Number of failed reduces), killedMaps (Number of killed maps), killedReduces (Number of killed reduces), mapCounters (Counters for maps), reduceCounters (Counters for reduces), totalCounters (Total job counters)
+Dependencies: org.apache.hadoop.mapreduce.Counters, org.apache.hadoop.mapreduce.JobID, org.apache.hadoop.mapreduce.util.JobHistoryEventUtils, org.apache.hadoop.util.StringUtils, org.apache.hadoop.yarn.api.records.timelineservice.TimelineEvent, org.apache.hadoop.yarn.api.records.timelineservice.TimelineMetric

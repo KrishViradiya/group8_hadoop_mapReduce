@@ -1,0 +1,4 @@
+Key Functionality: Save summary data into a _SUCCESS marker file.
+Core Logic: Save summary data into a _SUCCESS marker file.
+Inputs/Outputs: Save summary data into a _SUCCESS marker file.
+Dependencies: Save summary data into a _SUCCESS marker file.

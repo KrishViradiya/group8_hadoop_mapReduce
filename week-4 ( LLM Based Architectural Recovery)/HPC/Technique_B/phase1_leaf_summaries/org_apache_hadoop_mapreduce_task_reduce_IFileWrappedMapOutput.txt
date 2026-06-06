@@ -1,0 +1,10 @@
+Key Functionality:
+- shuffle: This method is responsible for shuffling the map output to the reduce task. It takes in the map host, input stream, compressed length, decompressed length, shuffle client metrics, and reporter as parameters.
+
+Core Logic:
+- The method initializes the IFileInputStream and calls the doShuffle method to perform the actual shuffling.
+
+Inputs/Outputs:
+- The method takes in the map host, input stream, compressed length, decompressed length, shuffle client metrics, and reporter as parameters and returns nothing.
+
+Dependencies:

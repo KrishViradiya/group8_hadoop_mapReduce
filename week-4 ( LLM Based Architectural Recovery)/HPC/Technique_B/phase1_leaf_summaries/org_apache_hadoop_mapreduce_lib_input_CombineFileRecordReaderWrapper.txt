@@ -1,0 +1,4 @@
+Key Functionality: A wrapper class for a record reader that handles a single file split.
+Core Logic: It delegates most of the methods to the wrapped instance.
+Inputs/Outputs: The input format, combine file split, key, and value.
+Dependencies: FileInputFormat, CombineFileSplit, RecordReader.

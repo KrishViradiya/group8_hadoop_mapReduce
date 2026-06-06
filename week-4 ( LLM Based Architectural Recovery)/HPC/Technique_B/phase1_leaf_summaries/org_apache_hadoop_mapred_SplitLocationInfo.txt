@@ -1,0 +1,4 @@
+Key Functionality: Represents the location of a split in a MapReduce job.
+Core Logic: The class encapsulates the location of a split and whether it is in memory or on disk.
+Inputs/Outputs: The class has a constructor that takes a location and a boolean indicating whether it is in memory. It also has methods to check if the split is on disk or in memory, and to get the location.
+Dependencies: The class is part of the Hadoop MapReduce framework and is used in the context of MapReduce jobs.

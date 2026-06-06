@@ -1,0 +1,4 @@
+Key Functionality: Manages counters for the filesystem.
+Core Logic: Maintains a map of counter names to FileSystemCounter objects.
+Inputs/Outputs: FileSystemCounter objects can be added, removed, and retrieved by name.
+Dependencies: org.apache.hadoop.mapreduce.FileSystemCounter, org.apache.hadoop.mapreduce.util.ResourceBundles, org.apache.hadoop.util.StringUtils, org.slf4j.Logger, org.slf4j.LoggerFactory.

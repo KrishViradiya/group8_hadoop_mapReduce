@@ -1,0 +1,4 @@
+Key Functionality: Submits the application's mapper.
+Core Logic: Manages the execution of the mapper.
+Inputs/Outputs: Manages the input and output of the mapper.
+Dependencies: Depends on the RecordReader, RecordWriter, OutputCommitter, and StatusReporter.

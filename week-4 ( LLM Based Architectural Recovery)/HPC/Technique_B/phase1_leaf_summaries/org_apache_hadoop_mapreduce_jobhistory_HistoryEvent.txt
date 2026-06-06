@@ -1,0 +1,9 @@
+Key Functionality: Wraps an Avro-generated class, adding constructors and accessor methods.
+Core Logic: none
+Inputs/Outputs: 
+- getEventType(): returns the type of the event
+- getDatum(): returns the Avro datum wrapped by this
+- setDatum(Object datum): sets the Avro datum wrapped by this
+- toTimelineEvent(): maps HistoryEvent to TimelineEvent
+- getTimelineMetrics(): returns the set of timeline metrics
+Dependencies: org.apache.hadoop.yarn.api.records.timelineservice.TimelineEvent, org.apache.hadoop.yarn.api.records.timelineservice.TimelineMetric

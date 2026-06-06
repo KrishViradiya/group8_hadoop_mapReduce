@@ -1,0 +1,7 @@
+Key Functionality: FixedLengthRecordReader is a RecordReader implementation that reads fixed-length records from a split.
+
+Core Logic: The core logic of FixedLengthRecordReader is to read fixed-length records from a split. It uses the new API implementation to avoid code duplication.
+
+Inputs/Outputs: The input to FixedLengthRecordReader is a Configuration object, a FileSplit object, and an integer recordLength. The output is a LongWritable key and a BytesWritable value.
+
+Dependencies: FixedLengthRecordReader depends on the org.apache.hadoop.mapreduce.lib.input.FixedLengthRecordReader class.

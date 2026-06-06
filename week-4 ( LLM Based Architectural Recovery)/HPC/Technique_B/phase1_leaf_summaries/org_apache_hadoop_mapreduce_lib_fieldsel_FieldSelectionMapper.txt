@@ -1,0 +1,32 @@
+[List data]
+ * 
+ * The reduce output field list spec is under attribute 
+ * "mapreduce.fieldsel.reduce.output.field.spec"
+ * 
+ * The field spec is of the form: "field_aysnc1,field_async2,field_async3..."
+ * The number of fields in the output determine the number of fields in the map
+ * output and reduce output. Field position is from the input fields. Fields
+ * can be selected multiple times and can be rearranged.
+ */
+@InterfaceAudience.Public
+@InterfaceStability.Stable
+public class FieldSelectionMapper<K, V> extends
+    Mapper<K, V, Text, Text> {
+
+  private String dataFieldSeparatorSpec;
+  private String mapOutputFieldSpec;
+  private String reduceOutputFieldSpec;
+  private int numMapOutputs;
+  private int numReduceOutputs;
+  private List<Integer> mapOutputPos = new ArrayList<Integer>();
+  private List<Integer> reduceOutputPos = new ArrayList<Integer>();
+  private Text mapKey = new Text();
+  private Text mapValue = new Text();
+  private static final Logger LOG = LoggerFactory
+      .getLogger(FieldSelectionMapper.class);
+
+  @Override
+  protected void setup(Context context) throws IOException,
+      InterruptedException {
+    Configuration conf = context.getConfiguration();
+    dataFieldSeparatorSpec = conf.get("mapreduce.fieldsel.data.field.separator",

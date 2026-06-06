@@ -1,0 +1,4 @@
+Key Functionality: A clock class that returns the current system time in milliseconds.
+Core Logic: The getTime() method returns the current system time using System.currentTimeMillis().
+Inputs/Outputs: None
+Dependencies: None

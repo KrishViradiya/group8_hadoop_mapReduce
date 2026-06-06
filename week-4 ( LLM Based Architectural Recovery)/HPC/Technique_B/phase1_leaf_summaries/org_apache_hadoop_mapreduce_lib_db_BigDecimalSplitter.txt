@@ -1,0 +1,4 @@
+Key Functionality: Split BigDecimal values into mappers.
+Core Logic: Divide the range of BigDecimal values into a specified number of splits.
+Inputs/Outputs: minVal, maxVal, numSplits
+Dependencies: MRJobConfig, Configuration, ResultSet, SQLException, InputSplit

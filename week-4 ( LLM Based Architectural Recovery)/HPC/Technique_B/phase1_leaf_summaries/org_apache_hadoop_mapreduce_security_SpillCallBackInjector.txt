@@ -1,0 +1,4 @@
+Key Functionality: Used for injecting callbacks while spilling files.
+Core Logic: Calls into this are a no-op in production code.
+Inputs/Outputs: None
+Dependencies: None

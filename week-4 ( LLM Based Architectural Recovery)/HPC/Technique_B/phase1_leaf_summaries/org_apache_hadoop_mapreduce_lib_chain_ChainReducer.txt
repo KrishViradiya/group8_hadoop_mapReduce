@@ -1,0 +1,4 @@
+Key Functionality: Chains multiple Mapper classes after a Reducer within the Reducer task.
+Core Logic: For each record output by the Reducer, the Mapper classes are invoked in a chained (or piped) fashion.
+Inputs/Outputs: The output of the reducer becomes the input of the first mapper and output of first becomes the input of the second, and so on until the last Mapper, the output of the last Mapper will be written to the task's output.
+Dependencies: org.apache.hadoop.mapreduce.Job, org.apache.hadoop.mapreduce.Mapper, org.apache.hadoop.mapreduce.Reducer, org.apache.hadoop.mapreduce.lib.chain.Chain.ChainBlockingQueue, org.apache.hadoop.conf.Configuration, org.apache.hadoop.mapreduce.lib.chain.ChainReducer

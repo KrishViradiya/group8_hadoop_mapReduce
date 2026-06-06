@@ -1,0 +1,7 @@
+Key Functionality: MarkableIteratorInterface is an interface for a iterator that supports mark-reset functionality.
+
+Core Logic: The core logic of this interface is to provide the ability to mark a specific record in the iteration process and then reset the iterator to that marked record.
+
+Inputs/Outputs: The interface does not have any specific inputs or outputs.
+
+Dependencies: This interface does not have any specific dependencies.

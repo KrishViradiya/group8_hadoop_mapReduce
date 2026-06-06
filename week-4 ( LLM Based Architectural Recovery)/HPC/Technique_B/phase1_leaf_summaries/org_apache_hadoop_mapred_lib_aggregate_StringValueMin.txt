@@ -1,0 +1,4 @@
+Key Functionality: Maintains the smallest string of a sequence of strings.
+Core Logic: Compares strings to determine the smallest.
+Inputs/Outputs: Expects strings as input and outputs the smallest string.
+Dependencies: org.apache.hadoop.mapreduce.lib.aggregate.StringValueMin

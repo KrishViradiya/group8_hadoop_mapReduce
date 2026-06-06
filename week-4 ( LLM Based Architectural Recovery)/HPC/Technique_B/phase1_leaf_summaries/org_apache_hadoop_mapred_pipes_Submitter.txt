@@ -1,0 +1,4 @@
+Key Functionality: Submits a Hadoop job to process data using a user-defined mapper, reducer, and input format.
+Core Logic: The code sets up a Hadoop job using the provided command-line arguments and configuration. It then submits the job to the Hadoop cluster for execution.
+Inputs/Outputs: The code takes input from the command line and uses the configuration to set up the job. It then writes the output to the specified output directory.
+Dependencies: The code depends on the Apache Hadoop framework and its dependencies.

@@ -1,0 +1,4 @@
+Key Functionality: Maintains the maximum of a sequence of long values.
+Core Logic: The class implements a value aggregator that maintains the maximum of a sequence of long values.
+Inputs/Outputs: The addNextValue method takes a value whose string representation represents a long value, and the getVal method returns the aggregated value as a long.
+Dependencies: None.

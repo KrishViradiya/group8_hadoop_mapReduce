@@ -1,0 +1,4 @@
+Key Functionality: Sends reduce output to a SQL table.
+Core Logic: DBOutputFormat accepts <key,value> pairs, where key has a type extending DBWritable. Returned RecordWriter writes only the key to the database with a batch SQL query.
+Inputs/Outputs: key: DBWritable, value: ignored
+Dependencies: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter, org.apache.hadoop.mapreduce.lib.output.FileOutputFormat

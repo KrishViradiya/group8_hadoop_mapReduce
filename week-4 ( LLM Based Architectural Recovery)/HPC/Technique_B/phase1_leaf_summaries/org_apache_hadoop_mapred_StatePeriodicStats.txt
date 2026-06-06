@@ -1,0 +1,4 @@
+Key Functionality: Keeps a running account of the area under the piecewise linear curve marked by pairs of (newProgress, newValue).
+Core Logic: The result in each bucket is the estimate of the progress-weighted mean value of the quantity over the progress range covered by the bucket.
+Inputs/Outputs: newProgress, newValue
+Dependencies: None

@@ -1,0 +1,4 @@
+Key Functionality: Tracks the current status of a task.
+Core Logic: Manages the state of the task and provides methods for updating the status.
+Inputs/Outputs: None
+Dependencies: None

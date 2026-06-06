@@ -1,0 +1,4 @@
+Key Functionality: Tracks task completion events on the job tracker.
+Core Logic: Monitors task completion statuses and provides information about task completion events.
+Inputs/Outputs: TaskCompletionEvent objects can be serialized and deserialized using the Writable interface.
+Dependencies: org.apache.hadoop.io.Writable, org.apache.hadoop.io.WritableUtils

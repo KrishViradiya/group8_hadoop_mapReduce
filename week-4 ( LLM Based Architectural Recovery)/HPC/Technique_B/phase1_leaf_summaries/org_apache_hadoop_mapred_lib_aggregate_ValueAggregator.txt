@@ -1,0 +1,10 @@
+Key Functionality:
+- This interface defines the minimal protocol for value aggregators.
+
+Core Logic:
+- The interface provides a set of methods for adding values, generating aggregates, and resetting the state of the aggregator.
+
+Inputs/Outputs:
+- The interface defines methods for adding values, generating aggregates, and resetting the state of the aggregator.
+
+Dependencies:

@@ -1,0 +1,4 @@
+Key Functionality: Talks to a C++ reduce task.
+Core Logic: None
+Inputs/Outputs: K2, V2, K3, V3
+Dependencies: Application, DownwardProtocol, JobConf, OutputCollector, Reducer, Reporter, Writable, WritableComparable

@@ -1,0 +1,4 @@
+Key Functionality: Distribute application-specific large, read-only files efficiently.
+Core Logic: The framework will copy the necessary files on to the worker node before any tasks for the job are executed on that node.
+Inputs/Outputs: Applications specify the files, via urls (hdfs:// or http://) to be cached via the JobConf.
+Dependencies: org.apache.hadoop.mapreduce.MRJobConfig

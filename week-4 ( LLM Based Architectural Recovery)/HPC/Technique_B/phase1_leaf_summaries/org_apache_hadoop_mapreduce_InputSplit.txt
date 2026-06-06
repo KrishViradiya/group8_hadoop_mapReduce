@@ -1,0 +1,4 @@
+Key Functionality: Represents the data to be processed by an individual Mapper.
+Core Logic: The responsibility of RecordReader of the job to process this and present a record-oriented view.
+Inputs/Outputs: List data.
+Dependencies: List classes.

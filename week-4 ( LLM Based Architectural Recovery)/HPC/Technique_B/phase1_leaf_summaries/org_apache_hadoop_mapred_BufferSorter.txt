@@ -1,0 +1,4 @@
+Key Functionality: Sorts key/value records in a buffer.
+Core Logic: The user class provides a reference to the buffer and updates the interface implementation with the offsets of the records and the lengths of the keys/values.
+Inputs/Outputs: The user class writes key/value records to a buffer, and the interface implementation sorts the records written to the buffer so far.
+Dependencies: The interface implementation maintains data structures based on the memory consumed so far by the buffer.

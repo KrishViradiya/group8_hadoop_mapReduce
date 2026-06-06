@@ -1,0 +1,4 @@
+Key Functionality: Used by the HistoryViewer to print job history in different formats.
+Core Logic: The core logic of this class is to print out the Job History to the given PrintStream.
+Inputs/Outputs: The class takes a PrintStream as input and prints the job history to it.
+Dependencies: This class has no dependencies on other classes.

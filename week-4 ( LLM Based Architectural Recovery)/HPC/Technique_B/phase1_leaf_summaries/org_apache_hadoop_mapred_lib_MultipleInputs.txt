@@ -1,0 +1,4 @@
+Key Functionality: Add a Path with a custom InputFormat to the list of inputs for the map-reduce job.
+Core Logic: The addInputPath method takes in the job configuration, path, and input format class, and adds the path with the specified input format to the list of inputs for the job.
+Inputs/Outputs: The method takes in the job configuration (JobConf), path (Path), and input format class (Class<? extends InputFormat>) as inputs and does not return any output.
+Dependencies: The method uses the JobConf class and the Path class from the org.apache.hadoop.mapred and org.apache.hadoop.fs packages, respectively.

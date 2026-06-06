@@ -1,0 +1,4 @@
+Key Functionality: Manages the state of a map host and its associated maps.
+Core Logic: Keeps track of the state of a map host and its associated maps, and provides methods to add known maps and retrieve/clear known maps.
+Inputs/Outputs: The class takes in the host name and base URL as parameters, and provides methods to retrieve the host name, base URL, state, and known maps.
+Dependencies: The class does not have any specific dependencies.

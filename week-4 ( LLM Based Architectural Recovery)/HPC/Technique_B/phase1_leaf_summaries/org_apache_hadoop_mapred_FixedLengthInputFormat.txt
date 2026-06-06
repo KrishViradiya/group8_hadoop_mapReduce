@@ -1,0 +1,4 @@
+Key Functionality: Read input files containing fixed length records.
+Core Logic: Reads input files and extracts records of a fixed length.
+Inputs/Outputs: LongWritable (byte offset), BytesWritable (record)
+Dependencies: CompressionCodecFactory, Configuration, FileSystem, Path

@@ -1,0 +1,4 @@
+Key Functionality: Keeps track of unique values seen.
+Core Logic: Maintains a sorted map of unique values and their counts.
+Inputs/Outputs: Accepts any object as input, emits a list of unique values.
+Dependencies: java.util.TreeMap, java.util.Iterator, java.util.Set

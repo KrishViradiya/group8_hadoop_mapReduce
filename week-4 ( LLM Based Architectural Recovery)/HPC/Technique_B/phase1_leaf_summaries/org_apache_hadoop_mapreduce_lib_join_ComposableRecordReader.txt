@@ -1,0 +1,4 @@
+Key Functionality: Abstract class for reading records while performing joins.
+Core Logic: Defines the interface for a RecordReader to participate in a join.
+Inputs/Outputs: K extends WritableComparable<?>, V extends Writable
+Dependencies: org.apache.hadoop.io.Writable, org.apache.hadoop.io.WritableComparable, org.apache.hadoop.mapreduce.RecordReader

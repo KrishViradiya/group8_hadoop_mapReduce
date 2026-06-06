@@ -1,0 +1,4 @@
+Key Functionality: Submits a MapReduce job to Hadoop and tracks its state.
+Core Logic: Monitors the states of depending jobs and updates the state of this job.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.Job, org.apache.hadoop.mapreduce.JobID, org.apache.hadoop.mapreduce.lib.input.FileInputFormat, org.apache.hadoop.util.StringUtils

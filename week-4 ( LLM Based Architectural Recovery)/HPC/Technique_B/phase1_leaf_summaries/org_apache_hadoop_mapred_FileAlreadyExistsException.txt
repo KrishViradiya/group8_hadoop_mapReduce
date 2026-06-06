@@ -1,0 +1,7 @@
+Key Functionality: Thrown when an attempt is made to create a file that already exists and the file system is not configured to overwrite the file.
+
+Core Logic: The exception is thrown when the target file already exists and the user has not configured the file system to overwrite it.
+
+Inputs/Outputs: None
+
+Dependencies: IOException class

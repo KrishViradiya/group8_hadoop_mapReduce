@@ -1,0 +1,4 @@
+Key Functionality: Identifies a delegation token specific to MapReduce.
+Core Logic: The core logic of this class is to identify a delegation token specific to MapReduce.
+Inputs/Outputs: This class does not have any inputs or outputs.
+Dependencies: This class does not have any dependencies.

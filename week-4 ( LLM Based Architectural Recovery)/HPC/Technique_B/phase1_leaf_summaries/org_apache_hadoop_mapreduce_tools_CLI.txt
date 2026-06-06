@@ -1,0 +1,4 @@
+Key Functionality: Submits a MapReduce job to the cluster.
+Core Logic: The main method creates a Job object and sets its configuration. It then submits the job to the cluster and prints the job ID.
+Inputs/Outputs: The main method takes a command line argument for the job configuration file. It also takes an optional command line argument for the job name.
+Dependencies: The main method depends on the Job class and its configuration. It also depends on the FileSystem class for file operations.

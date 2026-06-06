@@ -1,0 +1,4 @@
+Key Functionality: Thrown when jobconf misses some mandatory attributes or the value of some attributes is invalid.
+Core Logic: The exception is thrown when the job configuration is incomplete or contains incorrect values.
+Inputs/Outputs: None
+Dependencies: None

@@ -1,0 +1,7 @@
+Key Functionality: JobContextImpl is a class that provides context information for a job.
+
+Core Logic: It initializes the job configuration and progress mechanism.
+
+Inputs/Outputs: The job configuration is provided as an input, and the progress mechanism is used for reporting progress.
+
+Dependencies: It depends on the JobConf and Progressable classes.

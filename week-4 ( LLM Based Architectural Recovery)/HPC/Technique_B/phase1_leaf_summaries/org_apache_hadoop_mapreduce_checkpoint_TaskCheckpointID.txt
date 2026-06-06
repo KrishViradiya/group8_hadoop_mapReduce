@@ -1,0 +1,4 @@
+Key Functionality: Identifies a checkpoint for a task in a MapReduce job.
+Core Logic: Manages the underlying FileSsytem based checkpoint and metadata about the cost of checkpoints and other counters.
+Inputs/Outputs: The class takes in a FSCheckpointID, a list of paths for partial output, and Counters. It provides methods to write and read these objects.
+Dependencies: The class depends on the FSCheckpointID, Path, and Counters classes.

@@ -1,0 +1,4 @@
+Key Functionality: Represents a sub-collection of input files.
+Core Logic: The atomic unit of split is a file.
+Inputs/Outputs: List of files.
+Dependencies: CombineFileSplit.

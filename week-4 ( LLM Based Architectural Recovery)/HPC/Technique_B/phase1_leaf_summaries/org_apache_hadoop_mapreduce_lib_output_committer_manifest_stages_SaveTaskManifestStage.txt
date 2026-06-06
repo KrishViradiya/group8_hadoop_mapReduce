@@ -1,0 +1,4 @@
+Key Functionality: Save a task manifest to the job attempt dir.
+Core Logic: Uses the task ID for the name of the final file. For atomic writes, the manifest is saved by writing to a temp file and then renaming it.
+Inputs/Outputs: TaskManifest
+Dependencies:manifestPathForTask, manifestTempPathForTaskAttempt, OP_SAVE_TASK_MANIFEST, OP_STAGE_TASK_SAVE_MANIFEST

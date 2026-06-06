@@ -1,0 +1,4 @@
+Key Functionality: Controls the partitioning of the keys of the intermediate map-outputs.
+Core Logic: The key (or a subset of the key) is used to derive the partition, typically by a hash function.
+Inputs/Outputs: The total number of partitions is the same as the number of reduce tasks for the job.
+Dependencies: None

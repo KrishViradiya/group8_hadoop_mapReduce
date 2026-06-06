@@ -1,0 +1,7 @@
+KeyFunctionality: WrappedMapper is a Mapper which wraps a given one to allow custom Mapper.Context implementations.
+
+Core Logic: The core logic of WrappedMapper is to provide a custom context implementation for the wrapped mapper.
+
+Inputs/Outputs: The mapper takes in an InputFormat, OutputFormat, and a Configuration as inputs, and outputs the results to an OutputCommitter.
+
+Dependencies: WrappedMapper depends on the InputFormat, OutputFormat, and Configuration classes.

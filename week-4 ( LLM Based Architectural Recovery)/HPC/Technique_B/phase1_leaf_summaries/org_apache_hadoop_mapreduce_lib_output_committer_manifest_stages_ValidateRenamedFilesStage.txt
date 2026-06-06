@@ -1,0 +1,4 @@
+Key Functionality: Validate all files by scanning the manifests and verifying every file in every manifest is of the given size.
+Core Logic: Scans the manifests and verifies every file in every manifest is of the given size.
+Inputs/Outputs: List of all files committed.
+Dependencies: None.

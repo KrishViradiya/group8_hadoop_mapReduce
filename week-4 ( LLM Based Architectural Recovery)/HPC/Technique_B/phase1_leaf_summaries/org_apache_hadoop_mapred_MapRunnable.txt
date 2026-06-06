@@ -1,0 +1,4 @@
+Key Functionality: Generic interface for Mappers.
+Core Logic: Custom implementations of MapRunnable can exert greater control on map processing.
+Inputs/Outputs: RecordReader to read input records, OutputCollector to collect output records, Reporter to report progress, status-updates etc.
+Dependencies: None

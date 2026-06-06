@@ -1,0 +1,4 @@
+Key Functionality: Sorts key-value pairs based on specified criteria.
+Core Logic: The core logic involves comparing key-value pairs based on the specified sort order and options.
+Inputs/Outputs: The input is a set of key-value pairs, and the output is the sorted set of key-value pairs.
+Dependencies: The class depends on the JobContext and JobConfigurable interfaces.

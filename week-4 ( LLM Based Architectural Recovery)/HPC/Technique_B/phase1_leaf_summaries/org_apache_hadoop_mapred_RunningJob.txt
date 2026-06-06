@@ -1,0 +1,4 @@
+Key Functionality: Submits jobs to the Hadoop framework for execution.
+Core Logic: Monitors the execution of submitted jobs.
+Inputs/Outputs: Submits jobs to the Hadoop framework for execution.
+Dependencies: org.apache.hadoop.conf.Configuration, org.apache.hadoop.mapred.JobID, org.apache.hadoop.mapred.JobClient

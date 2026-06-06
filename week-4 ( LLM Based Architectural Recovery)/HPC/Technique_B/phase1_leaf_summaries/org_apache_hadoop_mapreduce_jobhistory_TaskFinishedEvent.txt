@@ -1,0 +1,4 @@
+Key Functionality: [Record the successful completion of a task]
+Core Logic: [Store task completion information]
+Inputs/Outputs: [taskid, successfulAttemptId, finishTime, taskType, status, counters, startTime]
+Dependencies: [org.apache.hadoop.mapred.TaskStatus, org.apache.hadoop.mapreduce.Counters, org.apache.hadoop.mapreduce.TaskAttemptID, org.apache.hadoop.mapreduce.TaskID, org.apache.hadoop.mapreduce.TaskType, org.apache.hadoop.mapreduce.util.JobHistoryEventUtils, org.apache.hadoop.util.StringUtils, org.apache.hadoop.yarn.api.records.timelineservice.TimelineEvent, org.apache.hadoop.yarn.api.records.timelineservice.TimelineMetric, org.apache.hadoop.yarn.util.SystemClock]

@@ -1,0 +1,4 @@
+Key Functionality: Reads records from an Oracle table.
+Core Logic: Extends DataDrivenDBRecordReader and overrides necessary methods.
+Inputs/Outputs: Connection, DBConfiguration, split, inputClass, cond, fields, table.
+Dependencies: org.apache.hadoop.classification, org.apache.hadoop.conf, org.apache.hadoop.mapreduce.lib.db.

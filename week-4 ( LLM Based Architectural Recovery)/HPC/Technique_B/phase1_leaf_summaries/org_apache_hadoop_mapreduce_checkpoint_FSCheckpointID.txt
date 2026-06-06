@@ -1,0 +1,4 @@
+Key Functionality: A FileSystem based checkpoint ID contains reference to the Path where the checkpoint has been saved.
+Core Logic: The core logic of this class is to store the path where the checkpoint has been saved.
+Inputs/Outputs: The input is the path where the checkpoint has been saved, and the output is the path as a string.
+Dependencies: This class depends on the org.apache.hadoop.fs.Path class.

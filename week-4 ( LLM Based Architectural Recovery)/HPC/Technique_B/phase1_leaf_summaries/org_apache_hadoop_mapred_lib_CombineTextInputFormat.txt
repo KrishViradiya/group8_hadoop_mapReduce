@@ -1,0 +1,4 @@
+Key Functionality: Reads input files as text and converts them to key/value pairs.
+Core Logic: Uses the CombineFileRecordReader to read the input files and convert them to key/value pairs.
+Inputs/Outputs: The input files are read as text and the resulting key/value pairs are output.
+Dependencies: CombineFileRecordReader, TextRecordReaderWrapper, InputSplit, JobConf, Reporter, IOException.

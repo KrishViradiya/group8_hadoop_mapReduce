@@ -1,0 +1,4 @@
+Key Functionality: A factory to allow applications to deal with inconsistencies between MapReduce Context Objects API between hadoop-0.20 and later versions.
+Core Logic: The code provides a way to create different types of MapReduce context objects based on the version of Hadoop being used.
+Inputs/Outputs: The code takes a Configuration object as input and returns the appropriate MapContext object based on the Hadoop version.
+Dependencies: The code depends on the Hadoop Configuration and MapReduce classes.

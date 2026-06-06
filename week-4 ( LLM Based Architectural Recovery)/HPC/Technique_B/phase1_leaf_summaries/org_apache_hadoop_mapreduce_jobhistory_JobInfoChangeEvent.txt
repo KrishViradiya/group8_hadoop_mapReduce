@@ -1,0 +1,4 @@
+Key Functionality: Tracks job submission and launch time
+Core Logic: Stores job ID, submit time, and launch time
+Inputs/Outputs: Job ID, submit time, and launch time
+Dependencies: None

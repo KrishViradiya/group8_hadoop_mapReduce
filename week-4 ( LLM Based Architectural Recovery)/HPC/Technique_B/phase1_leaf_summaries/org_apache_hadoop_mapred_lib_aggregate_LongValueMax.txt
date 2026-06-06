@@ -1,0 +1,4 @@
+Key Functionality: Maintain the maximum of a sequence of long values.
+Core Logic: The class implements a value aggregator that tracks the maximum value seen so far.
+Inputs/Outputs: The input is a sequence of long values. The output is the maximum value seen in the sequence.
+Dependencies: None.

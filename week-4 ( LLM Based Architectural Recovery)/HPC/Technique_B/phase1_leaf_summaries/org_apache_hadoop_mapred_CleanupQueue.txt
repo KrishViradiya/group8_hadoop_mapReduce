@@ -1,0 +1,4 @@
+Key Functionality: A class for managing the deletion of files and directories.
+Core Logic: The class provides a queue for paths to be deleted, and a separate thread for cleaning up the paths.
+Inputs/Outputs: The class takes a FileSystem object and a full path of a file or directory to be deleted.
+Dependencies: The class depends on the FileSystem class for file and directory operations.

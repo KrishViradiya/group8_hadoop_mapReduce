@@ -1,0 +1,4 @@
+Key Functionality: Exposes information about queues maintained by the Hadoop Map/Reduce framework.
+Core Logic: The Map/Reduce framework can be configured with one or more queues, depending on the scheduler it is configured with.
+Inputs/Outputs: List data
+Dependencies: List classes

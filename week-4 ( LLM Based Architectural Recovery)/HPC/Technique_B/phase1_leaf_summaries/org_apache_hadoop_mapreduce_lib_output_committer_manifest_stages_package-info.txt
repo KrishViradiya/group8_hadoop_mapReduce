@@ -1,0 +1,4 @@
+Key Functionality: Commits task output to the destination.
+Core Logic: The task and job commit process.
+Inputs/Outputs: List data.
+Dependencies: List classes.

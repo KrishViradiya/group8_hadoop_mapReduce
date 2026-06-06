@@ -1,0 +1,7 @@
+Key Functionality: CombineSequenceFileInputFormat is an InputFormat for reading SequenceFiles in a CombineFileInputFormat-compatible way.
+
+Core Logic: The core logic of CombineSequenceFileInputFormat is to create a CombineFileRecordReader that can read SequenceFiles in a CombineFileInputFormat-compatible way.
+
+Inputs/Outputs: CombineSequenceFileInputFormat takes an InputSplit and a TaskAttemptContext as inputs, and it outputs a RecordReader.
+
+Dependencies: CombineSequenceFileInputFormat depends on CombineFileInputFormat, CombineFileSplit, and SequenceFileRecordReaderWrapper.

@@ -1,0 +1,4 @@
+Key Functionality: Base class for Composite join returning values derived from multiple sources, but generally not tuples.
+Core Logic: For each tuple emitted, return a value (typically one of the values in the tuple).
+Inputs/Outputs: [List data]
+Dependencies: [List classes]

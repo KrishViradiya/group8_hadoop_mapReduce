@@ -1,0 +1,4 @@
+Key Functionality: Handles the upward (C++ to Java) messages from the application.
+Core Logic: Listens for and processes messages from the application, updating the progress, handling exceptions, and registering counters.
+Inputs/Outputs: Listens for and processes messages from the application, updating the progress, handling exceptions, and registering counters.
+Dependencies: org.apache.hadoop.io.FloatWritable, org.apache.hadoop.io.NullWritable, org.apache.hadoop.io.Writable, org.apache.hadoop.io.WritableComparable, org.apache.hadoop.mapred.Counters, org.apache.hadoop.mapred.OutputCollector, org.apache.hadoop.mapred.RecordReader, org.apache.hadoop.mapred.Reporter

@@ -1,0 +1,4 @@
+Key Functionality: Base class for value aggregator descriptors.
+Core Logic: Implements common functionalities of subclasses.
+Inputs/Outputs: None.
+Dependencies: None.

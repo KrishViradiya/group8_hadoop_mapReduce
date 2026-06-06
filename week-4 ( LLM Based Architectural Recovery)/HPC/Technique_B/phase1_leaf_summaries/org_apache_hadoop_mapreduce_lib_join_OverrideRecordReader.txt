@@ -1,0 +1,4 @@
+Key Functionality: Prefer the "rightmost" data source for this key.
+Core Logic: Emit the value with the highest position in the source priority queue.
+Inputs/Outputs: List data.
+Dependencies: List classes.

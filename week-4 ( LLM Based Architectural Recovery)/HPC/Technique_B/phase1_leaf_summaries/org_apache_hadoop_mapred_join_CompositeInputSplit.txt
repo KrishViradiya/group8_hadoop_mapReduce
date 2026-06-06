@@ -1,0 +1,4 @@
+Key Functionality: This InputSplit contains a set of child InputSplits.
+Core Logic: Any InputSplit inserted into this collection must have a public default constructor.
+Inputs/Outputs: List data
+Dependencies: List classes

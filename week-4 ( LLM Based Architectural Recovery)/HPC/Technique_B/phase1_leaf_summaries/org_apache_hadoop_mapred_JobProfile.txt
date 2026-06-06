@@ -1,0 +1,4 @@
+Key Functionality: Tracks a job, whether living or dead.
+Core Logic: Manages job configuration and user information.
+Inputs/Outputs: jobid, jobFile, url, name, queueName
+Dependencies: JobID, Writable, WritableFactories, StringInterner

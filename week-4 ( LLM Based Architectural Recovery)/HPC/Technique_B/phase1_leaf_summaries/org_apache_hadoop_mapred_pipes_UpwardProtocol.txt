@@ -1,0 +1,4 @@
+Key Functionality: Communicates with the child process to send output, status, and progress updates.
+Core Logic: The interface defines methods for outputting records, partitioned output, updating status, and reporting progress.
+Inputs/Outputs: The methods takeWritableComparable key and Writable value as input for output and partitionedOutput methods, and String msg as input for status method, and float progress as input for progress method.
+Dependencies: The interface does not have any specific dependencies.

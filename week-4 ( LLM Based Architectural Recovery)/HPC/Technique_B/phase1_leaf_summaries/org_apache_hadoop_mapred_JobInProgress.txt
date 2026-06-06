@@ -1,0 +1,4 @@
+Key Functionality: Tracks the progress of a MapReduce job.
+Core Logic: Manages the execution of maps and reduces, keeps track of job counters.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.JobCounter

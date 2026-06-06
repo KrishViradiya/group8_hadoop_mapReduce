@@ -1,0 +1,4 @@
+Key Functionality: DBWritable is similar to Writable except that the write(PreparedStatement) method takes a PreparedStatement, and readFields(ResultSet) takes a ResultSet.
+Core Logic: Implementations are responsible for writing the fields of the object to PreparedStatement, and reading the fields of the object from the ResultSet.
+Inputs/Outputs: List data
+Dependencies: List classes

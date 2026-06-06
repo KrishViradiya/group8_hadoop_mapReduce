@@ -1,0 +1,4 @@
+Key Functionality: Sums long values for each key.
+Core Logic: The reduce function iterates through the values for each key and accumulates their sum.
+Inputs/Outputs: The input is a key and an iterator of LongWritable values. The output is the same key and a LongWritable sum.
+Dependencies: None.

@@ -1,0 +1,11 @@
+{}",
+          this,
+          dir);
+      incrementCounter(OP_DELETE_DIR, 1);
+      if (!deleteWithOptionalSuppression(dir, suppressExceptions)) {
+        return null;
+      }
+    }
+    return dir;
+  }
+}

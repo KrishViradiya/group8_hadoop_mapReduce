@@ -1,0 +1,4 @@
+Key Functionality: Parser for join expressions.
+Core Logic: Shift-reduce parsing of join expressions.
+Inputs/Outputs: Join expressions, parsed into a tree of classes.
+Dependencies: FileInputFormat, InputFormat, InputSplit, JobConf, RecordReader, Reporter, WritableComparator, ReflectionUtils.

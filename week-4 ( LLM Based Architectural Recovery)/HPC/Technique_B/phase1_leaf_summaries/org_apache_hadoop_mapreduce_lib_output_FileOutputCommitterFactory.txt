@@ -1,0 +1,4 @@
+Key Functionality: Creates a FileOutputCommitter, always.
+Core Logic: Always returns a FileOutputCommitter.
+Inputs/Outputs: outputPath: Path, context: TaskAttemptContext
+Dependencies: PathOutputCommitterFactory, createFileOutputCommitter

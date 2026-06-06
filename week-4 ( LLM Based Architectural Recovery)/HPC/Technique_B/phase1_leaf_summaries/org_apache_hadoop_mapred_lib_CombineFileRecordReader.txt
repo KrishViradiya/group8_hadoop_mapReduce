@@ -1,0 +1,4 @@
+Key Functionality: A generic RecordReader that can hand out different recordReaders for each chunk in a CombineFileSplit.
+Core Logic: The class allows using different RecordReaders for processing data chunks from different files.
+Inputs/Outputs: The RecordReader takes a CombineFileSplit, Configuration, Reporter, and an integer as inputs, and returns a boolean for the next key-value pair.
+Dependencies: The class depends on the CombineFileSplit, Configuration, Reporter, and RecordReader classes.

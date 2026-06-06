@@ -1,0 +1,4 @@
+Key Functionality: Reduces a set of intermediate values which share a key to a smaller set of values.
+Core Logic: The Reducer copies the sorted output from each Mapper using HTTP across the network and merge sorts Reducer inputs by keys.
+Inputs/Outputs: Mapper outputs are copied across the network and merged by key.
+Dependencies: org.apache.hadoop.mapreduce.task.annotation.Checkpointable

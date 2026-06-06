@@ -1,0 +1,4 @@
+Key Functionality: Abstract class for all IDs in Hadoop.
+Core Logic: Stores an ID as an integer.
+Inputs/Outputs: None
+Dependencies: org.apache.hadoop.mapreduce.ID

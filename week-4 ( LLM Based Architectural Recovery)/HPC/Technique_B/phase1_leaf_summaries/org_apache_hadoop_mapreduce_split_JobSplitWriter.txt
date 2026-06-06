@@ -1,0 +1,4 @@
+Key Functionality: Write splits (both the meta and the raw bytes parts) for a MapReduce job.
+Core Logic: The class writes splits for a MapReduce job, including both the meta and raw bytes parts.
+Inputs/Outputs: The class takes in a Configuration object and a FileSystem object as inputs, and writes the splits to a specified path.
+Dependencies: The class depends on the JobSubmissionFiles class for creating split files.

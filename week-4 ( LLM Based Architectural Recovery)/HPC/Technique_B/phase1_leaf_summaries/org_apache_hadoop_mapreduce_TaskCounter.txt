@@ -1,0 +1,4 @@
+Key Functionality: Tracks various statistics about a task's execution.
+Core Logic: The enum values represent different types of statistics that can be collected during the execution of a task.
+Inputs/Outputs: The enum values can be used to track various statistics related to the input and output of a task.
+Dependencies: None

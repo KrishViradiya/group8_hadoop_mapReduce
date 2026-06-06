@@ -1,0 +1,4 @@
+Key Functionality: Maintains the minimum of a sequence of long values.
+Core Logic: Aggregates the minimum value of the sequence.
+Inputs/Outputs: Expects a sequence of long values. Emits the minimum value as a string.
+Dependencies: org.apache.hadoop.mapreduce.lib.aggregate.LongValueMin

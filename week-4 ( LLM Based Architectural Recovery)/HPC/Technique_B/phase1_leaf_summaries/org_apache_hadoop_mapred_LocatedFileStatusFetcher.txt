@@ -1,0 +1,4 @@
+Key Functionality: A class for iterating through a directory and processing files in a thread-pool.
+Core Logic: The class creates a thread-pool and submits a task for each file found in the directory. The task processes the file and adds the result to a blocking queue.
+Inputs/Outputs: The class takes a FileSystem, a path to iterate through, a PathFilter, a Configuration, and an IOStatistics object as inputs. It outputs a list of results obtained from processing the files.
+Dependencies: The class depends on the following classes: FileSystem, Path, PathFilter, Configuration, IOStatistics, ExecutorService, Callable, BlockingQueue, AtomicInteger, ReentrantLock, Condition, FileStatus, LocatedFileStatus, RemoteIterator, and FileInputFormat.

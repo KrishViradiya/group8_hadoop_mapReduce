@@ -1,0 +1,4 @@
+Key Functionality: Perform joins over a set of data sources sorted and partitioned the same way.
+Core Logic: The core logic involves setting up the necessary configurations and initializing the required classes for performing the join operation.
+Inputs/Outputs: The input to the join operation is a combination of key-value pairs from the input data sources. The output is the result of the join operation, which is a combination of key-value pairs.
+Dependencies: The join operation depends on the InputFormat class, which is used to read the input data. It also depends on the JobConf class, which is used to configure the job.

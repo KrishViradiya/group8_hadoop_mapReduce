@@ -1,0 +1,4 @@
+Key Functionality: Store and replay elements added to it
+Core Logic:replaying elements as requested
+Inputs/Outputs: ArrayList<X> data
+Dependencies: ArrayList, Writable

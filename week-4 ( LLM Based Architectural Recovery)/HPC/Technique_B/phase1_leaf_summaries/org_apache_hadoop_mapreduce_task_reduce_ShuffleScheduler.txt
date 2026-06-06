@@ -1,0 +1,4 @@
+Key Functionality: Waits for shuffle to finish or until a timeout.
+Core Logic: Interprets TaskCompletionEvents from the event stream.
+Inputs/Outputs: TaskCompletionEvent metadata.
+Dependencies: None.

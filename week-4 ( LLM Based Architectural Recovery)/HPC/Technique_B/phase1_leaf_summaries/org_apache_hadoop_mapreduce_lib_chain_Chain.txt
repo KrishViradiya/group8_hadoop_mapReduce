@@ -1,0 +1,4 @@
+Key Functionality: Manages the execution of multiple MapReduce jobs in a single workflow.
+Core Logic: The Chain class manages the execution of multiple MapReduce jobs in a single workflow. It provides methods for setting up the jobs, executing them, and handling the results.
+Inputs/Outputs: The Chain class takes a list of jobs as input and provides methods for setting up the input and output formats for each job.
+Dependencies: The Chain class depends on the MapReduce framework and the classes it uses to manage the execution of the jobs.

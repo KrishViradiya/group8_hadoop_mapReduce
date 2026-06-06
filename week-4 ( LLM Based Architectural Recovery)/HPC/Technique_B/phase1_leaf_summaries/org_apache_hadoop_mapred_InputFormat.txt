@@ -1,0 +1,7 @@
+Key Functionality: Validate the input-specification of the job. Split-up the input file(s) into logical InputSplits, each of which is then assigned to an individual Mapper. Provide the RecordReader implementation to be used to glean input records from the logical InputSplit for processing by the Mapper.
+
+Core Logic: The Map-Reduce framework relies on the InputFormat of the job to perform these tasks.
+
+Inputs/Outputs: The InputFormat of the job takes no inputs and produces a set of InputSplits and a RecordReader.
+
+Dependencies: The InputFormat class depends on the FileSystem class to perform file-based operations.

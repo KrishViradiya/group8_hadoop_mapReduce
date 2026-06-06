@@ -1,0 +1,7 @@
+Key Functionality: Abstract counter class to provide common implementation of the counter interface in both mapred and mapreduce packages.
+
+Core Logic: Synchronized equals and hashCode methods to compare and hash counter objects based on their name, display name, and value.
+
+Inputs/Outputs: None
+
+Dependencies: com.google.common.base.Objects, Counter interface

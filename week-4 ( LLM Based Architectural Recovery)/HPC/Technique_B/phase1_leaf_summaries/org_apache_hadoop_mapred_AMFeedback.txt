@@ -1,0 +1,9 @@
+Key Functionality: A simple struct to include both the taskFound information and a possible preemption request coming from the AM.
+
+Core Logic: None
+
+Inputs/Outputs:
+- taskFound: A boolean value indicating whether a task has been found.
+- preemption: A boolean value indicating whether a preemption request has been made.
+
+Dependencies: None

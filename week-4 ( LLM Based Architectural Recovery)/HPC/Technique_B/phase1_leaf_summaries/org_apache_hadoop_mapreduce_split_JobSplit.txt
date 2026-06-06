@@ -1,0 +1,4 @@
+Key Functionality: Divides split information into two parts for different consumers.
+Core Logic: The split information is divided into two parts based on the consumer of the information.
+Inputs/Outputs: The first part is consumed by the JobTracker to create the tasks' locality data structures. The second part is used by the maps at runtime to know what to do!
+Dependencies: org.apache.hadoop.mapreduce.InputSplit, org.apache.hadoop.io.Writable, org.apache.hadoop.classification.InterfaceAudience, org.apache.hadoop.classification.InterfaceStability

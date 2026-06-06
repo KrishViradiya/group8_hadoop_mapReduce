@@ -1,0 +1,4 @@
+Key Functionality: Place holder for MapReduce server-level configuration. (formerly TaskTracker configuration)
+Core Logic: None
+Inputs/Outputs: None
+Dependencies: None

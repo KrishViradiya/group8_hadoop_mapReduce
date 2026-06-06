@@ -1,0 +1,4 @@
+Key Functionality: Dedupes a sequence of objects.
+Core Logic: Maintains a limited number of unique values.
+Inputs/Outputs: List of objects.
+Dependencies: org.apache.hadoop.mapreduce.lib.aggregate.UniqValueCount

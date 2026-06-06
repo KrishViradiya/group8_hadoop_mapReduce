@@ -1,0 +1,4 @@
+Key Functionality: Generates splits for a floating-point index column.
+Core Logic: Due to the imprecise representation of floating-point values in Java, this may result in an incomplete import.
+Inputs/Outputs: None
+Dependencies: Configuration, ResultSet, InputSplit, MRJobConfig

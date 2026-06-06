@@ -1,0 +1,7 @@
+Key Functionality: Place holder for cluster level configuration keys.
+
+Core Logic: The keys should have "mapreduce.cluster." as the prefix.
+
+Inputs/Outputs: None
+
+Dependencies: None

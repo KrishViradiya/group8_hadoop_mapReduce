@@ -1,0 +1,4 @@
+Key Functionality: Reads input data from an SQL table.
+Core Logic: Uses LIMIT and OFFSET to demarcate splits, and generates WHERE clauses to separate data into shards.
+Inputs/Outputs: List data.
+Dependencies: List classes.

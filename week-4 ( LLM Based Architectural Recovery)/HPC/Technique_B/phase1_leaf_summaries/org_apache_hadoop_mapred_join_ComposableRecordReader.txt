@@ -1,0 +1,4 @@
+Key Functionality: Required of a RecordReader to participate in a join.
+Core Logic: Brief explanation of the core logic.
+Inputs/Outputs: List data.
+Dependencies: List classes.

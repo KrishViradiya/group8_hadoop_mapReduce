@@ -1,0 +1,4 @@
+Key Functionality: Represents a change in the job queue
+Core Logic: Sets the job ID and job queue name
+Inputs/Outputs: job ID and job queue name
+Dependencies: org.apache.hadoop.mapreduce.JobID, org.apache.hadoop.util.StringUtils, org.apache.hadoop.yarn.api.records.timelineservice.TimelineEvent, org.apache.hadoop.yarn.api.records.timelineservice.TimelineMetric

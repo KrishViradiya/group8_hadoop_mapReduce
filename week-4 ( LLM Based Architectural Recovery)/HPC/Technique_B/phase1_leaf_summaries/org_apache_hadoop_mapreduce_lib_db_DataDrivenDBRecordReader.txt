@@ -1,0 +1,4 @@
+Key Functionality: Reads records from a SQL table using data-driven WHERE clause splits.
+Core Logic: Emits LongWritables containing the record number as key and DBWritables as value.
+Inputs/Outputs: List data.
+Dependencies: List classes.

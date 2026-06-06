@@ -1,0 +1,4 @@
+Key Functionality: Emits aggregation id/value pairs.
+Core Logic: Iterates through the value aggregator descriptor list to generate aggregation id/value pairs.
+Inputs/Outputs: K1: WritableComparable, V1: Writable
+Dependencies: org.apache.hadoop.mapreduce.Mapper

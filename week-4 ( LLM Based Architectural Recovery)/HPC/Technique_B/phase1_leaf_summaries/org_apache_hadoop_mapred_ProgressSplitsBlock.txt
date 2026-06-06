@@ -1,0 +1,4 @@
+Key Functionality: Monitors and tracks task attempt progress.
+Core Logic: Manages and updates progress statistics for a task attempt.
+Inputs/Outputs: Tracks progress statistics such as wallclock time, CPU time, virtual memory usage, and physical memory usage.
+Dependencies: Requires access to the task attempt's progress data.

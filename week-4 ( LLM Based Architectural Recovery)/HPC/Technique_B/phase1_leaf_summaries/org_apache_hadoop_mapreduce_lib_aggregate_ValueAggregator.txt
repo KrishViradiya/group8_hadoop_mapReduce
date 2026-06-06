@@ -1,0 +1,14 @@
+Key Functionality:
+- Add a value to the aggregator
+- Reset the aggregator
+- Get the string representation of the aggregator
+- Get an array of values as the outputs of the combiner
+
+Core Logic:
+- The aggregator is responsible for managing and manipulating values.
+
+Inputs/Outputs:
+- Input: a value to be added
+- Output: the string representation of the aggregator, an array of values as the outputs of the combiner
+
+Dependencies:
