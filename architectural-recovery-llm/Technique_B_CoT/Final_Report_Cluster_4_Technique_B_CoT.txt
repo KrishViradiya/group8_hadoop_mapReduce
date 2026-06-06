@@ -1,0 +1,12 @@
+Module Title: "MapReduce System - Checkpointing Subsystem"
+High-Level Descriptive Summary:
+The Checkpointing Subsystem is responsible for managing the checkpointing of task outputs in a MapReduce system. It provides a way for tasks to save their state periodically, in case of task preemption or failure. The subsystem ensures that the state of the task is recoverable and can be resumed from the last checkpoint in case of a failure.
+
+The Checkpointing Subsystem consists of three main components:
+1. CheckpointManager: This component is responsible for managing the checkpoints of tasks. It maintains a list of active checkpoints and provides methods to create, commit, and abort checkpoints.
+2. CheckpointCommitter: This component is responsible for committing the checkpoints. It provides methods to commit the checkpoints and notify the framework about the committed checkpoints.
+3. Checkpointrecoverer: This component is responsible for recovering the state of tasks from checkpoints in case of task preemption or failure. It provides methods to recover the state of tasks from checkpoints and resume the tasks from the last checkpoint.
+
+The Checkpointing Subsystem interacts with the framework to request checkpoints, commit checkpoints, and recover task state from checkpoints. It also interacts with the task to save its state periodically.
+
+The Checkpointing Subsystem provides fault-tolerance and reliability to the MapReduce system by allowing tasks to resume from the last checkpoint in case of a failure. It ensures that the state of the task is recoverable and can be resumed from the last checkpoint, minimizing the impact of failures on the overall MapReduce job.

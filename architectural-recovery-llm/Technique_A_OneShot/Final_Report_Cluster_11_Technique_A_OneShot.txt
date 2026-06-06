@@ -1,0 +1,17 @@
+Module Title: "Job Resource Scheduler Subsystem"
+High-Level Descriptive Summary:
+The Job Resource Scheduler Subsystem is responsible for managing the allocation of resources for MapReduce jobs. It includes components for job submission, job tracking, and resource allocation. The subsystem is designed to ensure efficient and fair resource allocation for MapReduce jobs running on a distributed system.
+
+The subsystem consists of several key components:
+
+Job Submission Component: This component is responsible for receiving job submissions from users and queuing them for execution. It also handles job validation and initialization.
+
+Job Tracking Component: This component tracks the progress of running jobs and provides status information to users. It also handles job completion and cleanup.
+
+Resource Allocation Component: This component is responsible for allocating resources to running jobs based on various criteria such as job priority, resource availability, and fairness. It also handles resource deallocation when jobs complete.
+
+Job Scheduling Algorithm: The subsystem uses a scheduling algorithm that takes into account job priority, resource availability, and fairness to allocate resources to jobs. The algorithm is designed to ensure that high-priority jobs receive fair access to resources while also maximizing overall system throughput.
+
+Resource Management Component: This component manages the overall resource pool and ensures that resources are allocated efficiently and effectively. It also handles resource monitoring and reporting.
+
+Overall, the Job Resource Scheduler Subsystem is designed to provide a robust and efficient solution for managing the allocation of resources for MapReduce jobs in a distributed system.

@@ -1,0 +1,3 @@
+Module Title: "Fixed Length Input Format Module"
+High-Level Descriptive Summary:
+The Fixed Length Input Format Module is responsible for reading input files that contain fixed length records. It provides a RecordReader implementation that uses the record length configured by the user to determine the start and end of each record. The FixedLengthRecordReader class is responsible for reading the input file and returning the records.

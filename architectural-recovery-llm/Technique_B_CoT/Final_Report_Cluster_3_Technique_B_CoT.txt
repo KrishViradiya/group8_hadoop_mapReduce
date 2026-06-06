@@ -1,0 +1,11 @@
+Module Title: MapReduce System - Job Resource Scheduler Subsystem
+High-Level Descriptive Summary:
+The Job Resource Scheduler Subsystem is responsible for managing the allocation of resources to MapReduce jobs. It is responsible for scheduling tasks, monitoring job progress, and handling failures. The subsystem is designed to ensure efficient utilization of resources and timely completion of jobs.
+
+The subsystem consists of several components, including the JobTracker, the TaskTracker, and the Resource Manager. The JobTracker is responsible for assigning tasks to TaskTrackers, monitoring job progress, and handling failures. The TaskTracker is responsible for executing tasks and reporting back to the JobTracker. The Resource Manager is responsible for managing the allocation of resources to jobs and ensuring that resources are distributed fairly among all jobs.
+
+The subsystem uses a combination of algorithms and heuristics to schedule tasks and allocate resources. These algorithms take into account factors such as the current load on the system, the availability of resources, and the priority of jobs. The subsystem also provides a way to monitor job progress and handle failures, ensuring that jobs are completed successfully and efficiently.
+
+The subsystem is designed to be scalable and fault-tolerant, with the ability to handle large numbers of jobs and tasks. It also provides a way to monitor system performance and diagnose and resolve issues as they arise.
+
+In summary, the Job Resource Scheduler Subsystem is a critical component of the MapReduce system, responsible for managing the allocation of resources to MapReduce jobs and ensuring efficient and timely completion of jobs.

@@ -1,0 +1,14 @@
+Module Title: MapReduce System - Shuffle & Sort Layer
+High-Level Descriptive Summary: The Shuffle & Sort Layer is responsible for the efficient and reliable transfer of data between Map and Reduce tasks in a MapReduce job. It ensures that the data is shuffled and sorted correctly before being passed on to the Reduce tasks.
+
+The Shuffle & Sort Layer consists of several key components:
+
+* Shuffle: The Shuffle component is responsible for transferring data from the Map tasks to the Reduce tasks. It uses a technique called "hash-based shuffle" to distribute the data across the Reduce tasks based on the keys.
+
+* Sort: The Sort component is responsible for sorting the data received from the Shuffle component. It uses a custom sorting algorithm that is optimized for MapReduce jobs and can handle large amounts of data efficiently.
+
+* Merge: The Merge component is responsible for merging the sorted data from the Reduce tasks into a single output file. It uses a custom merging algorithm that is optimized for MapReduce jobs and can handle large amounts of data efficiently.
+
+* Index: The Index component is responsible for generating an index of the data in the output file. This index is used by the Map tasks to locate the data they need to process.
+
+The Shuffle & Sort Layer is designed to be highly scalable and fault-tolerant, with the ability to handle large amounts of data and recover from failures. It also provides performance optimizations such as pipelined shuffle, which allows data to be transferred between Map and Reduce tasks without being stored in memory, and speculative execution, which allows tasks to be speculatively executed in parallel to improve overall job performance.
