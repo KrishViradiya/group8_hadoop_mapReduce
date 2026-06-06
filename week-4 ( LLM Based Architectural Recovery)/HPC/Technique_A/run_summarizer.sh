@@ -26,7 +26,7 @@ export HF_HOME=$PC2PFS/hpc-prf-dssecs/$USER/huggingface_cache
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # Add your HF Token here!
-
+export HF_TOKEN="mytokensecret"
 
 # ==============================================================================
 # 3. EXECUTION
