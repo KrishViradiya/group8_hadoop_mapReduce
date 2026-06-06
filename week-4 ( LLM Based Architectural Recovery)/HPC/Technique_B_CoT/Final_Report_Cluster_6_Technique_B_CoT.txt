@@ -1,9 +1,0 @@
-Module Title: MapReduce Security Subsystem
-High-Level Descriptive Summary:
-The MapReduce Security Subsystem is responsible for managing security-related functionality in the MapReduce framework. This includes the generation and management of delegation tokens, job tokens, and cryptographic streams for encrypting intermediate data. The subsystem also provides utilities for working with cryptographic streams, such as setting up encryption and decryption streams for MapReduce spill files.
-
-The subsystem consists of several classes, including DelegationTokenSecretManager, TokenCache, JobTokenSecretManager, DelegationTokenSelector, JobTokenSelector, JobTokenIdentifier, CryptoUtils, and SecureShuffleUtils. The DelegationTokenSecretManager class is responsible for managing delegation tokens, while the TokenCache class provides user-facing APIs for transferring secrets from the job client to the tasks. The JobTokenSecretManager class is responsible for managing the secret keys for job tokens, and the JobTokenSelector class is used to select a job token from a collection of tokens that matches a given service.
-
-The CryptoUtils class provides utilities for working with Cryptographic Streams, specifically for encrypting intermediate data such as MapReduce spill files. The SecureShuffleUtils class provides utilities for generating keys, hashes, and verifying them for shuffle.
-
-The subsystem depends on the Apache Hadoop framework and its dependencies, including the commons-lang3 library.
